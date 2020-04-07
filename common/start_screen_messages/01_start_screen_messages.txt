@@ -1,0 +1,128 @@
+# Start Screen Messages
+# Parameters:
+#   trigger, a trigger with country which decides if this is a valid part. Empty will be treated as always=yes.
+#   localization, a key to a localized string.
+#	location, decides where this chunk of text is located in the description, cannot be negative.
+
+part = {
+	location = 0
+	localization = "lorexp.1.desc"
+	
+	trigger = {
+		has_country_flag = human_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.2.desc"
+	
+	trigger = {
+		has_country_flag = chaos_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.5.desc"
+	
+	trigger = {
+		has_country_flag = eldardark_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.4.desc"
+	
+	trigger = {
+		has_country_flag = eldar_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.7.desc"
+	
+	trigger = {
+		has_country_flag = necron_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.3.desc"
+	
+	trigger = {
+		has_country_flag = ork_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.6.desc"
+	
+	trigger = {
+		has_country_flag = tau_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.8.desc"
+	
+	trigger = {
+		has_country_flag = terellian_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.9.desc"
+	
+	trigger = {
+		has_country_flag = hellgrammite_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.10.desc"
+	
+	trigger = {
+		has_country_flag = jorgalleg_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.11.desc"
+	
+	trigger = {
+		has_country_flag = rakgol_empire
+	}
+}
+
+part = {
+	location = 0
+	localization = "lorexp.12.desc"
+	
+	trigger = {
+		has_country_flag = slaugth_empire
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,224 @@
+chaos = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	playable = yes
+	shuffle_pop_ethos = yes
+	diplomatic_wars = yes
+	relations = yes
+	distant_ftl_cost_mult = 1.0
+	
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		colonizer = yes
+		internal_policies = yes
+		construction = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+		
+		faction = {
+			needs_border_access = yes
+		}
+		
+		ship_data = {
+			constructor = {
+				min = 1
+				max = 3
+				planet_mult = 0.25
+			}
+			
+			science	= {
+				min = 1
+				max = 2
+				planet_mult = 0.5
+			}
+			
+			colonizer = {
+				min = 1
+				max = 1
+			}
+			
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_spaceport_6
+					}					
+				}
+			}
+			
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_spaceport_6
+					}
+				}
+			}
+			
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_spaceport_3
+					}	
+					modifier = {
+						add = -15
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_spaceport_6
+					}
+				}
+			}
+			
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_spaceport_3
+					}	
+					modifier = {
+						add = -45
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_spaceport_6
+					}						
+				}
+			}
+		}
+		
+		army_data = {
+		
+			# titans 11
+			
+			chaos_imperial_knight = {
+				fraction = {
+					factor = 4
+				}
+			}
+			
+			chaos_warhound_titan = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			chaos_reaver_titan = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			chaos_warlord_titan = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			chaos_emperor_titan = {
+				fraction = {
+					factor = 1
+				}
+			}
+			
+			# spacemarine 14
+			
+			Emperors_Children = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Black_Legion = {
+				fraction = {
+					factor = 4
+				}
+			}
+			
+			Word_Bearers = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			World_Eaters = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Death_Guard = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Thousand_Sons = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			# rest 75
+			
+			Greater_Daemons = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+			Chaos_Spawn = {
+				fraction = {
+					factor = 10
+				}
+			}
+			
+			Defilers = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+			Cultists = {
+				fraction = {
+					factor = 25
+				}
+			}
+			
+			Traitor_Guardsmen = {
+				fraction = {
+					factor = 25
+				}
+			}
+			
+			Chaos_Predators = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+		}
+	}
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+	}
+}

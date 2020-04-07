@@ -1,0 +1,135 @@
+XV25_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_medium_army"
+	}
+	
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+XV88_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+			energy = 500
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 200
+	}
+}
+
+XV104_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1500
+			energy = 500
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+Hammerhead_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 500
+			energy = 300
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 500
+	}
+}

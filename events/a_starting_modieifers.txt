@@ -1,0 +1,174 @@
+namespace = startingmodifiersforempires
+
+country_event = {
+	id = startingmodifiersforempires.90
+	hide_window = yes
+	fire_only_once = yes
+	#is_triggered_only = yes
+	trigger = {
+
+	}
+	
+	immediate = {
+		country_event = { id = startingmodifiersforempires.1 }
+		country_event = { id = startingmodifiersforempires.2 }
+		country_event = { id = startingmodifiersforempires.3 }
+		country_event = { id = startingmodifiersforempires.4 }
+		country_event = { id = startingmodifiersforempires.5 }
+		country_event = { id = startingmodifiersforempires.6 }
+		country_event = { id = startingmodifiersforempires.7 }
+		country_event = { id = startingmodifiersforempires.8 }
+		#country_event = { id = startingmodifiersforempires.9 }
+		#country_event = { id = startingmodifiersforempires.10 }
+		#country_event = { id = startingmodifiersforempires.11 }
+		#country_event = { id = startingmodifiersforempires.12 }
+		#country_event = { id = startingmodifiersforempires.99 }
+	}
+}	
+####### chaos
+country_event = {
+	id = startingmodifiersforempires.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_country_flag = chaos_empire
+			}
+			add_modifier = {
+				modifier = "chaos_ships"
+			}
+		}
+	}
+}
+######### humans
+country_event = {
+	id = startingmodifiersforempires.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_country_flag = human_empire
+			}
+			add_modifier = {
+				modifier = "human_ships"
+			}
+		}
+	}
+}
+######### eldar
+country_event = {
+	id = startingmodifiersforempires.3
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_country_flag = eldar_empire
+			}
+			add_modifier = {
+				modifier = "eldar_ships"
+			}
+		}
+	}
+}
+######### necron
+country_event = {
+	id = startingmodifiersforempires.4
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_country_flag = necron_empire
+			}
+			add_modifier = {
+				modifier = "necron_ships"
+			}
+		}
+	}
+}
+######### ork
+country_event = {
+	id = startingmodifiersforempires.5
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_country_flag = ork_empire
+			}
+			add_modifier = {
+				modifier = "ork_ships"
+			}
+		}
+	}
+}
+######### tau
+country_event = {
+	id = startingmodifiersforempires.6
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				has_country_flag = tau_empire
+			}
+			add_modifier = {
+				modifier = "tau_ships"
+			}
+		}
+	}
+}
+###### xenos
+country_event = {
+	id = startingmodifiersforempires.7
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			limit = {
+				Or = {
+					has_country_flag = terellian_empire
+					has_country_flag = slaugth_empire
+					has_country_flag = rakgol_empire
+					has_country_flag = jorgalleg_empire
+					has_country_flag = hellgrammite_empire
+				}	
+			}
+			add_modifier = {
+				modifier = "generic_ships"
+			}
+		}
+	}
+}
+
+country_event = {
+	id = startingmodifiersforempires.8
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		every_planet = {
+			limit = {
+				has_planet_flag = spacemarinehomeworld
+			}
+			add_modifier = {
+				modifier = "spacemarinehomeworldmodifier"
+				days = -1
+			}
+		}	
+	}
+}
+

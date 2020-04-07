@@ -1,0 +1,39 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Xenos_Planetary_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3.0
+	health = 6.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 6
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_advancexenocityyy 
+			}
+			planet = {
+				is_planet_class = pc_advancexenocityy
+			}
+			planet = {
+				is_planet_class = pc_advancexenocity
+			}
+		}
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+}

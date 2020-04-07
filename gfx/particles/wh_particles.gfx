@@ -1,0 +1,23 @@
+objectTypes = {
+	
+	pdxparticle = {
+		name = "planet_exterminatus"
+		type = "planet_exterminatus_explosion"
+		
+		scale = 2.0
+	}
+	
+	pdxparticle = {
+		name = "planet_blackstone_laser"
+		type = "planet_blackstone_laser_explosion"
+		
+		scale = 45.0
+	}
+	
+	pdxparticle = {
+		name = "planet_blackstone_laser_dwa"
+		type = "planet_blackstone_laser_explosion_dwa"
+		
+		scale = 45.0
+	}
+}

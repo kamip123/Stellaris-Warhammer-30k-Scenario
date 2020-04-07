@@ -1,0 +1,295 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Ork_Nobz = {
+	damage = 1.80
+	health = 3.80
+	morale = 1.80
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		has_building = "Ork_Nobz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+}
+
+Stormboyz = {
+	damage = 1.55
+	health = 3.55
+	morale = 1.55
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 110
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+}
+
+Ork_Boyz = {
+	damage = 2.05
+	health = 3.0
+	morale = 1.0
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 70
+		}
+
+		upkeep = {
+			energy = 2.3
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+}
+
+Gretchin = {
+	damage = 1.45
+	health = 3.0
+	morale = 1.0
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 50
+		}
+
+		upkeep = {
+			energy = 2.2
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+}
+
+Kommandoz = {
+	damage = 4.0
+	health = 6.0
+	morale = 4.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		has_building = "Kommandoz_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+}
+
+Stompa = {
+	damage = 6.0
+	health = 8.0
+	morale = 6.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 500
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1050
+		}
+
+		upkeep = {
+			energy = 5.5
+		}
+	}
+	
+	prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		has_building = "Stompa_recruitment"
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "og" 
+					value = 10
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "og" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "og" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+}
+
+Gargant = {
+	damage = 8.0
+	health = 10.0
+	morale = 8.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 700
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1450
+		}
+
+		upkeep = {
+			energy = 6.5
+		}
+	}
+	
+	prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		has_building = "Gargant_recruitment"
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "os" 
+					value = 5
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "os" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "os" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+}

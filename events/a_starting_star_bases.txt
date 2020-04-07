@@ -1,0 +1,136 @@
+namespace = startingspacebases
+#######################################
+############# trigger #################
+#######################################
+country_event = {
+	id = startingspacebases.90
+	hide_window = yes
+	fire_only_once = yes
+	#is_triggered_only = yes
+	trigger = {
+
+	}
+	
+	immediate = {
+		country_event = { id = startingspacebases.1 }
+		#country_event = { id = startingspacebases.2 }
+		#country_event = { id = startingspacebases.3 }
+	}
+}
+
+country_event = {
+	id = startingspacebases.1
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_country = {
+			save_event_target_as = countrytorecivestarport
+			owner.capital_scope.solar_system = {
+				create_starbase = {
+					size = starbase_citadel
+					owner = event_target:countrytorecivestarport
+				}
+				starbase = {
+					set_starbase_module = {
+						slot = 1
+						module = shipyard
+					}
+					set_starbase_module = {
+						slot = 2
+						module = shipyard
+					}
+					set_starbase_module = {
+						slot = 3
+						module = shipyard
+					}
+					set_starbase_module = {
+						slot = 4
+						module = shipyard
+					}
+					set_starbase_module = {
+						slot = 5
+						module = shipyard
+					}
+					set_starbase_module = {
+						slot = 6
+						module = shipyard
+					}
+				}
+			}
+		}
+		every_country = {
+			limit = { has_country_flag = mankind_star_empire }
+			country_event = { id = startingspacebases.2 }
+		}
+	}
+}
+
+country_event = {
+	id = startingspacebases.20
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {	
+	}
+}
+
+country_event = {
+	id = startingspacebases.2
+	is_triggered_only = yes
+	hide_window = yes
+
+	immediate = {
+		every_owned_planet = {
+			owner = { save_event_target_as = spaceportowner }
+		
+			if = {
+				limit = {
+					Or = {
+						has_planet_flag = Armageddonplanet
+						has_planet_flag = Bakkaplanet
+						has_planet_flag = KarDuniashplanet
+						has_planet_flag = Hydraphurplanet
+						has_planet_flag = CypraMundiplanet
+						has_planet_flag = Medusaplanet
+						has_planet_flag = PortMawplanet
+						has_planet_flag = Scintillaplanet
+						has_planet_flag = Macraggeplanet
+					}
+				}
+				solar_system = {				
+					create_starbase = {
+						size = starbase_citadel
+						owner = event_target:spaceportowner
+					}
+					starbase = {
+						set_starbase_module = {
+							slot = 1
+							module = shipyard
+						}
+						set_starbase_module = {
+							slot = 2
+							module = shipyard
+						}
+						set_starbase_module = {
+							slot = 3
+							module = shipyard
+						}
+						set_starbase_module = {
+							slot = 4
+							module = shipyard
+						}
+						set_starbase_module = {
+							slot = 5
+							module = shipyard
+						}
+						set_starbase_module = {
+							slot = 6
+							module = shipyard
+						}
+					}
+				}
+			}	
+		}		
+	}
+}

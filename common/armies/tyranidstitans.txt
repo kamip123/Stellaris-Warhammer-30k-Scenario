@@ -1,0 +1,319 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Harridan = {
+	damage = 6.50
+	health = 30.50
+	morale = 6.50
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 1000
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1800
+		}
+
+		upkeep = {
+			energy = 5
+		}
+	}
+	
+	prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "tth" 
+					value = 15
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "tth" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "tth" 
+				value = -1
+			}
+		}
+	}
+	
+	
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}
+
+Hierodule = {
+	damage = 8.50
+	health = 40.50
+	morale = 8.50
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 1800
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2500
+		}
+
+		upkeep = {
+			energy = 7
+		}
+	}
+	
+	prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "twt" 
+					value = 12
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "twt" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "twt" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}
+
+Dominatrix = {
+	damage = 11.50
+	health = 50.50
+	morale = 11.50
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 2000
+	maintenance = 9.00
+	icon_frame = 6
+	
+	cost = {
+		minerals = 3000
+	}
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 3000
+		}
+
+		upkeep = {
+			energy = 9
+		}
+	}
+	
+	prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "trt" 
+					value = 9
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "trt" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "trt" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}
+
+Hierophant = {
+	damage = 15.50
+	health = 60.50
+	morale = 15.50
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 2000
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 4500
+		}
+
+		upkeep = {
+			energy = 11
+		}
+	}
+	
+	prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "twwt" 
+					value = 6
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "twwt" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "twwt" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}
+
+Viciator = {
+	damage = 20.50
+	health = 70.50
+	morale = 20.50
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 2500
+	maintenance = 14.00
+	icon_frame = 6
+	
+	cost = {
+		minerals = 5500
+	}
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 5500
+		}
+
+		upkeep = {
+			energy = 14
+		}
+	}
+	
+	prerequisites = { "tech_gene_seed_purification" }
+	
+	allow = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "tet" 
+					value = 3
+				}
+			}
+		}
+		
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "tet" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "tet" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}

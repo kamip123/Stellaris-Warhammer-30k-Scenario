@@ -1,0 +1,394 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Xenos_Titan = {
+	damage = 10.0
+	health = 11.0
+	morale = 9.5
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 1000
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2300
+		}
+
+		upkeep = {
+			energy = 10
+		}
+	}
+	
+	prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "xti" 
+					value = 5
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "xti" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "xti" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_advancexenocityyy 
+			}
+			planet = {
+				is_planet_class = pc_advancexenocityy
+			}
+			planet = {
+				is_planet_class = pc_advancexenocity
+			}
+		}
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+}
+
+Xenos_Walker = {
+	damage = 7.0
+	health = 7.0
+	morale = 6.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 600
+	maintenance = 7
+	icon_frame = 6
+	
+	cost = {
+		minerals = 1250
+	}
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1250
+		}
+
+		upkeep = {
+			energy = 7
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {	
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "xtis" 
+					value = 10
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "xtis" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "xtis" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_advancexenocityyy 
+			}
+			planet = {
+				is_planet_class = pc_advancexenocityy
+			}
+			planet = {
+				is_planet_class = pc_advancexenocity
+			}
+		}
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+	
+}
+
+Xenos_War_Machine = {
+	damage = 1.80
+	health = 3.40
+	morale = 1.60
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	maintenance = 3.80
+	icon_frame = 2
+	cost = {
+		minerals = 150
+	}
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 3.8
+		}
+	}
+	
+	prerequisites = { "tech_medium_army" }
+	
+	allow = {
+		
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_advancexenocityyy 
+			}
+			planet = {
+				is_planet_class = pc_advancexenocityy
+			}
+			planet = {
+				is_planet_class = pc_advancexenocity
+			}
+		}
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+	
+}
+
+Xenos_Tank = {
+	damage = 2.3
+	health = 3.3
+	morale = 1.7
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 170
+	maintenance = 4
+	icon_frame = 2
+	cost = {
+		minerals = 200
+	}
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 4
+		}
+	}
+	
+	prerequisites = { "tech_medium_army" }
+	
+	allow = {
+		
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_advancexenocityyy 
+			}
+			planet = {
+				is_planet_class = pc_advancexenocityy
+			}
+			planet = {
+				is_planet_class = pc_advancexenocity
+			}
+		}
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+	
+}
+
+Xenos_Militia_Squad = {
+	damage = 1.35
+	health = 3.0
+	morale = 1.0
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 70
+		}
+
+		upkeep = {
+			energy = 3.3
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+	
+}
+
+Xenos_Squad = {
+	damage = 1.15
+	health = 2.7
+	morale = 1.0
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 50
+		}
+
+		upkeep = {
+			energy = 3.2
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+	
+}
+
+Xenos_Elite = {
+	damage = 1.60
+	health = 3.15
+	morale = 1.8
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 110
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			Or = {
+				has_country_flag = terellian_empire
+				has_country_flag = hellgrammite_empire
+				has_country_flag = jorgalleg_empire
+				has_country_flag = rakgol_empire
+				has_country_flag = slaugth_empire
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,655 @@
+building_Dark_Angels_fortress_monastery = {
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Calibanplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_White_Scars_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+		
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Chogorisplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Space_Wolves_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Fenrisplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Imperial_Fists_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Terraplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Blood_Angels_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Baalplanet
+		}
+
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Iron_Hands_fortress_monastery = {
+
+		planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Medusaplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_ultramarines_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Macraggeplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Salamanders_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Nocturneplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Raven_Guard_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Deliveranceplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+############
+building_Grey_Knights_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Titanplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Black_Templars_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1	
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Blood_Ravens_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Legio_Custodes_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1	
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Terraplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Deathwatch_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = TalasaPrimeplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Winged_Hussars_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 3
+			job_soldier_add = 4
+			job_high_priest_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Varsaviaplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Sisters_of_Battle_fortress_monastery = {
+
+	
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+			job_soldier_add = 3
+			job_high_priest_add = 1
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = OphelliaVIIplanet
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+
+
+

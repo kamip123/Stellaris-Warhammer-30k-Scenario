@@ -1,0 +1,360 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Catachan_fighters = {
+	damage = 2
+	health = 4
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Catachanplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Cadian_Shock_Troops = {
+	damage = 2.2
+	health = 4
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Cadiaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Armageddon_Steel_Legion = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Armageddonplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Death_Korps_of_Krieg = {
+	damage = 2.2
+	health = 4.2
+	morale = 100
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 100
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Kriegplanett }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Mordian_Iron_Guard = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Mordianplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Scintillan_Fusiliers = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Scintillaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Praetorian_Guard = {
+	damage = 2
+	health = 4.2
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Praetoriaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Valhallan_Ice_Warriors = {
+	damage = 2.2
+	health = 4.2
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Valhallaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Tallarn_Desert_Raiders = {
+	damage = 2
+	health = 4
+	morale = 2.2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Tallarnplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Vostroyan_Firstborn = {
+	damage = 2.2
+	health = 4.2
+	morale = 2.2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Vostroyaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Elysian_Drop_Troops = {												#added by mvd1984   need's description
+	damage = 2.2
+	health = 4.2
+	morale = 2.2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	potential = {
+		planet = { has_planet_flag = Elysiaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}

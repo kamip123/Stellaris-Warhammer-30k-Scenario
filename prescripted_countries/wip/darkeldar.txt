@@ -1,0 +1,68 @@
+# Dark Eldar
+onyx_scar = {
+	name = "Kabal of the Onyx Scar"
+	spawn_enabled = yes # yes / no / always
+	
+	species_name = "Dark Eldar"
+	species_plural = "Dark Eldar"	#we should localize the names!
+	species_adjective = "Dark Eldar"
+	adjective = "Dark Eldar"
+	
+	name_list = "DARKELDAR1"
+	ship_prefix = "ICS"
+	
+	species_class = "DAR"
+	trait = "trait_venerable"
+	trait = "trait_weak"
+	trait = "trait_slow_breeders"
+	portrait = "imp_dark_eldar"
+	
+	planet_name = "Ix'Athrak"
+	planet_class = "pc_tundra"
+	system_name = Athrak
+	
+	###initializer=""
+	flags={ 
+		eldar_dark_com_empire	
+		eldardark_empire		
+	}
+	spawn_enabled=always
+	
+	government = "military_junta"
+	ethic = "ethic_materialist"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
+	
+	weapon = "tech_lasers_1"
+	ftl = wormhole
+	
+	graphical_culture = "avian_01"
+	city_graphical_culture = "avian_01"
+	
+	empire_flag = {
+		icon= {
+			category = "ornate"
+			file = "flag_ornate_18.dds"
+		}
+		background= {
+			category = "backgrounds"
+			file = "00_solid.dds"
+		}
+		colors={
+			"dark_grey"
+			"black"
+			"null"
+			"null"
+		}
+	}
+	
+	#leader = {
+	#	name = "Xid'Ixa'Xir'Idon"
+	#	class = ruler
+	#	portrait = "art12"
+	#	experience = 1200.0
+	#}	
+	ruler = {
+		randomized = yes
+	}
+}

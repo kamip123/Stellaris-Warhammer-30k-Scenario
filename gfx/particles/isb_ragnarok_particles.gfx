@@ -1,0 +1,106 @@
+objectTypes = {
+	pdxparticle = {
+		name = "ragnarok_planet_consume"
+		type = "bunny_ragnarok_consume"
+		
+		scale = 45.0
+	}
+	
+	pdxparticle = {
+		name = "isb_rag_fire_particle"
+		type = "isb_rag_fire_effect"
+		
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "isb_rag_charge_particle"
+		type = "isb_rag_charge_effect"
+		
+		scale = 6.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_doom_particle"
+		type = "ragnarok_doom_effect"
+		
+		scale = 35.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_doom_lance_particle"
+		type = "ragnarok_doom_lance_effect"
+		
+		scale = 30.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_doom_hit_particle"
+		type = "ragnarok_doom_hit_effect"
+		
+		scale = 1.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_ship_ring_particle"
+		type = "ragnarok_ship_ring_effect"
+		
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_ship_ring_charging_particle"
+		type = "ragnarok_ship_ring_charging_effect"
+		
+		scale = 5.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_ship_ring_moving_small_particle"
+		type = "ragnarok_ship_ring_moving_effect"
+		
+		scale = 2.5
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_ship_ring_moving_particle"
+		type = "ragnarok_ship_ring_moving_effect"
+		
+		scale = 4.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_ship_engine_particle"
+		type = "ragnarok_ship_engine_effect"
+		
+		scale = 12.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_ship_shield_particle"
+		type = "ragnarok_ship_shield_effect"
+		
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_ship_shield_moving_particle"
+		type = "ragnarok_ship_shield_moving_effect"
+		
+		scale = 3.0
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_glow_particle"
+		type = "ragnarok_glow_effect"
+		
+		scale = 1.5
+	}
+	
+	pdxparticle = {
+		name = "ragnarok_glow_moving_particle"
+		type = "ragnarok_glow_moving_effect"
+		
+		scale = 1.5
+	}
+}

@@ -1,0 +1,8 @@
+
+
+ambient_object = {
+	name = "portalxd"
+	entity = "webwayportal_entity"
+	selectable = no
+	show_name = no	
+}

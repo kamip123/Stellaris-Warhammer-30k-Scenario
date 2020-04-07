@@ -1,0 +1,54 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Cultists_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 4
+	health = 7
+	morale = 4
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+}
+
+Greater_Daemons_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 10.5
+	health = 15.5
+	morale = 10.5
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_daemon
+			}
+			planet = {
+				is_planet_class = pc_daemonn
+			}
+			planet = {
+				is_planet_class = pc_daemont
+			}
+			planet = {
+				is_planet_class = pc_daemons
+			}
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+}

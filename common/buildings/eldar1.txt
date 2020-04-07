@@ -1,0 +1,174 @@
+Phantom_Titan_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = eldar_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 8000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+Wraithknight_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = eldar_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 3000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+Wraithlord_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = eldar_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+Cobra_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = eldar_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_medium_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+Falcon_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = eldar_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_medium_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}

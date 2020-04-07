@@ -1,0 +1,69 @@
+Raider_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+Venom_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}

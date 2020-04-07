@@ -1,0 +1,352 @@
+building_Emperors_Children_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = WorldofImmortalSorrowsplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Iron_Warriors_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Medrengardplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Night_Lords_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Eidolonplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_World_Eaters_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+
+	potential = {
+		planet = {
+			has_planet_flag = Drakaasiplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Death_Guard_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = PlaguePlanetplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Thousand_Sons_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1	
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Sortiariusplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Black_Legion_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = BlackLegionplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Word_Bearers_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Sicarusplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+building_Alpha_Legion_fortress_monastery = {
+
+	planet_unique = yes
+	empire_unique = yes
+	base_cap_amount = 1
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	potential = {
+		planet = {
+			has_planet_flag = Aktoshaplanet
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+
+	#prerequisites = {
+	#	"tech_gene_seed_purification"
+	#}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

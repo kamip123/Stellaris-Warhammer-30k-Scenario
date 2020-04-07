@@ -1,0 +1,162 @@
+tau = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	playable = yes
+	shuffle_pop_ethos = yes
+	diplomatic_wars = yes
+	relations = yes
+	distant_ftl_cost_mult = 1.0
+	
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		colonizer = yes
+		internal_policies = yes
+		construction = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+		
+		faction = {
+			needs_border_access = yes
+		}
+		
+		ship_data = {
+			constructor = {
+				min = 1
+				max = 3
+				planet_mult = 0.25
+			}
+			
+			science	= {
+				min = 1
+				max = 2
+				planet_mult = 0.5
+			}
+			
+			colonizer = {
+				min = 2
+				max = 3
+			}
+			
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_spaceport_6
+					}					
+				}
+			}
+			
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_spaceport_6
+					}
+				}
+			}
+			
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_spaceport_3
+					}	
+					modifier = {
+						add = -15
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_spaceport_6
+					}
+				}
+			}
+			
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_spaceport_3
+					}	
+					modifier = {
+						add = -45
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_spaceport_6
+					}						
+				}
+			}
+		}
+		
+		army_data = {
+			
+			fire_warrior = {
+				fraction = {
+					factor = 35
+				}
+			}
+			
+			Vespid = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+			Kroot = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+			XV8_Crisis_Battlesuits = {
+				fraction = {
+					factor = 25
+				}
+			}
+			
+			XV25_Stealthsuit = {
+				fraction = {
+					factor = 10
+				}
+			}
+			
+			XV88_Broadside_Battlesuit = {
+				fraction = {
+					factor = 5
+				}
+			}
+			XV104_Riptide_Battlesuit = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+			Hammerhead_Gunship = {
+				fraction = {
+					factor = 10
+				}
+			}
+		}
+	}
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+	}
+}

@@ -1,0 +1,280 @@
+Scouts_Space_Marine = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 2
+	health = 8
+	morale = 5	
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+		
+		
+	potential = {
+		planet = { has_planet_flag = spacemarinehomeworld }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Legio_Custodes_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 5
+	health = 10
+	morale = 5	
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+		
+		
+	potential = {
+		planet = { has_planet_flag = Terraplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Mars_Collegia_Titanica = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 5
+	health = 10
+	morale = 5
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+		
+	potential = {
+		planet = { has_planet_flag = Marsplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Cadian_Defense_Troops_One_Time = {
+	defensive = yes
+	damage = 2
+	health = 8
+	morale = 2	
+	maintenance = 3.00
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+		
+		
+	potential = {
+		owner = {
+			has_country_flag = alwaysnohaha
+		}
+	}
+	
+}
+
+Garrison_One_Time = {
+	defensive = yes
+	damage = 2
+	health = 8
+	morale = 2	
+	maintenance = 3.00
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+		
+		
+	potential = {
+		owner = {
+			has_country_flag = alwaysnohaha
+		}
+	}
+	
+}
+
+Cadian_Defense_Troops = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 1
+		
+		
+	potential = {
+		planet = { has_planet_flag = Cadiaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Armageddon_Steel_Legion_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Armageddonplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Death_Korps_of_Krieg_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Kriegplanett }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+}
+
+Mordian_Iron_Guard_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Mordianplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Scintillan_Fusiliers_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Scintillaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Praetorian_Guard_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Praetoriaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Valhallan_Ice_Warriors_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Valhallaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Tallarn_Desert_Raiders_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Tallarnplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Vostroyan_Firstborn_defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Vostroyaplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}
+
+Catachan_fighters_Defense = {
+	defensive = yes
+	is_pop_spawned = yes
+	damage = 3
+	health = 9
+	morale = 3	
+	collateral_damage = 0.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	icon_frame = 2
+	
+	potential = {
+		planet = { has_planet_flag = Catachanplanet }
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+}

@@ -1,0 +1,215 @@
+﻿### DarkEldar_Names_1
+DARKELDAR1 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+			Torture Corsair Raptor Razorwing Raven Voidraven Slavebringer Impaler Mimic Hellebore Hemlock Nightshade Shadowhunter Darkstar Eagle "Vampire Raider" "Vampire Hunter" Exquisite
+			Tormenter Agony Hellifex "Defiled Soul" "Impure Flame" Darkbane Vanquisher Nemesis Dragontooth Marchana
+			Phalanx Serpent Viper Cobra Blackhand Backbreaker Soulrender Deatheater "Pleasure Whip" Tyrant
+			"Blue Void" "Purple Void" "Magenta Void" Ravager "The Siren" Venom "The Kraken" Juggernaught
+			Andromeda "Falling Star" Carnage "The Spectator" Gauntlet Pursuit Minotaur "Venom Blade"
+			"Fatal Kiss" "Black Dahlia" "Curse of Pleasure" "Venom Kiss" "Black Lips" "Nightingale"
+			"Wyvern" "Boa" Rebellion Gallimimus "Dark Embrace" "Blind Wraith" "Exquisite Pain" "Deadly Curse" 
+			"Soul Seeker" "Ruthless Conqueror" Lifesucker "Red Viper" 
+		}
+	
+		corvette = {
+		Spike Razorblade Razorspite
+		}
+		
+		destroyer = {
+		"Death Bloom" Asperax "Grace of Horror"  Nightshade
+		}
+		
+		cruiser = {
+		"Glass Pain" Flenser Darksteed "Pain Flower" "Night Rider" "Crimson Night"
+		}
+		
+		battleship = {
+		"Orchestra of Terror" "Gallery of Murder" "Flayed Wraith" "Songs of Despair" "Slayer of Innocence" Palace 
+		"Dark Revenge" "Sweet Murder" "Crimson Star" "Palace of Sin"
+		}
+		
+		science = {
+		Agonizer "Song of Agony" "Night Terror" "Relentless Abductor" "Horror Probe" Painseeker "Wicked Torment" "Endless Pain" 
+		"Crimson Dungeon" "Scream of Torment" "Eternal Agony"
+		}
+		
+		colonizer = {
+		"Raider Carrier" "Wraith Spawn" Scourge "Terror Nest" "World Breaker" "Life Eater" "Plague Carrier" "Blind Enslaver" 
+		"Slave Harvester" "Black Death"
+		}
+		
+		constructor = {
+		Backbreaker "Slave Pit" Slavemaster Taskmaster "Bloody Whip" "Broken Hope" "Endless Toil" "Eternal Punishment" 
+		"Blood Tears" "Thrall Master"
+		}
+		
+		orbital_station = { 
+		"Painwrought Yards" "Blade Dock" "Slave Station"
+		}
+		mining_station = { 
+		"Slave Miner Station"
+		}
+		research_station = { 
+		Soulcatcher
+		}
+		wormhole_station = { 
+		"Raid Point"
+		}
+		terraform_station = { 
+		"Shadow Enveloper"
+		}
+		observation_station = { 
+		"Slavetaker Cafe" 
+		}
+		outpost_station = {
+			random_names = {
+				"Hell Spire" "Bloody Hand" "Torturer's Deep" "Leech Den" "Pit of Torment"
+			}
+			sequential_name = "%O% Raider Outpost"
+		}
+	
+		military_station_small = {
+		Claimpost Deathtrap Trap "Ambush Point"
+		}
+	
+		military_station_medium = {
+		"Masterful Trap" "Murder Recorder" "Crows Nest"
+		}
+	
+		military_station_large = {
+		Shipbreaker "Exquisite Trap" Ravenspire "Torture Palace" "Kabal Palace"
+		}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Bloodied Smile Fleet" "Bleeding Rose Fleet" "Shattered Mirror Fleet" "Crimson Abyss Fleet" "Golden Thorn Fleet" "Dying Bride Fleet" "Bitter End Fleet"
+			"False Hand Fleet" "Poison Tongue Fleet" "Umbral Scar Fleet" "Eyebite Fleet" "Knotted Snake Raiders" "False Hope Fleet"
+		}
+		sequential_name = "%O% Raider Strike Force"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Wych Squads"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Kabalite Warriors"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Worthless Slaves"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Warriors"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Kabalite Trueborn"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Mandrakes"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Archons"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Sslyths"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Haemounculi"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Alayran Davinuus Emele Eth-aelas Ethero Equinox Hannibal "Kal Eyath" Kiliak Lethidia Lilae'Fionnadh Lilarsus Meridian Morshanna Rasilena Talithia Tarsus Torvendis Twenty-Eight-Four Perdus Delos Verdicon Baran Carnac Halathel Haranshemash Ishareq Lileathanir
+				Menimshemash Selesti Tar-Etenil Teleth-ai Tirathain T'krahn
+		
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Asdrubael Vect" Arhra "Aurelia Malys" Decapitator Drazhar "Lelith Hesperax" Sathonyx Tahril "Traevelliath Sliscus" "Urien Rakarth" "Dariaq Bladetongue" "Dracon Borkor" "Drekarth X'Uskul"
+				Gruemenael "Iyanna Arienal" Kaelith Karnesh Khouron "Kilarq Bladetongue" "Klaivex Khyrassos" Shadowblade
+			}
+			
+			# Always combined with a second name
+			first_names = { Kaharmoque Arzurtyhr Ga'onzhar Kahrriaq Ozutahr Trazhsaros Or'iras Kaeteque Iysdros Mezadazar
+			Arqihira Gae'enseos Bezhadove Oriqatarin Oragahne Ahlmehra Lohzarae Oriqamohre Grihzamohre Bahreshi Aurelia Anyrax Ilifex Harur Inique Kellraq Dioxerane Mallifear Malice Morathi Hellebron Hellinex 
+			Lokhir Kouran Tullaris Malekith Grimni Sivir Lethis Torsek Ar'Okras Grasyr Orqaraz
+			}
+			
+			# Always combined with a first name
+			second_names = { Bladetongue Slavebringer Shadowhunter Hesperax Malus Bane Poisonblade Hesperax Decapitator Venomkiss Borkor Equinox Bladerose Painbringer Deathrose Slavekiller Murderblade 
+								Blackhand Venomhand Deathtongue Manflayer Maneater Bloodfury Eyetaker Widowmaker Childfeaster Shadowfright Shardslayer Foegutter Headtaker Darkblade Dreadbringer Darkhand Serpenthand
+								Daggerbane Slavefeaster Darkspear Hydrablade Gorgontongue Shadowkiss Eclipsemaker Penumbra Terrix Sevyth Maharak Arqikryss Garashar
+			}
+			
+			regnal_first_names = { Kaharmoque Arzurtyhr Ga'onzhar Kahrriaq Ozutahr Trazhsaros Or'iras Kaeteque Iysdros Mezadazar
+			Arqihira Gae'enseos Bezhadove Oriqatarin Oragahne Ahlmehra Lohzarae Oriqamohre Grihzamohre Bahreshi
+			}
+			regnal_second_names = { Bladetongue Slavebringer Shadowhunter Hesperax Malus Bane Poisonblade Hesperax Decapitator Venomkiss Borkor Equinox Bladerose Painbringer
+			}
+		}
+	}
+}

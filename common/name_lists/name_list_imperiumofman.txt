@@ -1,0 +1,53 @@
+﻿### Imperium of Man
+IMP = {
+	randomized = no
+	
+	ship_names = {
+		generic = {
+			
+		}
+
+		corvette = {
+			
+		}
+		
+		destroyer = {
+			
+		}
+		
+		cruiser = {
+			 
+		}
+		
+		battleship = {
+			"His Will" "Triumph" "Divine Right" "Lord of Light" "Corax" "Saint Augusta" "Victory" "Vae Victis" "Invincible" "Immortal Emperor" "Inflexible"
+		}
+	}	
+### CHARACTERS
+
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+			}
+			
+			# Always combined with a second name
+			first_names = {
+				Ursakar Jarran Lukas "Iron Hand" Sly Sebastian Kubrik Solar Colonel Captain Barzano Coteaz Czevak Draco Grunwald Mendoza Major Lucien Viktor Davian Cyrus Gabriel Jonah Titus
+			}
+			
+			# Always combined with a first name
+			second_names = {
+				w r t y u 
+			}
+			
+			regnal_first_names = {
+				a s d f g
+			}
+			
+			regnal_second_names = {
+				z x c v
+			}
+		}
+	}
+}		

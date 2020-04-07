@@ -1,0 +1,179 @@
+﻿### Tarellian_Names_1
+TARELLIAN1 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = { Bokor "Green Bayou" "Bad Voodoo" "Swamp Creature" "Black Lagoon" Everglade "White Gator" "Scythe of Tarellia" "Witch Doctor" "Swamp Queen" "Swamp King"
+					
+		}
+	
+		corvette = { "Baby Croc" "Den Mother" "Swamp Terror"
+		}
+		
+		destroyer = { "Fang" "Claw"
+		}
+		
+		cruiser = { "Lockjaw" "Bonegrinder"
+		}
+		
+		battleship = { "Big Croc" "Big Daddy" "Bone Breaker" "Tough Scale" "Black Fang" "Death Claw"
+		}
+		
+		science = { "Witch Doctor" "Papa Legba"
+		}
+		
+		colonizer = { "River Guide" "Swamp Dweller"
+		}
+		
+		constructor = { "Bone Mender" "Snap Stitcher"
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				"Swamp Post" "Skull Pole" "Lurking Eyes" "Hidden Fang" "Shadow Claw"
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Blindwater Congregation" "Bloody Congregation" "Grave Walkers" "Dreadbound" "The Rapture" "Death Charmers" "Boneswarm" "Bull Snapper"
+			"Blackhides" "Wrastlers" "Swamp Horrors" "Ironbacks" "Blind Walkers" "Bog Ambushers" "Swamp Raiders" "Swamp Shamblers"
+			"White Scales" "Mist Speakers" "Bellowers" "Trawlers" "River Raiders" "Snapjaws" "Wrong Eyes"
+		}
+		sequential_name = "%O% Fleet"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Tarellian Posse"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Tarellian Hunters"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Bokor and Shamblers"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Regrown Claws"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Cyber Gators"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Steel Bone Gators"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Witch Doctors"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Flesh Reapers"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Death Charmers"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"Louisiana" "Big Cypress" "Biscayne" "Everglades" "Barley Barber" "Wahoo" "Bradwell Bay" "Corkscrew Swamp" "Green Swamp" "Floodplain Swamp"
+				"Highlands Hammock" "Okefenokee Swamp" "Sante Fe Swamp" "Swampland" "Titi Swamp" "Waccasassa Bay"
+				"Coffee Swamp" "Great Dismal Swamp" "Dendron Swamp" "Dragon Swamp" "Calamus Swamp" "Great Black Swamp"
+				"Black Creek Swamp" "Huron Swamp" "Lakeville Swamp" "Bear Swamp" "New Jersey" "Great Piece Meadows"
+				"Lee Meadows Swamp" "Dismal Swamp" "Hatfield Swamp" "Pigeon Swamp" "Hatfield Swamp" "Turkey Swamp"
+		
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Bloody Barnabas" "Calaban the Gravewalker" "Maelok the Dreadbound" "Jaga-Jaga Deathchamer" "Rask" "Wrong Eye" "Lockjaw"
+			}
+			
+			# Always combined with a second name
+			first_names = { Bloody Gravewalker Dreadbound Deathcharmer Blind Walker Ironback Spitter Horror Swamp Bull Snapper Wrong Bog Feral
+			Totem Hunter Moorclaw Gobber Raider White Black
+			}
+			
+			# Always combined with a first name
+			second_names = { Barnabas Calaban Maelok "Jaga-Jaga" Raluk Rask Carver Arkadius Sturm Drang Helga Midas Targ Maximus Rorsh Brine Viktor Pendrake Saxon Orrik Gudrun Alten Lynus
+			}
+			
+			regnal_first_names = { Bloody Gravewalker Dreadbound Deathcharmer Blind Walker Ironback Spitter Horror Swamp Bull Snapper Wrong Bog Feral
+			Totem Hunter Moorclaw Gobber Raider White Black
+			}
+			regnal_second_names = { Barnabas Calaban Maelok "Jaga-Jaga" Raluk Rask Carver Arkadius Sturm Drang Helga Midas Targ Maximus Rorsh Brine Viktor Pendrake Saxon Orrik Gudrun Alten Lynus
+			}
+		}
+	}
+}

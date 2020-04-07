@@ -1,0 +1,27 @@
+objectTypes = {
+	pdxparticle = {
+		name = "erebus_orbit_front_particle"
+		type = "erebus_orbit_front_effect"
+		
+		scale = 1.4
+	}
+	pdxparticle = {
+		name = "erebus_orbit_back_particle"
+		type = "erebus_orbit_back_effect"
+		
+		scale = 1.4
+	}
+	
+	pdxparticle = {
+		name = "erebus_orbit_01_front_particle"
+		type = "erebus_orbit_01_front_effect"
+		
+		scale = 0.8
+	}
+	pdxparticle = {
+		name = "erebus_orbit_01_back_particle"
+		type = "erebus_orbit_01_back_effect"
+		
+		scale = 0.8
+	}
+}

@@ -1,0 +1,47 @@
+buildable_robot_pop_necron = {
+
+	#prerequisites = {
+	#	"tech_robotic_workers"
+	#}	
+	
+	cost = {
+		minerals = 50
+		energy = 150
+	}	
+		
+	allow = {
+		has_country_flag = necron_empire
+	}
+	
+	potential_build = {
+		has_country_flag = necron_empire
+	}
+	
+	
+	species = {
+		name = "NECRONS"
+		name_list = "NECRON1"
+		class = "ROBOT"
+		portrait = "imp_necron"
+		traits = {
+			trait = "trait_mechanical"
+			trait = "trait_robotic_3"
+		}
+		new_pop_resource_requirement = {
+			type = robot_food 
+			value = 10.0
+		}
+		pops_auto_growth = 1.0
+
+		pops_can_be_colonizers = yes
+		pops_can_migrate = no
+		pops_can_reproduce = no
+		pops_can_join_factions = no
+		pop_maintenance = 1
+		pops_can_be_slaves = no
+		can_generate_leaders = yes
+		pops_have_happiness = no
+		consumer_goods = no
+		pop_ethics = no
+	}	
+}

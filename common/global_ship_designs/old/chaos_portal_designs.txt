@@ -1,0 +1,14 @@
+# Dimensional Portal
+ship_design = {
+	name = "Dimensional Portall"
+	ship_size = chaos_portal
+	section = {
+		template = "ed_dimensional_portal_key_bluee"
+		slot = "mid"
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_3"
+		}
+	}
+}

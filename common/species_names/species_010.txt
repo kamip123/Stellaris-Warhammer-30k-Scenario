@@ -1,0 +1,1482 @@
+# Generated species derive their names from here
+
+### CHAOS
+
+CHA = {
+	word_bearers = {
+		name = "Word Bearer"
+		plural = "Word Bearers"
+		home_planet = Sicarus
+		home_system = Sicarus
+		name_list = "CHAOS1"
+	}
+
+	black_legion = {
+		name = "Black Legionnaire"
+		plural = "Black Legion"
+		home_planet = Cthonia
+		home_system = Cthonia
+		name_list = "CHAOS1"
+	}
+	
+	blood_gorgons = {
+		name = "Blood Gorgon"
+		plural = "Blood Gorgons"
+		home_planet = "The Cauldron Born"
+		home_system = "The Cauldron Born"
+		name_list = "CHAOS1"
+	}
+
+	world_eaters = {
+		name = "World Eater"
+		plural = "World Eaters"
+		home_planet = Nuceria
+		home_system = Nuceria
+		name_list = "CHAOS1"
+	}
+		
+	thousand_sons = {
+		name = "Thousand Son"
+		plural = "Thousand Sons"
+		home_planet = Prospero
+		home_system = Prospero
+		name_list = "CHAOS1"
+	}
+
+	death_guard = {
+		name = "Death Guardian"
+		plural = "Death Guard"
+		home_planet = Barbarus
+		home_system = Barbarus
+		name_list = "CHAOS1"
+	}
+	
+	emperors_children = {
+		name = "Emperor's Child"
+		plural = "Emperor's Children"
+		home_planet = Chemos
+		home_system = Chemos
+		name_list = "CHAOS1"
+	}
+
+	iron_warriors = {
+		name = "Iron Warrior"
+		plural = "Iron Warriors"
+		home_planet = Medrengard
+		home_system = Medrengard
+		name_list = "CHAOS1"
+	}
+
+	alpha_legion = {
+		name = "Alpha Legionnaire"
+		plural = "Alpha Legion"
+		home_planet = Eskrador
+		home_system = Eskrador
+		name_list = "CHAOS1"
+	}
+
+	night_lords = {
+		name = "Night Lord"
+		plural = "Night Lords"
+		home_planet = Nostramo
+		home_system = Nostramo
+		name_list = "CHAOS1"
+	}
+
+}
+
+### INQUISITION
+
+INQ = {
+	ordo_originatus = {
+		name = "Ordo Originatus"
+		plural = "Ordo Originatus"
+		home_planet = Dawn
+		home_system = Dawn
+		name_list = "INQUISITION1"
+	}
+
+	ordo_astra = {
+		name = "Ordo Astra"
+		plural = "Ordo Astra"
+		home_planet = Stella
+		home_system = Stella
+		name_list = "INQUISITION1"
+	}
+	
+	ordo_desolatus = {
+		name = "Ordo Desolatus"
+		plural = "Ordo Desolatus"
+		home_planet = Purity
+		home_system = Purity
+		name_list = "INQUISITION1"
+	}
+
+	ordo_necros = {
+		name = "Ordo Necros"
+		plural = "Ordo Necros"
+		home_planet = Obscuris
+		home_system = Obscuris
+		name_list = "INQUISITION1"
+	}
+		
+	ordo_frimbia = {
+		name = "Ordo Frimbia"
+		plural = "Ordo Frimbia"
+		home_planet = "Galaxy's End"
+		home_system = "Galaxy's End"
+		name_list = "INQUISITION1"
+	}
+
+	ordo_thanatos = {
+		name = "Ordo Thanatos"
+		plural = "Ordo Thanatos"
+		home_planet = Nyx
+		home_system = Nyx
+		name_list = "INQUISITION1"
+	}
+	
+}
+
+### MECHANICUS
+
+MEC = {
+	legiones_skitarii = {
+		name = "Legiones Skitarii"
+		plural = "Legiones Skitarii"
+		home_planet = Skitaris
+		home_system = Skitaris
+		name_list = "MECHANICUS1"
+	}
+
+	colegia_titanica = {
+		name = "Colegia Titanica"
+		plural = "Colegia Titanica"
+		home_planet = Titanos
+		home_system = Titanos
+		name_list = "MECHANICUS1"
+	}
+	
+	legio_cybernetica = {
+		name = "Legio Cybernetica"
+		plural = "Legio Cybernetica"
+		home_planet = Adaptos
+		home_system = Adaptos
+		name_list = "MECHANICUS1"
+	}
+
+	auxilia_myrmidon = {
+		name = "Auxilia Myrmidon"
+		plural = "Auxilia Myrmidon"
+		home_planet = Poseida
+		home_system = Poseida
+		name_list = "MECHANICUS1"
+	}
+		
+	ordo_reductor = {
+		name = "Ordo Reductor"
+		plural = "Ordo Reductor"
+		home_planet = Entera
+		home_system = Entera
+		name_list = "MECHANICUS1"
+	}
+
+	taghmata_omnissiah = {
+		name = "Taghmata Omnissiah"
+		plural = "Taghmata Omnissiah"
+		home_planet = Omnisy
+		home_system = Omnisy
+		name_list = "MECHANICUS1"
+	}
+	
+}
+
+### TARELLIAN
+
+TAR = {
+	slitherfang = {
+		name = "Slitherfang"
+		plural = "Slitherfang"
+		home_planet = Moral'gar
+		home_system = Hibaragus
+		name_list = "TARELLIAN1"
+	}
+
+	snaprock = {
+		name = "Snaprock"
+		plural = "Snaprock"
+		home_planet = Izzkara
+		home_system = Erbati
+		name_list = "TARELLIAN1"
+	}
+
+	searscale = {
+		name = "Searscale"
+		plural = "Searscale"
+		home_planet = Galesh
+		home_system = Hrotam
+		name_list = "TARELLIAN1"
+	}
+	
+}
+
+### SLAUGH
+
+
+SLA = {
+	myrrma = {
+		name = "Myrrma"
+		plural = "Myrrma"
+		home_planet = Embest
+		home_system = Goradu
+		name_list = "SLAUGTH1"
+	}
+
+	goffrang = {
+		name = "Goffrang"
+		plural = "Goffrang"
+		home_planet = Gyrrmag
+		home_system = Verrindo
+		name_list = "SLAUGTH1"
+	}
+
+	annelith = {
+		name = "Annelith"
+		plural = "Annelith"
+		home_planet = Noledi
+		home_system = Sepulcha
+		name_list = "SLAUGTH1"
+	}
+		karrnath = {
+		name = "Karrnath"
+		plural = "Karrnathi"
+		home_planet = Karrnath
+		home_system = Mourn
+		name_list = "SLAUGTH1"
+	}
+		zilargo = {
+		name = "Zilargo"
+		plural = "Zilargi"
+		home_planet = Zedgun
+		home_system = Brelangia
+		name_list = "SLAUGTH1"
+	}
+	
+}
+
+### NECRON
+
+FUN = {
+	obevni_dynasty = {
+		name = "Obevni Dynasty"
+		plural = "Obevni Dynasty"
+		home_planet = "Obeva Monoy"
+		home_system = Oygan
+		name_list = "NECRON1"
+	}
+	
+	finu_dynasty = {
+		name = "Finu Dynasty"
+		plural = "Finu Dynasty"
+		home_planet = "Finuuvia"
+		home_system = Gratiil
+		name_list = "NECRON1"
+	}
+	
+	obbha_dynasty = {
+		name = "Obbha Dynasty"
+		plural = "Obbha Dynasty"
+		home_planet = Huogi
+		home_system = "Huogi Gagg"
+		name_list = "NECRON1"
+	}
+	
+	ganlarev_dynasty = {
+		name = "Ganlarev Dynasty"
+		plural = "Ganlarev Dynasty"
+		home_planet = Ganlarevia
+		home_system = Ganlargo
+		name_list = "NECRON1"
+	}
+	
+	buhavilaa_dynasty = {
+		name = "Buhavilaa Dynasty"
+		plural = "Buhavila Dynasty"
+		home_planet = Buha
+		home_system = Bevir
+		name_list = "NECRON1"
+	}
+	
+	oginollox_dynasty = {
+		name = "Ogi-Nollox Dynasty"
+		plural = "Ogi-Nollox Dynasty"
+		home_planet = "Ova Syr"
+		home_system = "Vogen Folbran"
+		name_list = "NECRON1"
+	}
+	
+	celimy_dynasty = {
+		name = "Celimy Dynasty"
+		plural = "Celimy Dynasty"
+		home_planet = Celim
+		home_system = "Hovacelim Bu"
+		name_list = "NECRON1"
+	}
+	
+	pogovon_dynasty = {
+		name = "Pogovon Dynasty"
+		plural = "Pogovon Dynasty"
+		home_planet = Pogovon
+		home_system = Cavobb
+		name_list = "NECRON1"
+	}
+	
+	qasvalyvia_dynasty = {
+		name = "Qasvalyvia Dynasty"
+		plural = "Qasvalyvia Dynasty"
+		home_planet = Qavborv
+		home_system = Qavborvurg
+		name_list = "NECRON1"
+	}
+	
+	avabbian_dynasty = {
+		name = "Avabbian Dynasty"
+		plural = "Avabbian Dynasty"
+		home_planet = Avabbia
+		home_system = Hur-Alobbava
+		name_list = "NECRON1"
+	}
+	
+	lolehndra_dynasty = {
+		name = "Lolehndra Dynasty"
+		plural = "Lolehndra Dynasty"
+		home_planet = Rolifehndra
+		home_system = Agifehndra
+		name_list = "NECRON1"
+	}
+	
+	reyubb_dynasty = {
+		name = "Reyubb Dynasty"
+		plural = "Reyubb Dynasty"
+		home_planet = "Reyubb Ofe"
+		home_system = Ze'Zebb
+		name_list = "NECRON1"
+	}
+	
+	varelviv_dynasty = {
+		name = "Varelviv Dynasty"
+		plural = "Varelviv Dynasty"
+		home_planet = Viverva
+		home_system = "Ava-Fobb"
+		name_list = "NECRON1"
+	}
+	
+	zeppadroggan_dynasty = {
+		name = "Zeppadroggan Dynasty"
+		plural = "Zeppadroggan Dynasty"
+		home_planet = Padrog
+		home_system = Padrog-Vol
+		name_list = "NECRON1"
+	}
+	
+	buvhondon_dynasty = {
+		name = "Buvhondon Dynasty"
+		plural = "Buvhondon Dynasty"
+		home_planet = Buvhondonia
+		home_system = "Gasci Xubb"
+		name_list = "NECRON1"
+	}
+	
+	valmennax_dynasty = {
+		name = "Valmennax Dynasty"
+		plural = "Valmennax Dynasty"
+		home_planet = Vamax
+		home_system = "X'opv Yva"
+		name_list = "NECRON1"
+	}
+	
+	huviduzaan_dynasty = {
+		name = "Huvidu-Zaan Dynasty"
+		plural = "Huvidu-Zaan Dynasty"
+		home_planet = Huviduzaa
+		home_system = Zaaeva
+		name_list = "NECRON1"
+	}
+	
+	provalguvor_dynasty = {
+		name = "Provalguvor Dynasty"
+		plural = "Provalguvor Dynasty"
+		home_planet = Proval
+		home_system = Ysvera
+		name_list = "NECRON1"
+	}
+	
+	baphomet_dynasty = {
+		name = "Baphomet Dynasty"
+		plural = "Baphomet Dynasty"
+		home_planet = Qlorc
+		home_system = Qlorciso'Bu
+		name_list = "NECRON1"
+	}
+	
+	wulhubb_dynasty = {
+		name = "Wulhubb Dynasty"
+		plural = "Wulhubbi Dynasty"
+		home_planet = Wulhubba 
+		home_system = Gy-Blova
+		name_list = "NECRON1"
+	}
+	
+	caphevad_dynasty = {
+		name = "Caphevad Dynasty"
+		plural = "Caphevad Dynasty"
+		home_planet = Caphev
+		home_system = Belo'vi
+		name_list = "NECRON1"
+	}
+	
+	vool_dynasty = {
+		name = "Vool Dynasty"
+		plural = "Vool Dynasty"
+		home_planet = Vool'u
+		home_system = Vool'u-Umu
+		name_list = "NECRON1"
+	}
+	
+	frubralav_dynasty = {
+		name = "Frubralav Dynasty"
+		plural = "Frubralav Dynasty"
+		home_planet = Fubra
+		home_system = Fabrihass
+		name_list = "NECRON1"
+	}
+	
+	fjasivlin_dynasty = {
+		name = "Fjasivlin Dynasty"
+		plural = "Fjasivlin Dynasty"
+		home_planet = Fulsi
+		home_system = "Boass Ceind"
+		name_list = "NECRON1"
+	}
+	
+	pobelin_dynasty = {
+		name = "Pobelin Dynasty"
+		plural = "Pobelin Dynasty"
+		home_planet = Poeblina
+		home_system = Polbrill
+		name_list = "NECRON1"
+	}
+	
+	laachax_dynasty = {
+		name = "Laachax Dynasty"
+		plural = "Laachax Dynasty"
+		home_planet = Laachax
+		home_system = "Golz Laachax"
+		name_list = "NECRON1"
+	}
+	
+	udkavongo_dynasty = {
+		name = "Udkavongo Dynasty"
+		plural = "Udkavongo Dynasty"
+		home_planet = Udkall
+		home_system = "Jua Waaktra"
+		name_list = "NECRON1"
+	}
+}
+
+### HIVEMIND
+
+RGO = {
+	dynarn = {
+		name = Dynarn
+		plural = "Dynarn'Gol"
+		home_planet = Typocerum
+		home_system = "Typocerum'Ka"
+		name_list = "RAKGOL1"
+	}
+
+	carabidae = {
+		name = Carabidae
+		plural = "Carabidae'Gol"
+		home_planet = Thalmidae
+		home_system = "Thalmidae'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	dysticade = {
+		name = Dysticade
+		plural = "Dysticade'Gol"
+		home_planet = Mycetrid
+		home_system = "Mycetrid'Ka"
+		name_list = "RAKGOL1"
+	}
+
+	amphizodae = {
+		name = Amphizodae
+		plural = "Amphizodae'Gol"
+		home_planet = Ecunimdae
+		home_system = "Ecunimdae'Ka"
+		name_list = "RAKGOL1"
+	}
+
+	polyphaga= {
+		name = Polyphaga
+		plural = "Polyphaga'Gol"
+		home_planet = Cerophy
+		home_system = "Cerophy'Ka"
+		name_list = "RAKGOL1"
+	}
+
+	silphidid = {
+		name = Silphidid
+		plural = "Silphidid'Gol"
+		home_planet = Omothete
+		home_system = "Omothete'Ka"
+		name_list = "RAKGOL1"
+	}
+
+	clambid = {
+		name = Clambid
+		plural = "Clambid'Gol"
+		home_planet = Derondidae
+		home_system = "Derondidae'Gol"
+		name_list = "RAKGOL1"
+	}
+
+	dascilloid = {
+		name = Dascilloid
+		plural = "Dascilloid'Gol"
+		home_planet = Pythid
+		home_system = "Pythid'Ka"
+		name_list = "RAKGOL1"
+	}
+
+	bostrich = {
+		name = Bostrich
+		plural = "Bostrich'Gol"
+		home_planet = Lycid
+		home_system = "Lycid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	nosoden = {
+		name = Nosoden
+		plural = "Nosoden'Gol"
+		home_planet = Lymex
+		home_system = "Lymex'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	clerid = {
+		name = Clerid
+		plural = "Clerid'Gol"
+		home_planet = Trogossit
+		home_system = "Trogossit'Ka"
+		name_list = "RAKGOL1"
+	}
+
+	smicripid = {
+		name = Smicripid
+		plural = "Smicripid'Gol"
+		home_planet = Keterid
+		home_system = "Keterid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	cryptophagi = {
+		name = Cryptophagi
+		plural = "Cryptophagi'Gol"
+		home_planet = Histeriph
+		home_system = "Histerpih'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	byturid = {
+		name = Byturid
+		plural = "Byturid'Gol"
+		home_planet = Phillid
+		home_system = "Phillid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	coccinellid = {
+		name = Coccinellid
+		plural = "Coccinellid'Gol"
+		home_planet = Gyrnic
+		home_system = "Gyrnic'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	ciidid = {
+		name = Ciidid
+		plural = "Ciidid'Gol"
+		home_planet = Cupossin
+		home_system = "Cupossin'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	mordellid = {
+		name = Mordellid
+		plural = "Mordellid'Gol"
+		home_planet = Hexamid
+		home_system = "Hexamid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	riphorid = {
+		name = Riphorid
+		plural = "Riphorid'Gol"
+		home_planet = Myxsphaer
+		home_system = "Myxsphaer'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	brentid = {
+		name = Brentid
+		plural = "Brentid'Gol"
+		home_planet = Xaplonid
+		home_system = "Xaplonid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	attelabe = {
+		name = Attelabe
+		plural = "Attelabe'Gol"
+		home_planet = Phalacryp
+		home_system = "Phalcryp'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	melyrid = {
+		name = Melyrid
+		plural = "Melyrid'Gol"
+		home_planet = Dermestia
+		home_system = "Dermestia'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	nitullid = {
+		name = Nitullid
+		plural = "Nitullid'Gol"
+		home_planet = Belid
+		home_system = "Belid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	cucojode = {
+		name = Cucojode
+		plural = "Cucojode'Gol"
+		home_planet = Abid
+		home_system = "Abid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	sphinid = {
+		name = Sphinid
+		plural = "Sphinid'Gol"
+		home_planet = Hillifrix
+		home_system = "Hillifrix'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	passandray = {
+		name = Passandray
+		plural = "Passandray'Gol"
+		home_planet = Elucid
+		home_system = "Elucid'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	phalacrim = {
+		name = Phalacrim
+		plural = "Phalacrim'Gol"
+		home_planet = Kateride
+		home_system = "Kateride'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	erotyle = {
+		name = Erotyle
+		plural = "Erotyle'Gol"
+		home_planet = Coleptara
+		home_system = "Colepatra'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	endociccin = {
+		name = Endociccin
+		plural = "Endociccin'Gol"
+		home_planet = Lepturini
+		home_system = "Lepturini'Ka"
+		name_list = "RAKGOL1"
+	}
+	
+	rak ={
+	name = "Rak"
+	plural = "Rak'Gol"
+	home_planet = "Nypson's Prize"
+	home_system = Termenia
+	name_list = "RAKGOL1"
+	
+	}
+}
+
+### ORK
+
+REP = {
+	hellstompahs = {
+		name = "Hellstompah"
+		plural = "Hellstompahs"
+		home_planet = Rax'Thalaki
+		home_system = Thalakin
+		name_list = "ORK1"
+	}
+	
+	hedstabbas = {
+		name = "Hedstabba"
+		plural = "Hedstabbas"
+		home_planet = Qlak
+		home_system = Qlakidoq
+		name_list = "ORK1"
+	}
+	
+	gross_tide = {
+		name = "Gross Tide"
+		plural = "Gross Tide"
+		home_planet = Tuxica
+		home_system = Bos'Tuxica
+		name_list = "ORK1"
+	}
+
+	mek_krushas = {
+		name = "Mek Krusha"
+		plural = "Mek Krushas"
+		home_planet = Zuif
+		home_system = Zuffur
+		name_list = "ORK1"
+	}
+	
+	cleava_boyz = {
+		name = "Cleava Boy"
+		plural = "Cleava Boyz"
+		home_planet = Matal
+		home_system = Matalill
+		name_list = "ORK1"
+	}
+
+	da_green_kroosade = {
+		name = "Da Green Kroosader"
+		plural = "Da Green Kroosade"
+		home_planet = Oxinac
+		home_system = Oxinac'Vela
+		name_list = "ORK1"
+	}
+
+	dakka_bozzes = {
+		name = "Dakka Bozzes"
+		plural = "Dakka Bozzes"
+		home_planet = Yadra
+		home_system = Yadruk
+		name_list = "ORK1"
+	}
+
+	flame_krushas = {
+		name = "Flame Krusha"
+		plural = "Flame Krushas"
+		home_planet = Nharr
+		home_system = Nharrbo
+		name_list = "ORK1"
+	}
+	
+	ice_kuttahs = {
+		name = "Ice Kuttah"
+		plural = "Ice Kuttahs"
+		home_planet = Zukai
+		home_system = Zukai'Mondor
+		name_list = "ORK1"
+	}
+	
+	gretchen_gobblas = {
+		name = "Gretchen Gobbla"
+		plural = "Gretchen Gobblas"
+		home_planet = Lokken
+		home_system = "Lokken Jak"
+		name_list = "ORK1"
+	}
+	
+	nid_smashas = {
+		name = "Nid Smasha"
+		plural = "Nid Smashas"
+		home_planet = Netraxia
+		home_system = Netraxia'Asaka
+		name_list = "ORK1"
+	}
+	
+	grave_diggas = {
+		name = "Grave Digga"
+		plural = "Grave Diggas"
+		home_planet = Xania
+		home_system = "Xani Nadih"
+		name_list = "ORK1"
+	}
+	
+	lazi_gitz = {
+		name = "Lazy Git"
+		plural = "Lazy Gitz"
+		home_planet = Orossi
+		home_system = Orossi-Huivac
+		name_list = "ORK1"
+	}
+	
+	axe_eatahs = {
+		name = "Axe Eatah"
+		plural = "Axe Eatahs"
+		home_planet = Ipa'Go
+		home_system = "Ipa'Go Tryll"
+		name_list = "ORK1"
+	}
+	
+	green_killahs = {
+		name = "Green Killah"
+		plural = "Green Killahs"
+		home_planet = Fexkla
+		home_system = Fexklansiga
+		name_list = "ORK1"
+	}
+	
+	tusk_tuggas = {
+		name = "Tusk Tuggah"
+		plural = "Tusk Tuggahs"
+		home_planet = Tuxka
+		home_system = Tuxkalli
+		name_list = "ORK1"
+	}
+	
+	good_boyz = {
+		name = "Good Boy"
+		plural = "Good Boyz"
+		home_planet = Vak-Raxxa
+		home_system = Du-Raxxa-Nax
+		name_list = "ORK1"
+	}
+	
+	trak_breakaz = {
+		name = "Trak Breaka"
+		plural = "Trak Breakaz"
+		home_planet = Rak'Thalak'Nak
+		home_system = "Rak'Nak'Thax"
+		name_list = "ORK1"
+	}
+	
+	boom_bombas = {
+		name = "Boom Bomba"
+		plural = "Boom Bombas"
+		home_planet = Sheraka
+		home_system = Acir'Raka
+		name_list = "ORK1"
+	}
+	
+	grim_krakhas = {
+		name = "Grim Krakha"
+		plural = "Grim Krahas"
+		home_planet = Deex
+		home_system = Xandraee
+		name_list = "ORK1"
+	}
+	
+	murdurahz = {
+		name = Murdurah
+		plural = Merdurahz
+		home_planet = Rothak
+		home_system = Vsem-Klack
+		name_list = "ORK1"
+	}
+	
+	muzzlahs = {
+		name = Muzzlah
+		plural = Muzzlahs
+		home_planet = Ushu
+		home_system = "Uskal Opeshal"
+		name_list = "ORK1"
+	}
+	
+	jaw_breakahs = {
+		name = "Jaw Breakah"
+		plural = "Jaw Breakahs"
+		home_planet = Xu'Koka
+		home_system = Xu'Kokallij
+		name_list = "ORK1"
+	}
+	
+	krownahs = {
+		name = "Krownah"
+		plural = "Krownahs"
+		home_planet = Lestrall
+		home_system = Qol'Lest
+		name_list = "ORK1"
+	}
+	
+	blood_boilahs = {
+		name = "Blood Boilah"
+		plural = "Blood Boilahs"
+		home_planet = Lox'Ungrak
+		home_system = Lox'Ungrak'O
+		name_list = "ORK1"
+	}
+}
+
+### ELDAR/DARKELDAR
+
+DAR = {
+	bladed_lotus = {
+		name = "Bladed Lotus"
+		plural = "Bladed Lotus"
+		home_planet = "Uva-Xavani Prime"
+		home_system = Shantaxavani
+		name_list = "DARKELDAR1"
+	}
+	
+	wraithkind = {
+		name = "Wraithkind"
+		plural = "Wraithkind"
+		home_planet = Balkgaz
+		home_system = Balkgaz'Yta
+		name_list = "DARKELDAR1"
+	}
+
+	lords_of_iron_thorn = {
+		name = "Lord of Iron Thorn"
+		plural = "Lords of Iron Thorn"
+		home_planet = Gavaz
+		home_system = Gavaz'Xull
+		name_list = "DARKELDAR1"
+	}
+
+	broken_sigil = {
+		name = "Broken Sigil"
+		plural = "Broken Sigil"
+		home_planet = "Yv'Zorak Prime"
+		home_system = Tukli'Zorak
+		name_list = "DARKELDAR1"
+	}
+
+	black_myriad = {
+		name = "Black Myriad"
+		plural = "Black Myriad"
+		home_planet = "Sintomoroi Gaxpak"
+		home_system = Sintomoroi'Utlak
+		name_list = "DARKELDAR1"
+	}
+	
+	last_hatred = {
+		name = "Last Hatred"
+		plural = "Last Hatred"
+		home_planet = Qix'Lufran
+		home_system = Qix'Poktrak
+		name_list = "DARKELDAR1"
+	}
+	
+	bleaksoul_brethren = {
+		name = "Bleaksoul Brother"
+		plural = "Bleaksoul Brethren"
+		home_planet = "Kan Jukla"
+		home_system = "Kan Jukla Mik"
+		name_list = "DARKELDAR1"
+	}
+	
+	baleful_gaze = {
+		name = "Baleful Gaze"
+		plural = "Baleful Gaze"
+		home_planet = Tilla
+		home_system = "Till Juxesi"
+		name_list = "DARKELDAR1"
+	}
+	
+	all_seeing_eye = {
+		name = "All-Seeing Eye"
+		plural = "All-Seeing Eye"
+		home_planet = Jess'Inax
+		home_system = "Jess Inaxpa"
+		name_list = "DARKELDAR1"
+	}
+	
+	black_blade = {
+		name = "Black Blade"
+		plural = "Black Blade"
+		home_planet = Boki'Grum
+		home_system = Grumbok
+		name_list = "DARKELDAR1"
+	}
+
+	black_heart = {
+		name = "Black Heart"
+		plural = "Black Heart"
+		home_planet = Jaggo
+		home_system = Jaktagg
+		name_list = "DARKELDAR1"
+	}
+	
+	black_sun = {
+		name = "Black Sun"
+		plural = "Black Sun"
+		home_planet = Juvan
+		home_system = "Black Sun"
+		name_list = "DARKELDAR1"
+	}
+	
+	blades_of_desire = {
+		name = "Blades of Desire"
+		plural = "Blades of Desire"
+		home_planet = Loshyx
+		home_system = Loshyx'Oa
+		name_list = "DARKELDAR1"
+	}
+	
+	bloodied_claw = {
+		name = "Bloodied Claw"
+		plural = "Bloodied Claw"
+		home_planet = "Helvan Prime"
+		home_system = Helvan-Jull
+		name_list = "DARKELDAR1"
+	}
+	
+	bloody_scream = {
+		name = "Bloody Scream"
+		plural = "Bloody Scream"
+		home_planet = "Ozkox Prime"
+		home_system = Slaoz-Kox
+		name_list = "DARKELDAR1"
+	}
+	
+	crimson_woe = {
+		name = "Crimson Woe"
+		plural = "Crimson Woe"
+		home_planet = "Faf Prime"
+		home_system = Fafossanga
+		name_list = "DARKELDAR1"
+	}
+	
+	dark_mirror = {
+		name = "Dark Mirror"
+		plural = "Dark Mirror"
+		home_planet = Gulk
+		home_system = Gulkan'Tukk
+		name_list = "DARKELDAR1"
+	}
+	
+	ebon_law = {
+		name = "Ebon Law"
+		plural = "Ebown Law"
+		home_planet = Tjantahtic
+		home_system = "Tjantahtica Lukana"
+		name_list = "DARKELDAR1"
+	}
+	
+	endless_night = {
+		name = "Endless Night"
+		plural = "Endless Night"
+		home_planet = "Twax Prime"
+		home_system = Twaxdar
+		name_list = "DARKELDAR1"
+	}
+	
+	falling_moon = {
+		name = "Falling Moon"
+		plural = "Falling Moon"
+		home_planet = "Fraknyr Isatr"
+		home_system = Fraknyr
+		name_list = "DARKELDAR1"
+	}
+	
+	jade_knife = {
+		name = "Jade Knife"
+		plural = "Jade Knife"
+		home_planet = Miidak
+		home_system = M'Than
+		name_list = "DARKELDAR1"
+	}
+	
+	lacerated_eye = {
+		name = "Lacerated Eye"
+		plural = "Lacerated Eye"
+		home_planet = Opyrra
+		home_system = "Opyrra Ju'kal"
+		name_list = "DARKELDAR1"
+	}
+	
+	obsidian_rose = {
+		name = "Obsidian Rose"
+		plural = "Obsidian Rose"
+		home_planet = Haspalv
+		home_system = Haspalv'Mina
+		name_list = "DARKELDAR1"
+	}
+	
+	pierced_eye = {
+		name = "Pierced Eye"
+		plural = "Pierced Eye"
+		home_planet = Cradon
+		home_system = Cradoniana
+		name_list = "DARKELDAR1"
+	}
+	
+	realm_eternal = {
+		name = "Realm Eternal"
+		plural = "Realm Eternal"
+		home_planet = Penthul
+		home_system = Penkar
+		name_list = "DARKELDAR1"
+	}
+	
+	severed = {
+		name = "Severed"
+		plural = "Severed"
+		home_planet = Qrava
+		home_system = Qratrafrana
+		name_list = "DARKELDAR1"
+	}
+}
+
+### TAU
+
+MOL = {
+	koryar = {
+		name = "Kor'yar"
+		plural = "Kor'yar'n"
+		home_planet = "Kor'yar"
+		home_system = "Kor'yar"
+		name_list = "TAU1"
+	}
+	
+	vayun = {
+		name = "Va'yun"
+		plural = "Va'yun'n"
+		home_planet = "Va'yun Prime"
+		home_system = "Va'yun"
+		name_list = "TAU1"
+	}
+	
+	malwegoll = {
+		name = "Ma'lwe'goll"
+		plural = "Ma'lwe'gollans"
+		home_planet = "Wegolla"
+		home_system = "Wegolla Upta"
+		name_list = "TAU1"
+	}
+	
+	alvothari = {
+		name = "Alvo'thari"
+		plural = "Alvo'tharians"
+		home_planet = Alvo
+		home_system = Thari
+		name_list = "TAU1"
+	}
+	
+	hathgum = {
+		name = "Hath'gum"
+		plural = "Hath'gumans"
+		home_planet = Hathguma
+		home_system = Guma
+		name_list = "TAU1"
+	}
+	
+	uri = {
+		name = "Ur'i"
+		plural = "Ur'itonians"
+		home_planet = "Ur Idra"
+		home_system = "Ur Itha"
+		name_list = "TAU1"
+	}
+	
+	havoll = {
+		name = "Ha'voll"
+		plural = "Ha'vollans"
+		home_planet = Havo
+		home_system = "Havolla Gath"
+		name_list = "TAU1"
+	}
+	
+	ymacera = {
+		name = "Yma'cera"
+		plural = "Yma'cerans"
+		home_planet = Ymacca
+		home_system = Ceracan
+		name_list = "TAU1"
+	}
+	
+	jogollwa = {
+		name = "Jog'ollwa"
+		plural = "Jog'ollwans"
+		home_planet = Ogo
+		home_system = Wanjog
+		name_list = "TAU1"
+	}
+	
+	usanace = {
+		name = "Usa'nace"
+		plural = "Usa'nacans"
+		home_planet = Sanacan
+		home_system = "U-Sana-Itcar"
+		name_list = "TAU1"
+	}
+	
+	havarigga = {
+		name = "Hava'rigga"
+		plural = "Hava'riggans"
+		home_planet = Rigga
+		home_system = "Ha-Va'Ri"
+		name_list = "TAU1"
+	}
+	
+	slerpanor = {
+		name = "Sler'panor"
+		plural = "Sler'panorians"
+		home_planet = "Lerpan So"
+		home_system = Slerpactin
+		name_list = "TAU1"
+	}
+	
+	fellnoll = {
+		name = "Fell'noll"
+		plural = "Fell'nollans"
+		home_planet = Fellnoll
+		home_system = "Mot Fellno"
+		name_list = "TAU1"
+	}
+	
+	sirgogg = {
+		name = "Sir'gogg"
+		plural = "Sir'goggans"
+		home_planet = Vasgogg
+		home_system = Vategigun
+		name_list = "TAU1"
+	}
+	
+	obadin = {
+		name = "Oba'din"
+		plural = "Oba'dinans"
+		home_planet = Obadin
+		home_system = "Odaka"
+		name_list = "TAU1"
+	}
+	
+	yalon = {
+		name = "Ya'lon"
+		plural = "Ya'lonians"
+		home_planet = Yal
+		home_system = "Pekona Yal"
+		name_list = "TAU1"
+	}
+	
+	dyss = {
+		name = Dyss
+		plural = Dyssani
+		home_planet = Syr
+		home_system = "Dys'Syr"
+		name_list = "TAU1"
+	}
+	
+	gwesibor = {
+		name = "Gwe'sibor"
+		plural = "Gwe'siborans"
+		home_planet = Gwesiborin
+		home_system = Hakibori
+		name_list = "TAU1"
+	}
+	
+	andigonj = {
+		name = "Andi'gonj"
+		plural = "Andi'gonji"
+		home_planet = Gonji
+		home_system = "An'Onj"
+		name_list = "TAU1"
+	}
+	
+	grollferp = {
+		name = Grollferp
+		plural = Grollferpi
+		home_planet = Groll 
+		home_system = "Garan'Ferpi"
+		name_list = "TAU1"
+	}
+	
+	sondrithan = {
+		name = "Sondri'than"
+		plural = "Sondri'thani"
+		home_planet = Sondritha
+		home_system = "Abacanus'Sondri"
+		name_list = "TAU1"
+	}
+	
+	hjannarthi = {
+		name = "Hjan'narthi"
+		plural = "Hjan'narthids"
+		home_planet = "Akma'Lakan"
+		home_system = "Akma'Buko"
+		name_list = "TAU1"
+	}
+	
+	domanna = {
+		name = "Do'manna"
+		plural = "Do'mannans"
+		home_planet = Domannica
+		home_system = "Petoll-Pu"
+		name_list = "TAU1"
+	}
+	
+	wacegi = {
+		name = "Wa'cegi"
+		plural = "Wa'cegins"
+		home_planet = Wacego
+		home_system = "Wacego Iftlar"
+		name_list = "TAU1"
+	}
+	
+	norillga = {
+		name = "No'rillga"
+		plural = "No'rillgans"
+		home_planet = Navarill
+		home_system = Nevidrall
+		name_list = "TAU1"
+	}
+	
+	laginchuuz = {
+		name = "Lagin'Chuuz"
+		plural = "Lagin'Chuuzi"
+		home_planet = Laginchu
+		home_system = Lohgraxanna
+		name_list = "TAU1"
+	}
+	
+	moijhuxgan = {
+		name = "Moij-Huxgan"
+		plural = "Moij-Huxgans"
+		home_planet = Maij
+		home_system = Huxganniga
+		name_list = "TAU1"
+	}
+}
+
+### PLANTOIDS
+
+PLANT = {
+	lozavata = {
+		name = Lozavata
+		plural = Lozavatae
+		home_planet = "Lozavata Prima"
+		home_system = Loza
+		name_list = "PLANT"
+	}
+
+	queptilium = {
+		name = Queptilium
+		plural = Queptilia
+		home_planet = "Queptilium Primum"
+		home_system = Quepta
+		name_list = "PLANT2"
+	}
+
+	lilarobius = {
+		name = Lilarobius
+		plural = Lilarobii
+		home_planet = "Lilarobius Primus"
+		home_system = Lilaro
+		name_list = "PLANT3"
+	}
+
+	vetirisio = {
+		name = Vetirisius
+		plural = Vetirisii
+		home_planet = "Vetirisius Primus"
+		home_system = Vetiri
+		name_list = "PLANT"
+	}
+
+	belmacosa = {
+		name = Belmacosa
+		plural = Belmacosae
+		home_planet = "Belmacosa Prima"
+		home_system = Belm
+		name_list = "PLANT2"
+	}
+
+	panaxala = {
+		name = Panaxala
+		plural = Panaxalae
+		home_planet = "Panaxala Prima"
+		home_system = Panaxa
+		name_list = "PLANT3"
+	}
+
+	ganvius = {
+		name = Ganvius
+		plural = Ganvii
+		home_planet = "Ganvius Primus"
+		home_system = Ganva
+		name_list = "PLANT"
+	}
+
+	caloctora = {
+		name = Caloctora
+		plural = Caloctorae
+		home_planet = "Caloctora Prima"
+		home_system = Caloc
+		name_list = "PLANT2"
+	}
+
+	vivisandia = {
+		name = Vivisandia
+		plural = Vivisandia
+		home_planet = "Vivisandia Prima"
+		home_system = Vivis
+		name_list = "PLANT3"
+	}
+
+	sidimatus = {
+		name = Sidimatus
+		plural = Sidimati
+		home_planet = "Sidimatus Primus"
+		home_system = Sidima
+		name_list = "PLANT"
+	}
+
+	mandasura = {
+		name = Mandasura
+		plural = Mandasurae
+		home_planet = "Mandasura Prima"
+		home_system = Mandas
+		name_list = "PLANT2"
+	}
+
+	mirovandia = {
+		name = Mirovandia
+		plural = Mirovandia
+		home_planet = "Mirovandia Prima"
+		home_system = Mirov
+		name_list = "PLANT3"
+	}
+
+	pelisimus = {
+		name = Pelisimus
+		plural = Pelisimi
+		home_planet = "Pelisimus Primus"
+		home_system = Pelisi
+		name_list = "PLANT"
+	}
+
+	lavis = {
+		name = Lavis
+		plural = Lavii
+		home_planet = "Lavis Primus"
+		home_system = Lav
+		name_list = "PLANT2"
+	}
+	
+	raxycodium = {
+		name = Raxycodium
+		plural = Raxycodia
+		home_planet = "Raxycodium Primum"
+		home_system = Raxyco
+		name_list = "PLANT3"
+	}
+}

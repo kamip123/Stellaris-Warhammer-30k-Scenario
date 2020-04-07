@@ -1,0 +1,300 @@
+##################
+### TECH COSTS ###
+##################
+#If you change any of these, use replace in files so the values are the same across all files
+
+@tier1cost1 = 360
+@tier1cost2 = 480
+@tier1cost3 = 600
+@tier1cost4 = 720
+
+@tier2cost1 = 1000
+@tier2cost2 = 1400
+@tier2cost3 = 1800
+@tier2cost4 = 2200
+
+@tier3cost1 = 3000
+@tier3cost2 = 4000
+@tier3cost3 = 5000
+@tier3cost4 = 6000
+
+####################
+### TECH WEIGHTS ###
+####################
+
+@tier1weight1 = 100
+@tier1weight2 = 95
+@tier1weight3 = 90
+@tier1weight4 = 85
+
+@tier2weight1 = 75
+@tier2weight2 = 70
+@tier2weight3 = 65
+@tier2weight4 = 60
+
+@tier3weight1 = 50
+@tier3weight2 = 45
+@tier3weight3 = 40
+@tier3weight4 = 35
+
+tech_basic_army = {
+	cost = @tier1cost1
+	area = engineering
+	category = { voidcraft }
+	tier = 1
+	is_rare = no
+	weight = @tier1weight1
+	# basic army
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = engineering
+				has_level > 4
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 3
+		modifier = {
+			factor = 1
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+tech_medium_army = {
+	cost = @tier2cost1
+	area = engineering
+	category = { voidcraft }
+	prerequisites = { "tech_basic_army" }
+	tier = 2
+	is_rare = no
+	weight = @tier2weight1
+	
+	# medium army
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = engineering
+				has_level > 4
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 3
+		modifier = {
+			factor = 1
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+tech_advance_army = {
+	cost = @tier3cost1
+	area = engineering
+	category = { voidcraft }
+	prerequisites = { "tech_medium_army" }
+	tier = 3
+	is_rare = no
+	weight = @tier3weight1
+	
+	# advance army
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 1.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 1.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = engineering
+				has_level > 4
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 3
+		modifier = {
+			factor = 1
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+tech_titans_army = {
+	cost = @tier3cost2
+	area = engineering
+	category = { voidcraft }
+	prerequisites = { "tech_advance_army" }
+	tier = 3
+	is_rare = no
+	weight = @tier3weight1
+	
+	# advance army
+	
+	weight_modifier = {
+		modifier = {
+			factor = 0.65
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 0.8
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 3.25
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 5.5
+			has_ethic = ethic_fanatic_militarist
+		}
+		
+		modifier = {
+			factor = 1.5
+			research_leader = {
+				area = engineering
+				has_level > 4
+			}
+		}
+	}
+	
+	ai_weight = {
+		factor = 5
+		modifier = {
+			factor = 1
+			has_ethic = ethic_fanatic_pacifist
+		}
+		modifier = {
+			factor = 2
+			has_ethic = ethic_pacifist
+		}
+		modifier = {
+			factor = 4
+			has_ethic = ethic_militarist
+		}
+		modifier = {
+			factor = 5
+			has_ethic = ethic_fanatic_militarist
+		}
+	}
+}
+
+tech_basic_planets = {
+	cost = @tier2cost1
+	area = engineering
+	category = { voidcraft }
+	tier = 2
+	is_rare = no
+	weight = @tier2weight1
+	# basic planets buildings
+	
+	ai_weight = {
+		factor = 5
+	}
+}
+
+#tech_advance_planets = {
+#	cost = @tier3cost1
+#	area = engineering
+#	category = { voidcraft }
+#	tier = 3
+#	is_rare = no
+#	weight = @tier3weight1
+#	# basic planets buildings
+#	prerequisites = { "tech_basic_planets" }
+#	ai_weight = {
+#		factor = 5
+#	}
+#}

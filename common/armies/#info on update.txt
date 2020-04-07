@@ -1,0 +1,9 @@
+# 00_armies have been replaced by 00_defense_armies , 01_assault_armies and 02_event_armies
+
+#have added     has_morale = no     to machine and robot units as in vanila to 00_defense_armies , 01_assault_armies and 02_event_armies
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+#
+#	collateral_damage = 1.00										#added by mvd1984		
+#	war_exhaustion = 0.0											#added by mvd1984

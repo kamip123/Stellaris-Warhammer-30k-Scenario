@@ -1,0 +1,288 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Genestealer = {
+	damage = 2.00
+	health = 10.00
+	morale = 2.00
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 60
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 80
+		}
+
+		upkeep = {
+			energy = 2.38
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+}
+
+Gargoyle = {
+	damage = 0.70
+	health = 10.00
+	morale = 1.00
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 30
+		}
+
+		upkeep = {
+			energy = 2.1
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+	
+}
+
+Hormagaunt = {
+	damage = 1.00
+	health = 15.00
+	morale = 20.00
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 2.33
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+	
+}
+
+Tyranid_Warrior = {
+	damage = 1.80
+	health = 10.10
+	morale = 1.90
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 2.3
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+	
+}
+
+Lictor = {
+	damage = 0.50
+	health = 2.00
+	morale = 0.50
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 2.1
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	allow = {
+		has_building = "XV25_recruitment"
+	}
+	
+	potential = {
+		planet = {
+			has_building = "XV25_recruitment"
+		}
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+	
+}
+
+Swarmlord = {
+	damage = 0.60
+	health = 2.50
+	morale = 0.60
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 2.1
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	allow = {
+		has_building = "XV88_recruitment"
+	}
+	
+	potential = {
+		planet = {
+			has_building = "XV88_recruitment"
+		}
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+	
+}
+
+Exocrine = {
+	damage = 0.80
+	health = 3.00
+	morale = 0.80
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 2.1
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	allow = {
+		has_building = "XV104_recruitment"
+	}
+	
+	potential = {
+		planet = {
+			has_building = "XV104_recruitment"
+		}
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+	
+}
+
+Hive_Tyrant = {
+	damage = 0.10
+	health = 2.00
+	morale = 0.10
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 2.1
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	allow = {
+		has_building = "Hammerhead_recruitment"
+	}
+	
+	potential = {
+		planet = {
+			has_building = "Hammerhead_recruitment"
+		}
+		owner = {
+			has_country_flag = tyranid_empire
+		}
+	}
+	
+}

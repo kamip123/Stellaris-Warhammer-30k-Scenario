@@ -1,0 +1,131 @@
+Ork_Nobz_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+Kommandoz_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+Gargant_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 2000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+Stompa_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	#base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 5000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = ork_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}

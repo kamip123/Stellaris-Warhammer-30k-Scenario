@@ -1,0 +1,251 @@
+chaos_building_imperial_knight_base_1 = {
+	base_buildtime = 30
+	planet_unique = yes
+	#empire_unique = yes
+	
+	cost = {
+		minerals = 2000
+	}
+	
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	
+	produced_resources = {
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+chaos_building_warhound_titan_base_1 = {
+	base_buildtime = 30
+	planet_unique = yes
+	#empire_unique = yes
+	
+	cost = {
+		minerals = 3000
+	}
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	produced_resources = {
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_forge 
+			}
+			planet = {
+				is_planet_class = pc_forgee
+			}
+			planet = {
+				is_planet_class = pc_forgeee
+			}
+			planet = {
+				is_planet_class = pc_forge_ring
+			}
+			planet = {
+				is_planet_class = pc_forge_ring2
+			}
+			planet = {
+				is_planet_class = pc_forge_ring3
+			}
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+chaos_building_reaver_titan_base_1 = {
+	base_buildtime = 30
+	planet_unique = yes
+	#empire_unique = yes
+	
+	cost = {
+		minerals = 5000
+	}
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	produced_resources = {
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_forge 
+			}
+			planet = {
+				is_planet_class = pc_forgee
+			}
+			planet = {
+				is_planet_class = pc_forgeee
+			}
+			planet = {
+				is_planet_class = pc_forge_ring
+			}
+			planet = {
+				is_planet_class = pc_forge_ring2
+			}
+			planet = {
+				is_planet_class = pc_forge_ring3
+			}
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+chaos_building_warlord_titan_base_1 = {
+	base_buildtime = 30
+	planet_unique = yes
+	#empire_unique = yes
+	
+	cost = {
+		minerals = 7000
+	}
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	produced_resources = {
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_forge 
+			}
+			planet = {
+				is_planet_class = pc_forgee
+			}
+			planet = {
+				is_planet_class = pc_forgeee
+			}
+			planet = {
+				is_planet_class = pc_forge_ring
+			}
+			planet = {
+				is_planet_class = pc_forge_ring2
+			}
+			planet = {
+				is_planet_class = pc_forge_ring3
+			}
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}
+
+chaos_building_emperor_titan_base_1 = {
+	base_buildtime = 30
+	planet_unique = yes
+	empire_unique = yes
+	
+	cost = {
+		minerals = 8000
+	}
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	produced_resources = {
+	}
+	
+	required_resources = {
+		energy = 1
+	}
+	
+	potential = {
+		Or = {
+			planet = {
+				is_planet_class = pc_forge 
+			}
+			planet = {
+				is_planet_class = pc_forgee
+			}
+			planet = {
+				is_planet_class = pc_forgeee
+			}
+			planet = {
+				is_planet_class = pc_forge_ring
+			}
+			planet = {
+				is_planet_class = pc_forge_ring2
+			}
+			planet = {
+				is_planet_class = pc_forge_ring3
+			}
+		}
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	prerequisites = {
+		"tech_titans_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}

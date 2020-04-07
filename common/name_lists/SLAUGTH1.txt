@@ -1,0 +1,173 @@
+﻿### Slaugth_Names_1
+SLAUGTH1 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = { Intendent Principal Executor "Super Intendent" Monitor "Vassal Construct"
+					
+		}
+	
+		corvette = { Destructor
+		}
+		
+		destroyer = { Overseer
+		}
+		
+		cruiser = { Sceptre
+		}
+		
+		battleship = { Necrosis
+		}
+		
+		science = { "Dream Eater"
+		}
+		
+		colonizer = { "Worm Sower"
+		}
+		
+		constructor = { "Good Soil"
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				"Fetid Rot" "Carrion Pike" "Plagued Land"
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Necrotic Flesh" "Faceless Void" "Dark Socket" "Blank Stare" "Intended Destruction" "Mind Flayer" "Mind Breaker"
+			"Maggot" "Flesh Eater" "Slithering Tendril" "Maddening Gaze"
+		}
+		sequential_name = "%O% Fleet"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Maggot Men"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Dream Eaters"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Carrion Slaves"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Worm Reborn"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Synthetic Worms That Walk"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Faceless Terrors"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Principals"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Flesh Eaters"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Carrion Lords"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"Amarantine" "Calixis" "Trailing Halo" "Hazeroth Abyss" "Valenar" "Breland" "Zilargo" "Draguun"
+				"Shadow Marches" "Droaam" "Eldeen Reaches" "Demon Wastes" "Icewhite" "Bitter Sea" "Uruzaar Sea"
+				"Talenta" "Karrnath" "Mournland" "Mror Hold" "O'Barra"
+		
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# Always combined with a second name
+			first_names = { Asema Steros Amada Devonshire Chaos Cane Emmit Fang Nebula Snow Valhalla Vonner 
+			Ashes Christanti Virion Morgan Smoky Vonner Thorne Trevils
+			}
+			
+			# Always combined with a first name
+			second_names = { Arthur Morelli Edge Le Torneau Chaol Cross Zain Zorander Damien Ebonywood 
+			Zane Orlando Lincoln Crypt Zain Willow Chadli Sharpe Thorne Lobo
+			}
+			
+			regnal_first_names = { Asema Steros Amada Devonshire Chaos Cane Emmit Fang Nebula Snow Valhalla Vonner 
+			Ashes Christanti Virion Morgan Smoky Vonner Thorne Trevils
+			}
+			regnal_second_names = { Arthur Morelli Edge Le Torneau Chaol Cross Zain Zorander Damien Ebonywood 
+			Zane Orlando Lincoln Crypt Zain Willow Chadli Sharpe Thorne Lobo
+			}
+		}
+	}
+}

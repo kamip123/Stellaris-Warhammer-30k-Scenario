@@ -1,0 +1,303 @@
+imperium = {
+	has_difficulty_bonuses = yes
+	counts_for_victory = yes
+	playable = yes
+	shuffle_pop_ethos = yes
+	diplomatic_wars = yes
+	relations = yes
+	distant_ftl_cost_mult = 1.0
+	
+	ai = {
+		enabled = yes
+		declare_war = yes
+		min_navy_for_wars = 0.5
+		colonizer = yes
+		internal_policies = yes
+		construction = yes
+		modules = {
+			military_minister_module
+			foreign_minister_module
+			interior_minister_module
+		}
+		
+		faction = {
+			needs_border_access = yes
+		}
+		
+		ship_data = {
+			constructor = {
+				min = 1
+				max = 3
+				planet_mult = 0.25
+			}
+			
+			science	= {
+				min = 1
+				max = 2
+				planet_mult = 0.5
+			}
+			
+			colonizer = {
+				min = 3
+				max = 4
+			}
+			
+			battleship = {
+				fraction = {
+					modifier = {
+						add = 25
+						has_technology = tech_spaceport_6
+					}					
+				}
+			}
+			
+			cruiser = {
+				fraction = {
+					modifier = {
+						add = 35
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_spaceport_6
+					}
+				}
+			}
+			
+			destroyer = {
+				fraction = {
+					modifier = {
+						add = 50
+						has_technology = tech_spaceport_3
+					}	
+					modifier = {
+						add = -15
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -10
+						has_technology = tech_spaceport_6
+					}
+				}
+			}
+			
+			corvette = {
+				fraction = {
+					base = 100
+					modifier = {
+						add = -25
+						has_technology = tech_spaceport_3
+					}	
+					modifier = {
+						add = -45
+						has_technology = tech_spaceport_5
+					}
+					modifier = {
+						add = -5
+						has_technology = tech_spaceport_6
+					}						
+				}
+			}
+		}
+		
+		army_data = {
+			# titans 11
+			imperial_knight = {
+				fraction = {
+					factor = 4
+				}
+			}
+			
+			warhound_titan = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			reaver_titan = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			warlord_titan = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			emperor_titan = {
+				fraction = {
+					factor = 1
+				}
+			}
+			
+			# spacemarine 14
+			
+			ultramarines = {
+				fraction = {
+					factor = 2
+				}
+			}
+			Space_Wolves = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Blood_Angels = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Grey_Knights = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Dark_Angels = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Black_Templars = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Blood_Ravens = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			# rest 56
+			
+			skittari = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+			penal_legion = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			death_korps = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			death_planet_imperial_guard = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			imperial_guard_big = {
+				fraction = {
+					factor = 10
+				}
+			}
+			
+			imperial_guard_medium = {
+				fraction = {
+					factor = 15
+				}
+			}
+			
+			imperial_guard_small = {
+				fraction = {
+					factor = 15
+				}
+			}
+			
+			conscripts = {
+				fraction = {
+					factor = 5
+				}
+			}
+			
+			# special 19
+			
+			Catachan_fighters = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Cadian_Shock_Troops = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Armageddon_Steel_Legion = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Death_Korps_of_Krieg = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Mordian_Iron_Guard = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Scintillan_Fusiliers = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Praetorian_Guard = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Valhallan_Ice_Warriors = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			Tallarn_Desert_Raiders = {
+				fraction = {
+					factor = 1
+				}
+			}
+			
+			Vostroyan_Firstborn = {
+				fraction = {
+					factor = 2
+				}
+			}
+			
+			
+			
+		}
+	}
+	modules = {
+		standard_event_module = {}
+		standard_economy_module = {}
+		standard_leader_module = {}
+		standard_diplomacy_module = {}
+		standard_technology_module = {}
+		standard_pop_factions_module = {}
+		standard_expansion_module = {}
+	}
+}

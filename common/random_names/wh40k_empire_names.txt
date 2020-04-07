@@ -1,0 +1,544 @@
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = tau_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Tau Empire"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = mankind_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Imperium of Man"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eyechaos_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Eye of terror Chaos"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = maelstormchaos_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Maelstorm chaos"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = sabbathchaos_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Sabbath worlds Chaos"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eldar_ulthwe_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Ulthwe Craftworld"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eldar_ymeloc_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Yme-Loc Craftworld"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eldar_bieltan_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Biel-Tan Craftworld"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eldar_alaitoc_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Alaitoc Craftworld"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eldar_iyanden_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Iyanden Craftworld"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = dregruk_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Dregruk Waaaaagh!"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = ghazgkull_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Ghazgkull Waaaaagh!"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = archkilla_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Arch-Killa Waaaaagh!"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = gorbad_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Gorbad Waaaaagh!"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = charadon_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Charadon Empire"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = redsunsystem_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Red Sun Systems Orks"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = necronnovokh_empire	
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Novokh Dynasty"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = necronsautekh_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Sautekh Dynasty"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = necronoruscar_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Oruscar Dynasty"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = necronmaynarkh_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Maynarkh Dynasty"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+######################################
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = terellian_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Terellian"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = hellgrammite_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Hellgrammite"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = jorgalleg_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Jorgalleg"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = rakgol_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Rak-Gol"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = slaugth_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Slaugth"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = calixis_human_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Calixis Sector worlds"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = jagga_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Jagga waaaagh!"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = gathrog_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Gathrog waaaagh!"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = necronkardenath_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Kardenath Dynasty"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = necronbone_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Bone Kingdom"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eldar_dark_com_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Dark Eldars"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = calixis_cheresy_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Calixis Sector Cheresy"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = southchaos_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Chaos Deamons"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = eastchaos_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Chaos Heresy"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = rebelchaos_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Chaos Rebels"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = segmentum_obscurus_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Segmentum Obscurus"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "S O"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = segmentum_pacificus_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Segmentum Pacificus"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "S P"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = segmentum_tempestus_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Segmentum Tempestus"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}
+
+empire_name_format = {
+	random_weight = {
+		factor = 0
+		modifier = {
+			add = 10000
+			has_country_flag = segmentum_ultima_star_empire
+			# NOT = { is_country_type = rebel }
+		}
+	}
+	format = "Segmentum Ultima"
+	noun = "[This.GetSpeciesName]"
+	prefix_format = "T U"
+}

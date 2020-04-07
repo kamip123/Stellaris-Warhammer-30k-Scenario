@@ -1,0 +1,177 @@
+﻿### Rakgol_Names_1
+RAKGOL1 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = { Weevil Icarian Testaeos Flea Wireworm Cricket Webworm Chalcid Coneworm Sawfly Cutworm 
+					
+		}
+	
+		corvette = { Leafhopper 
+		}
+		
+		destroyer = { Lacewing
+		}
+		
+		cruiser = { 
+			Beetle
+		}
+		
+		battleship = { 
+			Hornet 
+		}
+		
+		science = {
+		}
+		
+		colonizer = { 
+		}
+		
+		constructor = { 
+		}
+		
+		orbital_station = { }
+		mining_station = { }
+		research_station = { }
+		wormhole_station = { }
+		terraform_station = { }
+		observation_station = { }
+		outpost_station = {
+			random_names = {
+				
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+	
+		military_station_small = {}
+	
+		military_station_medium = {}
+	
+		military_station_large = {}	
+	}
+	
+	fleet_names = {
+		random_names = { Honey Carpenter Andrena Sweat Fabriciana Altercator Dasypoda Choreutius "Yellow Jacket" "Mud Dauber"
+		"Giant Hornet" Wasp "Predatory Hornet" "Bald-faced Hornet" "Emerald Cockroach" Vespula Chrysis
+		}
+		sequential_name = "%O% Fleet"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Carvers"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Broodmasters"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Lesser Race Warriors"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Cloned Rak'gols"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Abominations"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Renders"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Techno-Shamans"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Flesh Reapers"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Reality Flayers"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				"Beta Fortanis" Ephraeleon Porphetus Vallyx Arcteri Bekrin Gryphonne Miral Radnar Tan Ymgarl
+				Aradium Darvon Graia Gravalax Ichar Lamarno "Ghosar Quintus" Radnar Sabulorb Stalinvast Thranx
+				Torhaven Sotha Miral Macragge
+		
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Death Skin" "Blood Blister"
+			}
+			
+			# Always combined with a second name
+			first_names = { Yellow Blue Red Green Orange Black Brown Gray White Purple Bark Long Hard Blood Rage Sensation Despair Desecrated Filth Violent Changed Shifting Bone Debauched Wire Blister Bloodsucking Blackheaded
+							Blackburn Leaf Flesh
+			}
+			
+			# Always combined with a first name
+			second_names = { Tail Carapace Claw Fang Hand Scale Blade Horn Spittle Borer Vine Weaver Soldier
+			}
+			
+			regnal_first_names = { Yellow Blue Red Green Orange Black Brown Gray White Purple Bark Long Hard Blood Rage Sensation Despair Desecrated Filth Violent Changed Shifting Bone Debauched Wire Blister Bloodsucking Blackheaded
+							Blackburn Leaf Flesh
+			}
+			regnal_second_names = { Tail Carapace Claw Fang Hand Scale Blade Horn Spittle Borer Vine Weaver Soldier
+			}
+		}
+	}
+}

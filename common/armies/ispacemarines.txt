@@ -1,0 +1,960 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Dark_Angels = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_planet_flag = Calibanplanet
+			has_building = "building_Dark_Angels_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smda" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smda" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smda" 
+				value = -1
+			}
+		}
+	}
+}
+
+White_Scars = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_White_Scars_fortress_monastery"
+			has_planet_flag = Chogorisplanet
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smws" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smws" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smws" 
+				value = -1
+			}
+		}
+	}
+}
+
+Space_Wolves = {
+	damage = 3.1
+	health = 8.1
+	morale = 3.1
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 560
+		}
+
+		upkeep = {
+			energy = 3.1
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smsw" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			has_planet_flag = Fenrisplanet
+			has_building = "building_Space_Wolves_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smsw" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smsw" 
+				value = -1
+			}
+		}
+	}
+}
+
+Imperial_Fists = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_Imperial_Fists_fortress_monastery"
+		has_planet_flag = Terraplanet
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smif" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smif" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smif" 
+				value = -1
+			}
+		}
+	}
+}
+
+Blood_Angels = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smba" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			has_planet_flag = Baalplanet
+			has_building = "building_Blood_Angels_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smba" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smba" 
+				value = -1
+			}
+		}
+	}
+}
+
+Iron_Hands  = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_Iron_Hands_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smih" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smih" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smih" 
+				value = -1
+			}
+		}
+	}
+}
+
+ultramarines = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smu" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			#has_planet_flag = Macraggeplanet
+			has_building = "building_ultramarines_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smu" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smu" 
+				value = -1
+			}
+		}
+	}
+}
+
+Salamanders = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet= {
+				has_building = "building_Salamanders_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smsm" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smsm" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smsm" 
+				value = -1
+			}
+		}
+	}
+}
+
+Raven_Guard = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_Raven_Guard_fortress_monastery"
+		}
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smrg" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smrg" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smrg" 
+				value = -1
+			}
+		}
+	}
+}
+############
+Grey_Knights = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smgk" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			has_planet_flag = Titanplanet
+			has_building = "building_Grey_Knights_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smgk" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smgk" 
+				value = -1
+			}
+		}
+	}
+}
+
+Black_Templars = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_Black_Templars_fortress_monastery"
+		}
+		
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smbt" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smbt" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smbt" 
+				value = -1
+			}
+		}
+	}
+}
+
+Blood_Ravens = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_Blood_Ravens_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smbr" 
+					value = 6
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smbr" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smbr" 
+				value = -1
+			}
+		}
+	}
+}
+
+Legio_Custodes = {
+	damage = 3.0
+	health = 13.0
+	morale = 3.0
+	defensive = yes
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smlc" 
+					value = 5
+				}
+			}
+		}
+		planet = {
+			has_building = "building_Legio_Custodes_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smlc" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smlc" 
+				value = -1
+			}
+		}
+	}
+}
+
+Deathwatch = {
+	damage = 3.0
+	health = 8.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smdw" 
+					value = 6
+				}
+			}
+		}
+		planet = {
+			has_building = "building_Deathwatch_fortress_monastery"
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smdw" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smdw" 
+				value = -1
+			}
+		}
+	}
+}
+
+Winged_Hussars = {													#some one have added a non canon chapter, i'am looking at you kamil
+	damage = 9.0													#some one have added a non canon chapter, i'am looking at you kamil
+	health = 4.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_Winged_Hussars_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smwh" 
+					value = 7
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smwh" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smwh" 
+				value = -1
+			}
+		}
+	}
+}
+
+Sisters_of_Battle = {
+	damage = 4.0
+	health = 7.0
+	morale = 3.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 360
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	#prerequisites = { "tech_gene_seed_purification" }
+	
+	potential = {
+		planet = {
+			has_building = "building_Sisters_of_Battle_fortress_monastery"
+		}
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "smsob" 
+					value = 8
+				}
+			}
+		}
+		owner = {
+			has_country_flag = human_empire
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "smsob" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "smsob" 
+				value = -1
+			}
+		}
+	}
+}

@@ -1,0 +1,449 @@
+
+namespace = loreevents
+
+# 1 message triger
+country_event = {
+	id = loreevents.50
+	hide_window = yes
+	fire_only_once = yes
+	
+	trigger = {
+	}
+	
+	immediate = {
+		every_country = {
+			limit = {
+				is_country_type = default
+				is_ai = no
+			}
+			country_event = { id = loreevents.99 days = 5 }
+		}	
+	}
+	
+}
+
+# 1 message
+country_event = {
+	id = loreevents.99
+	title = "Few Words"
+	desc = lorexp.99.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_evt_Few_Words_Picture
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	
+	option = {
+		name = "So... Let the Galaxy Burn!"
+		hidden_effect = {
+			country_event = { id = loreevents.51 }
+		}
+	}
+}
+
+# 2 message
+country_event = {
+	id = loreevents.51
+	title = "Events"
+	desc = "Do you want some lore and current galaxy situation explaining events ? Recomended for first gameplay."
+	is_triggered_only = yes
+	picture = GFX_evt_Few_Words_Picture
+	
+	trigger = {
+		
+	}
+	
+	immediate = {
+				
+	}
+	
+	option = {
+		name = "Yes"
+		hidden_effect = {
+			country_event = { id = loreevents.2 }
+		}
+	}
+	
+	option = {
+		name = "No"
+	}
+}
+
+#disclaimer 
+country_event = {
+	id = loreevents.98
+	title = "Disclaimer"
+	desc = lorexp.98.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_evt_Games_Workshop_Logo
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	
+	option = {
+		name = "So... Let the Galaxy Burn!"
+	}
+}
+
+# 3 message
+country_event = {
+	id = loreevents.2
+	title = "Imperium of Man"
+	desc = lorexp.1.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_evt_Imperium_Lore
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.3 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.3
+	title = "Chaos"
+	desc = lorexp.2.desc
+	is_triggered_only = yes
+	fire_only_once = yes
+	picture = GFX_evt_Chaos_Lore
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.4 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.4
+	title = "Orks"
+	desc = lorexp.3.desc
+	picture = GFX_evt_Ork_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.5 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.5
+	title = "Eldars"
+	desc = lorexp.4.desc
+	picture = GFX_evt_Eldar_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.6 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.6
+	title = "Dark Eldars"
+	desc = lorexp.5.desc
+	picture = GFX_evt_Dark_Eldar_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.7 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.7
+	title = "Tau"
+	desc = lorexp.6.desc
+	picture = GFX_evt_Tau_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.8 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.8
+	title = "Necrons"
+	desc = lorexp.7.desc
+	picture = GFX_evt_Necrons_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.9 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.9
+	title = "Terellian"
+	desc = lorexp.8.desc
+	picture = GFX_evt_Terellian_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+			
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.10 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.10
+	title = "Hellgrammite"
+	desc = lorexp.9.desc
+	picture = GFX_evt_Hellgrammite_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.11 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.11
+	title = "Jorgalleg"
+	desc = lorexp.10.desc
+	picture = GFX_evt_Jorgalleg_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.12 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.12
+	title = "Rak-Gol"
+	desc = lorexp.11.desc
+	picture = GFX_evt_RakGol_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.13 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.13
+	title = "Slaugth"
+	desc = lorexp.12.desc
+	picture = GFX_evt_Slaugth_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.14 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.14
+	title = "Age of apostasy"
+	desc = lorexp.13.desc
+	picture = GFX_evt_Age_Of_Apostasy
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.15 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.15
+	title = "Angevin Crusade"
+	desc = lorexp.14.desc
+	picture = GFX_evt_Angevin_Crusade
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.16 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.16
+	title = "Warp travel"
+	desc = lorexp.15.desc
+	picture = GFX_evt_Warp_Travel_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		hidden_effect = {
+			country_event = { id = loreevents.17 }
+		}
+	}
+}
+
+country_event = {
+	id = loreevents.17
+	title = "Situation"
+	desc = lorexp.20.desc
+	picture = GFX_evt_Situation_Lore
+	is_triggered_only = yes
+	fire_only_once = yes
+	trigger = {
+		#is_country_type = default
+	}
+	
+	immediate = {
+				
+	}
+	option = {
+		name = "ok"
+		
+	}
+}
+

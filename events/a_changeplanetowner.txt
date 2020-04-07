@@ -1,0 +1,905 @@
+namespace = changeowner
+
+######## change owner
+country_event = {
+	id = changeowner.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		root = { 
+			not = {
+				has_country_flag = tyranidhivefleetxd 
+			}	
+		}
+	}
+	
+	immediate = {
+		FROMFROM = {
+			set_controller = root
+			set_owner = controller
+			every_tile = {
+				limit = {
+					has_building = yes
+					is_ruined = yes
+				}
+				remove_building = yes
+			}
+			solar_system = {
+				starbase = {
+					set_owner = root
+				}
+			}
+		}
+		FROMFROM = {
+			while = {
+				num_pops > 1
+				random_pop = { kill_pop = yes }
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			create_pop = {
+				species = owner_main_species
+				ethos = owner
+			}
+			random_pop = {
+				limit = {
+					NOT = {
+						is_same_species = root
+					}	
+				}
+				kill_pop = yes
+			}
+			random_pop = {
+				limit = {
+					NOT = {
+						is_same_species = root
+					}	
+				}
+				kill_pop = yes
+			}
+		}		
+	}
+}
+###### craftworld
+country_event = {
+	id = changeowner.2
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_craftworld
+				}
+				
+			}
+			if = {
+				limit = {
+					not = {
+						root = {
+							has_country_flag = eldar_empire
+						}
+					}
+				}	
+				FROMFROM = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = pc_emptyplanet
+				}	
+			}	
+		}	
+	}
+}
+###### daemon
+country_event = {
+	id = changeowner.3
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					or = {
+						is_planet_class = pc_daemon
+						is_planet_class = pc_daemont
+						is_planet_class = pc_daemons
+						is_planet_class = pc_daemonn
+					}
+				}
+			}
+				
+			if = {
+				limit = {
+					not = {
+						root = {
+							has_country_flag = chaos_empire
+						}
+					}
+				}	
+				FROMFROM = {
+					destroy_colony = { keep_buildings = no }
+				}	
+			}
+		}	
+	}
+}
+###### tomb
+country_event = {
+	id = changeowner.4
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_tomb
+				}
+			}
+			if = {
+				limit = {
+					not = {
+						root = {
+							has_country_flag = necron_empire
+						}
+					}
+				}	
+				FROMFROM = {
+					destroy_colony = { keep_buildings = no }
+				}	
+			}			
+		}	
+	}
+}
+###### commoragh
+country_event = {
+	id = changeowner.5
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_webway
+				}
+			}
+				
+			if = {
+				limit = {
+					not = {
+						root = {
+							has_country_flag = eldardark_empire
+						}
+					}
+				}	
+				FROMFROM = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = pc_emptyplanet
+				}	
+			}
+		}	
+	}
+}
+###### spacehulk
+country_event = {
+	id = changeowner.6
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_spacehulk
+				}
+			}
+			
+			if = {
+				limit = {
+					not = {
+						root = {
+							has_country_flag = ork_empire
+						}
+					}
+				}	
+				FROMFROM = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = pc_emptyplanet
+				}	
+			}
+		}	
+	}
+}
+###### ork world
+country_event = {
+	id = changeowner.7
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_orkworld
+				}
+			}
+				
+			if = {
+				limit = {
+					not = {
+						root = {
+							has_country_flag = ork_empire
+						}
+					}
+				}	
+				FROMFROM = {
+					random_tile = {
+						limit = {
+							has_building = "the_beast_da_camp"
+						}
+						remove_building = yes
+					}
+					change_pc = pc_tropical
+					remove_modifier = "orkworld_planet"
+				}	
+			}
+		}	
+	}
+}
+###### tau sept
+country_event = {
+	id = changeowner.70
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_advancecity
+				}
+			}
+			
+			if = {
+				limit = {
+					not = {
+						root = {
+							has_country_flag = tau_empire
+						}
+					}
+				}	
+				FROMFROM = {
+					random_tile = {
+						limit = {
+							has_building = "etheral_caste"
+						}
+						remove_building = yes
+					}
+				}	
+			}			
+		}	
+	}
+}
+###### blackstone fortress
+country_event = {
+	id = changeowner.8
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_blackstonefortress
+				}
+				
+			}
+			if = {
+				limit = {
+					root = {
+						has_country_flag = chaos_empire
+					}
+				}
+				FROMFROM = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = pc_emptyplanet
+				}
+				root = {
+					set_timed_country_flag = { flag = to_recive_blackstone_fortress_chaos days = 2 }
+					country_event = { id = blackplanespaw.1 }
+				}	
+			}		
+		}
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_blackstonefortress
+				}
+			}
+			if = {
+				limit = {
+					root = {
+						has_country_flag = necron_empire
+					}
+				}
+				root = {
+					set_timed_country_flag = { flag = to_recive_blackstone_fortress days = 2 }
+				}
+				FROMFROM = {
+					destroy_colony = { keep_buildings = no }
+					change_pc = pc_emptyplanet
+					planet_event = { id = blackplanespaw.10 }
+				}
+			}	
+		}
+	}
+}
+######### certain planets fall
+
+######### Terra
+country_event = {
+	id = changeowner.295
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	immediate = {	
+	}
+}
+
+country_event = {
+	id = changeowner.9
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					has_planet_flag = Terraplanet
+				}
+				not = {
+					FROMFROM = {
+						has_planet_flag = Terraplanetfallen
+					}
+				}
+			}
+			root = {
+				country_event = { id = changeowner.10 }
+			}
+			#FROMFROM = {
+			#	set_planet_flag = Terraplanetfallen
+			#}
+		}	
+	}
+}
+
+country_event = {
+	id = changeowner.291
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	immediate = {	
+	}
+}
+
+country_event = {
+	id = changeowner.10
+	title = "Fall of Terra!"
+	desc = terfal.1.desc
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {	
+	}
+	
+	option = {
+		name = "Kill The False Emperor! And destroy Astronomican."
+		country_event = { id = changeowner.11 }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100000
+				or = {
+					has_country_flag = chaos_empire
+					has_country_flag = ork_empire
+					has_country_flag = slaugth_empire
+					has_country_flag = terellian_empire
+					has_country_flag = rakgol_empire
+					has_country_flag = jorgalleg_empire
+					has_country_flag = hellgrammite_empire
+					has_country_flag = necron_empire
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Keep Emperor alive and Astronomican working."
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100000
+				has_country_flag = tau_empire
+				has_country_flag = human_empire
+				has_country_flag = eldar_empire
+			}
+		}
+	}
+}
+
+country_event = {
+	id = changeowner.293
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	immediate = {	
+	}
+}
+
+country_event = {
+	id = changeowner.11
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	immediate = {	
+		every_country = {
+			limit = {
+				has_country_flag = mankind_star_empire
+			}
+			add_modifier = {
+				modifier = "fall_of_terra"
+			}
+			set_country_flag = terra_has_fallen
+		}
+		every_planet = {
+			limit = {
+				has_planet_flag = Terraplanet
+			}
+			set_planet_flag = Terraplanetfallen
+		}
+	}
+}
+
+
+
+######### Cadia
+country_event = {
+	id = changeowner.15
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					has_planet_flag = Cadiaplanet
+				}
+			
+				not = {
+					FROMFROM = {
+						has_planet_flag = Cadiaplanetfallen
+					}
+				}
+			}	
+			root = {
+				country_event = { id = changeowner.16 }
+			}	
+			#FROMFROM = {
+			#	set_planet_flag = Cadiaplanetfallen
+			#}
+		}	
+	}
+}
+
+
+
+country_event = {
+	id = changeowner.16
+	title = "Fall of Cadia!"
+	desc = "Cadia has fallen to your forces. You can decide what to do with Strange pylons around planet..."
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {	
+	}
+	
+	option = {
+		name = "Destroy them..."
+		country_event = { id = changeowner.17 }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100000
+				or = {
+					has_country_flag = chaos_empire
+					has_country_flag = ork_empire
+					has_country_flag = slaugth_empire
+					has_country_flag = terellian_empire
+					has_country_flag = rakgol_empire
+					has_country_flag = jorgalleg_empire
+					has_country_flag = hellgrammite_empire
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Keep them working."
+		trigger = {
+			not = {
+				has_country_flag = chaos_empire
+			}
+		}
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100000
+				has_country_flag = tau_empire
+				has_country_flag = human_empire
+				has_country_flag = necron_empire
+				has_country_flag = eldar_empire
+			}
+		}
+	}
+}
+
+country_event = {
+	id = changeowner.17
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	immediate = {	
+		every_country = {
+			limit = {
+				has_country_flag = mankind_star_empire
+			}
+			add_modifier = {
+				modifier = "fall_of_cadia"
+			}
+			set_country_flag = cadia_has_fallen
+		}
+		country_event = { id = trzynastablackcrusade.50 }
+		every_planet = {
+			limit = {
+				has_planet_flag = Cadiaplanet
+			}
+			set_planet_flag = Cadiaplanetfallen
+		}
+	}
+}
+
+###### eternalcrusader
+country_event = {
+	id = changeowner.18
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					is_planet_class = pc_eternalcrusader
+				}
+				not = {
+					root = {
+						has_country_flag = human_empire
+					}
+				}
+			}
+			FROMFROM = {
+				destroy_colony = { keep_buildings = no }
+				change_pc = pc_emptyplanet
+			}	
+		}	
+	}
+}
+
+country_event = {
+	id = changeowner.287
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	immediate = {	
+	}
+}
+
+######### Maccrage
+country_event = {
+	id = changeowner.20
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					has_planet_flag = Macraggeplanet
+				}
+				not = {
+					FROMFROM = {
+						has_planet_flag = Macraggeplanetfallen
+					}
+				}
+			}
+			root = {
+				country_event = { id = changeowner.21 }
+			}
+			#FROMFROM = {
+			#	set_planet_flag = Macraggeplanetfallen
+			#}			
+		}	
+	}
+}
+
+country_event = {
+	id = changeowner.289
+	hide_window = yes
+	is_triggered_only = yes
+	trigger = {
+
+	}
+	immediate = {	
+	}
+}
+
+country_event = {
+	id = changeowner.21
+	title = "Fall of Macragge!"
+	desc = macfal.1.desc
+	is_triggered_only = yes
+	
+	option = {
+		name = "Kill Him!"
+		country_event = { id = changeowner.22 }
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100000
+				or = {
+					has_country_flag = chaos_empire
+					has_country_flag = ork_empire
+					has_country_flag = slaugth_empire
+					has_country_flag = terellian_empire
+					has_country_flag = rakgol_empire
+					has_country_flag = jorgalleg_empire
+					has_country_flag = hellgrammite_empire
+					has_country_flag = necron_empire
+					has_country_flag = tyranidhivefleetxd
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "Keep him alive."
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 100000
+				has_country_flag = tau_empire
+				has_country_flag = human_empire
+				has_country_flag = eldar_empire
+			}
+		}
+	}
+}
+
+country_event = {
+	id = changeowner.22
+	hide_window = yes
+	is_triggered_only = yes
+	
+	trigger = {
+	}
+	
+	immediate = {	
+		every_country = {
+			limit = {
+				has_country_flag = mankind_star_empire
+			}
+			add_modifier = {
+				modifier = "fall_of_maccrage"
+			}
+			set_country_flag = maccrage_has_fallen
+		}
+		every_planet = {
+			limit = {
+				has_planet_flag = Macraggeplanet
+			}
+			set_planet_flag = Macraggeplanetfallen
+		}
+	}
+}
+
+###### rebels center
+country_event = {
+	id = changeowner.23
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				FROMFROM = {
+					random_tile = {
+						has_building = "rebels_center"
+					}	
+				}
+			}
+			FROMFROM = {
+				random_tile = {
+					limit = {
+						has_building = "rebels_center"
+					}
+					remove_building = yes
+				}
+			}	
+		}	
+	}
+}
+
+###### xeno center
+country_event = {
+	id = changeowner.79
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	trigger = {
+
+	}
+	
+	immediate = {
+		if = {
+			limit = {
+				not = {
+					root = {
+						or = {
+							has_country_flag = terellian_star_empire
+							has_country_flag = hellgrammite_star_empire
+							has_country_flag = jorgalleg_star_empire
+							has_country_flag = rakgol_star_empire
+							has_country_flag = slaugth_star_empire
+							has_country_flag = tau_empire
+						}
+					}
+				}
+			}
+			FROMFROM = {
+				random_tile = {
+					limit = {
+						has_building = "xenos_center"
+					}
+					remove_building = yes
+				}
+			}	
+		}	
+	}
+}

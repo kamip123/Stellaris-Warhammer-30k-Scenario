@@ -1,0 +1,105 @@
+Defilers_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_basic_army"
+	}
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+Chaos_Predators_recruitment = {
+	base_buildtime = 1
+	planet_unique = yes
+	
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 800
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_medium_army"
+	}
+	ai_weight = {
+		weight = 1000
+	}
+}
+
+Greater_Daemons_recruitment = {
+	base_buildtime = 30
+	planet_unique = yes
+	
+	
+	potential = {
+		owner = {
+			has_country_flag = chaos_empire
+		}
+	}
+	
+	base_cap_amount = 1
+	triggered_planet_modifier = {
+		modifier = {
+			job_foundry_add = 2
+		}
+	}
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 1000
+			energy = 1000
+		}			
+		upkeep = {
+			energy = 2
+		}
+	}
+	
+	prerequisites = {
+		"tech_advance_army"
+	}
+	ai_weight = {
+		weight = 100
+	}
+}

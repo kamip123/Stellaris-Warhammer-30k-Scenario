@@ -1,0 +1,220 @@
+﻿### Eldar_Names_1
+ELDAR1 = {	
+	### SHIPS
+
+	ship_names = {
+	
+		generic = {
+			Dragonship "Void Stalker" Hawk Eclipse Shadow Wraithship Naiad Shadowhunter Darkstar Eagle "Vampire Hunter" Nightwing Nightshade "Void Dragon" "Fire of Vaul" Vengeance Serpent "Void Serpent" "Void Rider" "Grace of Gea" "Storm Falcon" 
+			Starsteed Lightsteed Eagle Nymph Luna "Void Beast" "Graceful Blow" "Feather Touch" "Lighthunter" "Lightstar" "Shadewing"
+			Wyrmship Sunship Neonstar
+		}
+	
+		corvette = {
+		"Kurnous's Hound" Lioness "Spear of Khaine" Cicuta "Vampire Raider" Hellebore Hemlock Nightshade "Void Dancer"
+		}
+		
+		destroyer = {
+		"Laughing Destroyer" "Doom of Foes" Citropin Aurora Solaris Aconite Coldheart "Star Dancer"
+		}
+		
+		cruiser = {
+		"Terror of the Enemy" "Blade of Starlight" "Eagle Claw" Seadrake Dragonblade
+		}
+		
+		battleship = {
+		"Wrath of Asuryan" Strychos "Doom of Mon'Keigh" "Lance of Khaine" Eagleship
+		}
+		
+		science = {
+		"Tear Gatherer" "Exile of Morai-Heg" "Vessel of the Masque" "Star Serpent" Vitis Stardragon
+		}
+		
+		colonizer = {
+		"Void Serpent"  Lathyrin
+		}
+		
+		constructor = {
+		"Hand of Vaul" Dreamweaver
+		}
+		
+		orbital_station = { 
+		"Forge of Vaul" "Beauty of the Eldar" "Void Citadel"
+		}
+		mining_station = { 
+		"Bounty of Vaul" "Harvest Spire" "Wraith Orchestra"
+		}
+		research_station = { 
+		"Soul Gate" "Citadel of Spirits" "Wraithspire"
+		}
+		wormhole_station = { 
+		"Spiders Gate" "Gift of Paths"
+		}
+		terraform_station = { 
+		"Hearth Maker" "Garden of Isha" "Dream Crafter"
+		}
+		observation_station = { 
+		"Warp Home" "Ranger Home"
+		}
+		outpost_station = {
+			random_names = {
+				"Heaven Spire" Phoenix "Void Dragon" "Light Star" "Phantom Sun" Waypost
+			}
+			sequential_name = "%O% Frontier Outpost"
+		}
+	
+		military_station_small = {
+		"Defender of Tears" Waypost Phoenix "Void Dragon" "Light Star" "Phantom Sun"
+		}
+	
+		military_station_medium = {
+		Wraithspire "Guardian of Light" "Khaine's Protection" "Eagle Tower" Phoenix "Void Dragon" "Light Star" "Phantom Sun"
+		}
+	
+		military_station_large = {
+		"Void Citadel" "Dragon Home" "Defender of the Eldar" "Hope of the Eldar" Phoenix "Void Dragon" "Light Star" "Phantom Sun"
+		
+		}	
+	}
+	
+	fleet_names = {
+		random_names = {
+			"Alaitoc Fleet" "Altansar Fleet" "Biel-tan Fleet" "Lyanden Fleet" "Saim-Hann Fleet" "Uthwe Fleet"
+			"Dorhai Fleet" "Arach-Qin Fleet" "Kinshara Fleet" "Telennar Fleet" "Tir-Val Fleet" "Elimination Fleet" "Wrath of Khaine" "Anleth's Warhost"
+			"Maenelle's Warhost" "Great Warhost"
+		}
+		sequential_name = "%O% Warhost"
+	}
+
+
+	###ARMIES
+	army_names = {
+	
+		defense_army = {
+			sequential_name = "%O% Guardian Defenders"
+		}
+			
+		assault_army = {
+			sequential_name = "%O% Dire Avengers"
+		}
+		
+		slave_army = {
+			sequential_name = "%O% Lesser Race Warriors"
+		}
+		
+		clone_army = {
+			sequential_name = "%O% Clone Warriors"
+		}
+		
+		robotic_army = {
+			sequential_name = "%O% Wraithguards"
+		}
+		
+		android_army = {
+			sequential_name = "%O% Wraithknight"
+		}
+		
+		psionic_army = {
+			sequential_name = "%O% Farseer"
+		}
+		
+		xenomorph_army = {
+			sequential_name = "%O% Exodite"
+		}
+		
+		gene_warrior_army = {
+			sequential_name = "%O% Howling Banshee"
+		}
+	}
+	
+	### PLANETS
+	
+	planet_names = {
+	
+		generic = {
+			names = {
+				Alayran Davinuus Emele Eth-aelas Ethero Equinox Hannibal "Kal Eyath" Kiliak Lethidia Lilae'Fionnadh Lilarsus Meridian Morshanna Rasilena Talithia Tarsus Torvendis Twenty-Eight-Four Perdus Delos Verdicon Baran Carnac Halathel Haranshemash Ishareq Lileathanir
+				Menimshemash Selesti Tar-Etenil Teleth-ai Tirathain T'krahn Avunessa Haim'ra Leylyn Polassia Morlenia Kesenthia Delendris Talshanna Syrdath Menash
+		
+			}
+		}
+		
+		pc_desert = {
+			names = {
+			Ishlian Yaneath
+			}
+		}
+		
+		pc_tropical = {
+			names = {
+			Sylan Celesti
+			}
+		}
+		
+		pc_arid = {
+			names = {
+			Aehan Karan
+			}
+		}
+		
+		pc_continental = {
+			names = {
+			Tuatha Valhin
+			}
+		}
+		
+		pc_ocean = {
+			names = {
+			Bel-hem Vel'alas
+			}
+		}
+		
+		pc_tundra = {
+			names = {
+			Teneria "Relen Tyran"
+			}
+		}
+		
+		pc_arctic = {
+			names = {
+			Hyxia Ilitho
+			}
+		}
+		
+	}
+	
+	### CHARACTERS
+	
+	character_names = {
+		default = {
+			# A complete name
+			full_names = {
+				"Eldrad Ulthran" Yriel Asurmen Jain Zar Baharroth Karandras Fuegan "Maugan Ra" Irillyth Macha Taldeer Caerys Idranel Kelmon "Iyanna Arienal" "Slau Dha" Kayleth 
+				"Illic Nightspear" Kle'eyr Ni'iless "Sylandri Veilwalker" "Ailill Nuada"
+			}
+			
+			# Always combined with a second name
+			first_names = { Orodeer Elseith Gonmon Dararad Fueleath Isengen Barabas Ammaer Olarendil Barlath Baermela Meneldaen Gilsamere Firrye Gilbryn Aravena Taphedynn 
+			Mellovyss Menebrae Gilsamela Arandros Kileath Reneth Caenrys Methlia Anlec Ailith Aendris Kayleth Maugan Macha Caerys Idranel Kelmon Eldrad Yriel Asurya Lilean Asurmen Jain Fuegan Teclis Eltharion
+			Taenyl Caedrin Telan Kisbel Raseith
+			}
+			
+			# Always combined with a first name
+			second_names = { Veilwalker Nightshade Nightspear Deathtalker Nightwing Sunlance Phantomkiss Morningchild Doomhand Khaine Swiftblade Starbane
+			Ulthran Dreamweave Arienal Madallaith Bielann Ra Fireheart Fharenal Shadowblade Dawnseeker Sundancer Nightstrider Talonfury Falconwing Orkbane Beastslayer Ulrane Horaig Bielran Tyrion Mortyr Starseeker "Wraith Hand" "the Exile" "of Iyanden"
+			"of Saim-Hann" "of Biel-tan" "of Ulthwe" "of Mymerea" "of Yme-Loc"
+			}
+			
+			regnal_first_names = {
+				Orodeer Elseith Gonmon Dararad Fueleath Isengen Barabas Ammaer Olarendil Barlath Baermela Meneldaen Gilsamere Firrye Gilbryn Aravena Taphedynn 
+			Mellovyss Menebrae Gilsamela Arandros Kileath Reneth Caenrys Methlia Anlec Ailith Aendris Kayleth Maugan Macha Caerys Idranel Kelmon Eldrad Yriel Asurya Lilean Asurmen Jain Fuegan Teclis Eltharion
+			Taenyl Caedrin Telan Kisbel Raseith
+			}
+			regnal_second_names = {
+				Veilwalker Nightshade Nightspear Deathtalker Nightwing Sunlance Phantomkiss Morningchild Doomhand Khaine Swiftblade Starbane
+			Ulthran Dreamweave Arienal Madallaith Bielann Ra Fireheart Fharenal Anar "the Grim" "Warden Hand" "the Wise" Shadowblade Dawnseeker Sundancer Nightstrider Talonfury Falconwing Orkbane Beastslayer Ulrane Horaig Bielran Tyrion Mortyr Starseeker "Wraith Hand" "the Exile" "of Iyanden"
+			"of Saim-Hann" "of Biel-tan" "of Ulthwe" "of Mymerea" "of Yme-Loc"
+			}
+		}
+	}
+}

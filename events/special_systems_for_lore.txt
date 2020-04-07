@@ -1,0 +1,230 @@
+namespace = specialsystemsona
+
+country_event = {
+	id = specialsystemsona.2
+	fire_only_once = yes
+	is_triggered_only = yes
+	title = "Planet colonized"
+	desc ="This planet even tought was previously inhabited by humand was colonized by another empire."
+	picture = GFX_evt_Pierwsza_Black_Crusade
+	location = FROM
+	
+	option = {
+		name = "Ok"
+	}
+}
+
+country_event = {
+	id = specialsystemsona.3
+	title = "Planet found"
+	desc ="This planet is inhabited by humans. We can ask them to join our empire."
+	picture = GFX_evt_Pierwsza_Black_Crusade
+	location = FROM
+	is_triggered_only = yes
+	#fire_only_once = yes
+	
+	immediate = {
+		random_owned_planet = {
+			limit = {
+				has_planet_flag = alpha_centauri_planet
+			}
+			save_event_target_as = alpha_centauri_planet
+		}
+	}
+	
+	option = {
+		name = "Yes"
+		hidden_effect = {
+			event_target:alpha_centauri_planet = {
+				while = {
+					count = 10
+					add_district = district_city
+				}
+				while = {
+					count = 5
+					add_district = district_generator
+				}
+				while = {
+					count = 5
+					add_district = district_mining
+				}
+					
+				while = {
+					count = 30
+					create_pop = { species = owner_main_species }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "No"
+		hidden_effect = {
+			event_target:alpha_centauri_planet = {
+				destroy_colony = yes
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = specialsystemsona.1
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				AND = {
+					FROM = {
+						has_star_flag = alpha_centauri_colonize
+					}
+					FROMFROM = {
+						has_country_flag = human_empire
+					}
+				}
+			}	
+			FROMFROM = {
+				save_event_target_as = human_empire_to_recive_planet
+			}
+			FROM = {
+				random_system_planet = {
+					limit = {
+						has_planet_flag = alpha_centauri_planet
+					}
+					save_event_target_as = alpha_centauri_planet
+					if = {
+						limit = {
+							exists = owner
+						}
+					}
+					else = {
+						set_owner = event_target:human_empire_to_recive_planet
+						set_controller = event_target:human_empire_to_recive_planet
+						create_pop = { species = owner_main_species }
+						owner = {
+							country_event = { id = specialsystemsona.3 days = -1 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = specialsystemsona.5
+	fire_only_once = yes
+	is_triggered_only = yes
+	title = "Planet colonized"
+	desc ="This planet even tought was previously inhabited by humand was colonized by another empire."
+	picture = GFX_evt_Pierwsza_Black_Crusade
+	location = FROM
+	
+	option = {
+		name = "Ok"
+	}
+}
+
+country_event = {
+	id = specialsystemsona.6
+	title = "Planet found"
+	desc ="This planet is inhabited by humans. We can ask them to join our empire."
+	picture = GFX_evt_Pierwsza_Black_Crusade
+	location = FROM
+	is_triggered_only = yes
+	#fire_only_once = yes
+	
+	immediate = {
+		random_owned_planet = {
+			limit = {
+				has_planet_flag = necromunda_planet
+			}
+			save_event_target_as = necromunda_planet
+		}
+	}
+	
+	option = {
+		name = "Yes"
+		hidden_effect = {
+			event_target:necromunda_planet = {
+				while = {
+					count = 10
+					add_district = district_city
+				}
+				while = {
+					count = 5
+					add_district = district_generator
+				}
+				while = {
+					count = 5
+					add_district = district_mining
+				}
+					
+				while = {
+					count = 30
+					create_pop = { species = owner_main_species }
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "No"
+		hidden_effect = {
+			event_target:alpha_centauri_planet = {
+				destroy_colony = yes
+			}
+		}
+	}
+}
+
+ship_event = {
+	id = specialsystemsona.4
+	hide_window = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				AND = {
+					FROM = {
+						has_star_flag = necromunda_colonize
+					}
+					FROMFROM = {
+						has_country_flag = human_empire
+					}
+				}
+			}	
+			FROMFROM = {
+				save_event_target_as = human_empire_to_recive_planet
+			}
+			FROM = {
+				random_system_planet = {
+					limit = {
+						has_planet_flag = necromunda_planet
+					}
+					save_event_target_as = necromunda_planet
+					if = {
+						limit = {
+							exists = owner
+						}
+					}
+					else = {
+						set_owner = event_target:human_empire_to_recive_planet
+						set_controller = event_target:human_empire_to_recive_planet
+						create_pop = { species = owner_main_species }
+						owner = {
+							country_event = { id = specialsystemsona.6 days = -1 }
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+
+	

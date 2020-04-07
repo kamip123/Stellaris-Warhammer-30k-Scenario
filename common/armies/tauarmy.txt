@@ -1,0 +1,276 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+fire_warrior = {
+	damage = 1.40
+	health = 3.40
+	morale = 1.55
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 60
+		}
+
+		upkeep = {
+			energy = 2.3
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+}
+
+Vespid = {
+	damage = 1.55
+	health = 3.35
+	morale = 1.35
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 60
+		}
+
+		upkeep = {
+			energy = 2.3
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		planet = { has_planet_flag = vespidplanet }
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+}
+
+Kroot = {
+	damage = 1.35
+	health = 3.55
+	morale = 1.35
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 60
+		}
+
+		upkeep = {
+			energy = 2.3
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+
+	potential = {
+		planet = { has_planet_flag = pechplanet }
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+}
+
+XV8_Crisis_Battlesuits = {
+	damage = 1.55
+	health = 3.55
+	morale = 1.75
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 110
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 2.5
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+}
+
+XV25_Stealthsuit = {
+	damage = 1.80
+	health = 3.80
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 2.8
+		}
+	}
+	
+	prerequisites = { "tech_medium_army" }
+	
+	allow = {
+		has_building = "XV25_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+}
+
+XV88_Broadside_Battlesuit = {
+	damage = 4.2
+	health = 6.0
+	morale = 4.0
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 550
+		}
+
+		upkeep = {
+			energy = 4
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		has_building = "XV88_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+}
+
+XV104_Riptide_Battlesuit = {
+	damage = 6.2
+	health = 8.2
+	morale = 6.2
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 500
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 1050
+		}
+
+		upkeep = {
+			energy = 5.5
+		}
+	}
+	
+	prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		has_building = "XV104_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+}
+
+Hammerhead_Gunship = {
+	damage = 2.1
+	health = 4.1
+	morale = 2.1
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 160
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 3
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		has_building = "Hammerhead_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = tau_empire
+		}
+	}
+	
+}

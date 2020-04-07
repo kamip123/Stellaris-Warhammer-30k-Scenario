@@ -1,0 +1,234 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Lychguard = {
+	damage = 1.80
+	health = 3.80
+	morale = 1.80
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 3.7
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+}
+
+Necron_Warriors = {
+	damage = 1.55
+	health = 3.55
+	morale = 1.55
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 110
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.4
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+	
+}
+
+Destroyer = {
+	damage = 2
+	health = 4
+	morale = 2
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 170
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 200
+		}
+
+		upkeep = {
+			energy = 3.9
+		}
+	}
+	
+	prerequisites = { "tech_medium_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+	
+}
+
+Immortal = {
+	damage = 4.2
+	health = 6.2
+	morale = 4.2
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 540
+		}
+
+		upkeep = {
+			energy = 4.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		has_building = "Immortal_recruitment"
+	}
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+	
+}
+
+Canoptek_Wraith = {
+	damage = 3.5
+	health = 5.5
+	morale = 2.5
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 360
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 400
+		}
+
+		upkeep = {
+			energy = 4.5
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		has_building = "Canoptek_Wraith_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+	
+}
+
+Monolith = {
+	damage = 10.5
+	health = 13
+	morale = 10.5
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 1000
+	
+	icon_frame = 6
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 2000
+		}
+
+		upkeep = {
+			energy = 9
+		}
+	}
+	
+	prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		has_building = "Monolith_recruitment"
+		owner = {
+			NOT = { 
+				check_variable = {
+					which = "nm" 
+					value = 5
+				}
+			}
+		}
+	}
+	
+	on_queued = {
+		owner = {
+			change_variable = {
+				which = "nm" 
+				value = 1
+			}
+		}
+	}
+	
+	on_unqueued = {
+		owner = {
+			change_variable = {
+				which = "nm" 
+				value = -1
+			}
+		}
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = necron_empire
+		}
+	}
+	
+}
+
+
+
+

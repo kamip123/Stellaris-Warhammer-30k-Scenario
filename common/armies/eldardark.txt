@@ -1,0 +1,236 @@
+#morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
+
+# collateral_damage was not part of old file so set to vanilla values
+# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
+
+
+Wyches = {
+	damage = 1.80
+	health = 3.35
+	morale = 1.55
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 110
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.5
+		}
+	}
+	
+	prerequisites = { "tech_medium_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+}
+
+Kabalite_Warriors = {
+	damage = 1.35
+	health = 3.0
+	morale = 1.15
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 50
+		}
+
+		upkeep = {
+			energy = 3.2
+		}
+	}
+	
+	prerequisites = { "tech_medium_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+}
+
+Raider = {
+	damage = 3.8
+	health = 4.6
+	morale = 3
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 170
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 350
+		}
+
+		upkeep = {
+			energy = 4.3
+		}
+	}
+	
+	prerequisites = { "tech_titans_army" }
+	
+	allow = {
+		has_building = "Raider_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+}
+
+Venom = {
+	damage = 2.00
+	health = 3.60
+	morale = 1.80
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 150
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 150
+		}
+
+		upkeep = {
+			energy = 3.8
+		}
+	}
+	
+	prerequisites = { "tech_advance_army" }
+	
+	allow = {
+		has_building = "Venom_recruitment"
+	}
+	
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+}
+
+Scourges = {
+	damage = 0.50
+	health = 4.00
+	morale = 0.50
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 40
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 40
+		}
+
+		upkeep = {
+			energy = 3.1
+		}
+	}
+	
+	prerequisites = { "tech_assault_armies" }
+	
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+}
+
+Harlequins = {
+	damage = 1.55
+	health = 3.15
+	morale = 1.35
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 70
+		}
+
+		upkeep = {
+			energy = 3.3
+		}
+	}
+	
+	prerequisites = { "tech_basic_army" }
+
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+}
+
+Incubi = {
+	damage = 2.15
+	health = 3.15
+	morale = 1.35
+	####assault = yes #### no longer used
+	collateral_damage = 1.00										#added by mvd1984		
+	war_exhaustion = 0.0											#added by mvd1984
+	time = 90
+	
+	icon_frame = 2
+	
+	resources = {
+		category = armies
+		cost = {
+			minerals = 100
+		}
+
+		upkeep = {
+			energy = 3.4
+		}
+	}
+	
+	prerequisites = { "tech_medium_army" }
+	
+	potential = {
+		owner = {
+			has_country_flag = eldardark_empire
+		}
+	}
+	
+}

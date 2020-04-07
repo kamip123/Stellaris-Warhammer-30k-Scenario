@@ -1,0 +1,136 @@
+# Extradimensional Large Station
+ship_design = {
+	name = "Chaos_Warp_Storm"
+	ship_size = military_station_large_chaos
+	#ship_size = military_station_large_ed
+	#country_type = extradimensional_3 # Permits AI to build this if correct country type
+	
+	section = {
+		template = "chaos_warpstorm"
+		#template = "ed_station_large_green_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_04"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_SHIELD_5"
+		}		
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_WH"
+		}
+	}
+	required_component="STATION_LARGE_AURA_QUANTUM_DESTABILIZER"
+	required_component="SHIP_SENSOR_4"
+}
+
+
+
+ship_design = {
+	name = "Chaos_Warp_Storm_small"
+	#ship_size = military_station_large_chaos
+	ship_size = chaos_portal_ed
+	#country_type = extradimensional_3 # Permits AI to build this if correct country type
+	
+	section = {
+		template = "chaos_warpstorm"
+		#template = "ed_station_large_green_key"
+		slot = "mid"
+		
+		component = {
+			slot = "LARGE_GUN_01"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_02"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_03"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_GUN_04"
+			template = "LARGE_ED_WEAPON"
+		}
+		component = {
+			slot = "LARGE_UTILITY_1"
+			template = "LARGE_SHIELD_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_2"
+			template = "LARGE_SHIELD_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_3"
+			template = "LARGE_SHIELD_5"
+		}
+		component = {
+			slot = "LARGE_UTILITY_4"
+			template = "LARGE_SHIELD_5"
+		}		
+		component = {
+			slot = "LARGE_UTILITY_5"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+		component = {
+			slot = "LARGE_UTILITY_6"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+		component = {
+			slot = "LARGE_UTILITY_7"
+			template = "LARGE_ZERO_POINT_REACTOR"
+		}
+		
+		component = {
+			slot = "MEDIUM_UTILITY_1"
+			template = "BORDER_EXTRUDER_WH"
+		}
+	}
+	required_component="STATION_LARGE_AURA_QUANTUM_DESTABILIZER"
+	required_component="SHIP_SENSOR_4"
+}
+
+
+
+

@@ -1,0 +1,1924 @@
+# this file is made by mvd1984 for fast change of planets contents, districs, buildings and so.
+#
+#any future changes must be commentet by the "editor" / "add'er" this is so that it is easy 
+#
+#thanks ;)
+
+namespace = planets_and_stuf_setup
+
+#every_planet = { limit = { is_planet_class = pc_gaia } }    I'am using this to gather all planets into grupps for easy edit/update in the future
+
+#pc_hive_medium
+#class = "pc_hive_medium"
+#flags = { hiveplanet_planet }
+event = {
+    id = planets_and_stuf_setup.1
+    hide_window = yes
+    fire_only_once = yes
+    
+	immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_hive_medium
+    }
+    
+    
+        
+		while = {
+           count = 16
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 3
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+		
+    }
+	}
+}
+
+#pc_forge
+#class = "pc_forge"		
+#flags = { forgeplanet_planet }
+event = {
+    id = planets_and_stuf_setup.2
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_forge
+    }
+    
+            
+		while = {
+           count = 3
+           add_district = district_city
+       }
+			while = {
+           count = 5
+           add_district = district_generator
+       }
+			while = {
+           count = 5
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 35
+					create_pop = { species = owner_main_species }
+				}
+		while = {
+           count = 3
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+#pc_forgee
+#class = "pc_forgee"		
+#flags = { forgeeplanet_planet }
+event = {
+    id = planets_and_stuf_setup.3
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_forgee
+    }
+    
+            
+		while = {
+           count = 4
+           add_district = district_city
+       }
+			while = {
+           count = 7
+           add_district = district_generator
+       }
+			while = {
+           count = 7
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 40
+					create_pop = { species = owner_main_species }
+				}
+		while = {
+           count = 4
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+#pc_forgeee
+#class = "pc_forgeee"		
+#flags = { forgeeeplanet_planet }
+event = {
+    id = planets_and_stuf_setup.4
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_forgeee
+    }
+    
+            
+		while = {
+           count = 5
+           add_district = district_city
+       }
+			while = {
+           count = 8
+           add_district = district_generator
+       }
+			while = {
+           count = 8
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 45
+					create_pop = { species = owner_main_species }
+				}
+		while = {
+           count = 5
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_industrial
+#class = "pc_industrial"
+#flags = { industrialplanet_planet }
+event = {
+    id = planets_and_stuf_setup.5
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_industrial
+    }
+    
+            
+		while = {
+           count = 5
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 4
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 4
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 35
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_agri
+#class = "pc_agri"
+#flags = { agriplanet_planet }
+event = {
+    id = planets_and_stuf_setup.6
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_agri
+    }
+    
+    
+        
+		#while = {
+        #   count = 18
+        #   add_district = district_city
+       #}
+		#	while = {
+        #   count = 4
+        #   add_district = district_generator
+       #}
+		#	while = {
+        #   count = 3
+        #   add_district = district_mining
+       #}
+		while = {
+           count = 25
+           add_district = district_farming
+       }
+			
+			while = {
+					count = 25
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_shrine
+#class = "pc_shrine"
+#flags = { shrineplanet_planet }
+event = {
+    id = planets_and_stuf_setup.7
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_shrine
+    }
+    
+            
+		while = {
+           count = 18
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			while = {
+           count = 3
+           add_building = emperor_shrine
+       }
+			while = {
+					count = 20
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_penal
+#class = "pc_penal"
+#flags = { penalplanet_planet }
+event = {
+    id = planets_and_stuf_setup.8
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_penal
+    }
+    
+            
+		while = {
+           count = 3
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 7
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 20
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_fortress
+#class = "pc_fortress"
+#flags = { fortressplanet_planet }
+event = {
+    id = planets_and_stuf_setup.9
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_fortress
+    }
+    
+            
+		while = {
+           count = 4
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 5
+           add_district = district_mining
+       }
+			while = {
+           count = 4
+           add_building = building_stronghold
+       }
+			while = {
+					count = 30
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_tomb
+#class = "pc_tomb"
+#flags = { tombplanet_planet }
+event = {
+    id = planets_and_stuf_setup.10
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_tomb
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 7
+           add_district = district_generator
+       }
+			while = {
+           count = 5
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			add_building = full_developed_tomb
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+			
+			while = {
+					count = 70
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_hive_arid
+#class = "pc_hive_arid"
+#flags = { hive_aridplanet_planet }
+event = {
+    id = planets_and_stuf_setup.11
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_hive_arid
+    }
+    
+            
+		while = {
+           count = 12
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 4
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 35
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_hive_continental_01
+#class = "pc_hive_continental_01"
+#flags = { hive_continental_01planet_planet }
+event = {
+    id = planets_and_stuf_setup.12
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_hive_continental_01
+    }
+    
+            
+		while = {
+           count = 12
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 4
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 35
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_hive_continental_02
+#class = "pc_hive_continental_02"
+#flags = { hive_continental_02planet_planet }
+event = {
+    id = planets_and_stuf_setup.13
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_hive_continental_02
+    }
+    
+            
+		while = {
+           count = 12
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 4
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 35
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_hive_ocean
+#class = "pc_hive_ocean"
+#flags = { hive_oceanplanet_planet }
+event = {
+    id = planets_and_stuf_setup.14
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_hive_ocean
+    }
+    
+            
+		while = {
+           count = 12
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 4
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 35
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_hive_tundra
+#class = "pc_hive_tundra"
+#flags = { hive_tundraplanet_planet }
+event = {
+    id = planets_and_stuf_setup.15
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_hive_tundra
+    }
+    
+            
+		while = {
+           count = 12
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 4
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 35
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_super_hive
+#class = "pc_super_hive"
+#flags = { super_hiveplanet_planet }
+event = {
+    id = planets_and_stuf_setup.16
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_super_hive
+    }
+    
+            
+		while = {
+           count = 16
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 5
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 70
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_mega_hive
+#class = "pc_mega_hive"
+#flags = { mega_hiveplanet_planet }
+event = {
+    id = planets_and_stuf_setup.17
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_mega_hive
+    }
+    
+            
+		while = {
+           count = 16
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 5
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 100
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_forge_ring
+#class = "pc_forge_ring"
+#flags = { forge_ringplanet_planet }
+event = {
+    id = planets_and_stuf_setup.18
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_forge_ring
+    }
+    
+            
+		while = {
+           count = 7
+           add_district = district_city
+       }
+			while = {
+           count = 8
+           add_district = district_generator
+       }
+			while = {
+           count = 8
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 45
+					create_pop = { species = owner_main_species }
+				}
+		while = {
+           count = 5
+           add_building = building_foundry_1
+       }
+	}
+    }
+}
+
+#pc_forge_ring2
+#class = "pc_forge_ring2"
+
+event = {
+    id = planets_and_stuf_setup.19
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_forge_ring2
+    }
+    
+            
+		while = {
+           count = 7
+           add_district = district_city
+       }
+			while = {
+           count = 8
+           add_district = district_generator
+       }
+			while = {
+           count = 8
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+		while = {
+           count = 5
+           add_building = building_foundry_1
+       }
+	}
+    }
+}
+
+#pc_forge_ring3
+#class = "pc_forge_ring3"
+
+event = {
+    id = planets_and_stuf_setup.20
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_forge_ring3
+    }
+    
+            
+		while = {
+           count = 7
+           add_district = district_city
+       }
+			while = {
+           count = 8
+           add_district = district_generator
+       }
+			while = {
+           count = 8
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 55
+					create_pop = { species = owner_main_species }
+				}
+		while = {
+           count = 5
+           add_building = building_foundry_1
+       }
+	}
+    }
+}
+
+#pc_craftworld
+#class = "pc_craftworld"
+
+event = {
+    id = planets_and_stuf_setup.21
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_craftworld
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 5
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 70
+					create_pop = { species = owner_main_species }
+				}
+			add_building = craftworld_eternity_circuit
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+			
+	}
+    }
+}
+
+
+#pc_hive_industrial
+#class = "pc_hive_industrial"
+
+event = {
+    id = planets_and_stuf_setup.22
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_hive_industrial
+    }
+    
+            
+		while = {
+           count = 16
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			
+			while = {
+           count = 5
+           add_building = building_factory_1
+       }
+			
+			while = {
+					count = 55
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_advancecity
+#class = "pc_advancecity"
+
+event = {
+    id = planets_and_stuf_setup.23
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_advancecity
+    }
+    
+            
+		while = {
+           count = 8
+           add_district = district_city
+       }
+			while = {
+           count = 5
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+				
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+#pc_webway
+#class = "pc_webway"
+
+event = {
+    id = planets_and_stuf_setup.24
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_webway
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 5
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 70
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+#pc_spacehulk
+#class = "pc_spacehulk"
+#flags = { hiveplanet_planet }
+event = {
+    id = planets_and_stuf_setup.25
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_spacehulk
+    }
+    
+            
+		while = {
+           count = 4
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 20
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }	
+	
+	}
+    }
+}
+
+#pc_blackstonefortress
+#class = "pc_blackstonefortress"
+#flags = { hiveplanet_planet }
+event = {
+    id = planets_and_stuf_setup.26
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_blackstonefortress
+    }
+    
+            
+		while = {
+           count = 3
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 10
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_caliban
+#class = "pc_caliban"
+
+event = {
+    id = planets_and_stuf_setup.27
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_caliban
+    }
+    
+            
+		while = {
+           count = 3
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 10
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_eternalcrusader
+#class = "pc_eternalcrusader"
+event = {
+    id = planets_and_stuf_setup.28
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_eternalcrusader
+    }
+    
+            
+		while = {
+           count = 4
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 20
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_daemon
+#class = "pc_daemon"
+
+event = {
+    id = planets_and_stuf_setup.29
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_daemon
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 4
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_daemonn
+#class = "pc_daemonn"
+
+event = {
+    id = planets_and_stuf_setup.30
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_daemonn
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 4
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_daemont
+#class = "pc_daemont"
+
+event = {
+    id = planets_and_stuf_setup.31
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_daemont
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 4
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_daemons
+#class = "pc_daemons"
+
+event = {
+    id = planets_and_stuf_setup.32
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_daemons
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 6
+           add_district = district_generator
+       }
+			while = {
+           count = 4
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+#pc_advancexenocity
+#class = "pc_advancexenocity"
+
+event = {
+    id = planets_and_stuf_setup.33
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_advancexenocity
+    }
+    
+            
+		while = {
+           count = 5
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 50
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_advancexenocityy
+#class = "pc_advancexenocityy"
+
+event = {
+    id = planets_and_stuf_setup.34
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_advancexenocityy
+    }
+    
+            
+		while = {
+           count = 7
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 55
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_advancexenocityyy
+#class = "pc_advancexenocityyy"
+
+event = {
+    id = planets_and_stuf_setup.35
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_advancexenocityyy
+    }
+    
+            
+		while = {
+           count = 10
+           add_district = district_city
+       }
+			while = {
+           count = 5
+           add_district = district_generator
+       }
+			while = {
+           count = 5
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 70
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_orkworld
+#class = "pc_orkworld"
+
+event = {
+    id = planets_and_stuf_setup.36
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_orkworld
+    }
+    
+            
+		while = {
+           count = 5
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 100
+					create_pop = { species = owner_main_species }
+				}
+			
+			while = {
+           count = 2
+           add_building = building_factory_1
+       }
+			
+			while = {
+           count = 2
+           add_building = building_foundry_1
+       }
+	
+	}
+    }
+}
+
+
+#pc_armoury
+#class = "pc_armoury"
+
+event = {
+    id = planets_and_stuf_setup.37
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_armoury
+    }
+    
+            
+		while = {
+           count = 4
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 4
+           add_district = district_mining
+       }
+			
+			add_building = armoury_imperium
+			
+			
+			while = {
+					count = 20
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_destroyedplanet
+#class = "pc_destroyedplanet"
+
+event = {
+    id = planets_and_stuf_setup.38
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_destroyedplanet
+    }
+    
+            
+		while = {
+           count = 1
+           add_district = district_city
+       }
+			while = {
+           count = 2
+           add_district = district_generator
+       }
+			while = {
+           count = 4
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 5
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_arid
+#pc_savannah
+#pc_tropical
+#pc_continental
+#pc_ocean
+#pc_tundra
+#pc_arctic
+#pc_alpine
+
+#class = "pc_desert"
+#class = "pc_tropical"
+#class = "pc_arid"
+#class = "pc_ocean"
+#class = "pc_tundra"
+#class = "pc_arctic"
+#class = "pc_continental"
+#class = "pc_alpine"
+#class = "pc_savannah"
+
+event = {
+    id = planets_and_stuf_setup.39
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+	or = {
+        is_planet_class = pc_desert
+		is_planet_class = pc_tropical
+		is_planet_class = pc_arid
+		is_planet_class = pc_ocean
+		is_planet_class = pc_tundra
+		is_planet_class = pc_arctic
+		is_planet_class = pc_continental
+		is_planet_class = pc_alpine
+		is_planet_class = pc_savannah
+		}
+    }
+    
+            
+		while = {
+           count = 2
+           add_district = district_city
+       }
+			while = {
+           count = 2
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 10
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+
+#pc_nuked ?????
+#class = "pc_nuked"
+
+event = {
+    id = planets_and_stuf_setup.40
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_nuked
+    }
+    
+            
+		while = {
+           count = 2
+           add_district = district_city
+       }
+			while = {
+           count = 3
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 15
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#pc_gaia
+#class = "pc_gaia"
+
+event = {
+    id = planets_and_stuf_setup.41
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        is_planet_class = pc_gaia
+    }
+    
+            
+		while = {
+           count = 2
+           add_district = district_city
+       }
+			while = {
+           count = 2
+           add_district = district_generator
+       }
+			while = {
+           count = 2
+           add_district = district_mining
+       }
+			while = {
+           count = 2
+           add_district = district_farming
+       }
+			while = {
+					count = 10
+					create_pop = { species = owner_main_species }
+				}
+	
+	}
+    }
+}
+
+
+#spacemarinehomeworld
+event = {
+    id = planets_and_stuf_setup.42
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        has_planet_flag = spacemarinehomeworld
+    }
+               
+				
+			add_building = emperor_shrine_smh
+			
+	
+	
+	}
+    }
+}
+
+#salemanderhomeworld
+event = {
+    id = planets_and_stuf_setup.43
+    hide_window = yes
+    fire_only_once = yes
+    
+    immediate = {
+	every_planet = {
+	
+    limit = {
+        has_planet_flag = Nocturneplanet
+    }
+               
+			while = {
+           count = 3
+           add_district = district_city
+       }
+			while = {
+           count = 4
+           add_district = district_generator
+       }
+			while = {
+           count = 3
+           add_district = district_mining
+       }
+			
+			while = {
+					count = 10
+					create_pop = { species = owner_main_species }
+				}			
+	
+	
+	}
+    }
+}
