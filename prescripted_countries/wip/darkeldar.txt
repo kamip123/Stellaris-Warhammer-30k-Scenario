@@ -1,40 +1,40 @@
 # Dark Eldar
 onyx_scar = {
 	name = "Kabal of the Onyx Scar"
-	spawn_enabled = yes # yes / no / always
-	
-	species_name = "Dark Eldar"
-	species_plural = "Dark Eldar"	#we should localize the names!
-	species_adjective = "Dark Eldar"
 	adjective = "Dark Eldar"
+	spawn_enabled = always # yes / no / always
 	
-	name_list = "DARKELDAR1"
 	ship_prefix = "ICS"
 	
-	species_class = "DAR"
-	trait = "trait_venerable"
-	trait = "trait_weak"
-	trait = "trait_slow_breeders"
-	portrait = "imp_dark_eldar"
+	species = {
+		class = "DAR"
+		portrait= "imp_dark_eldar"
+		name = "Dark Eldar"
+		plural = "Dark Eldar" #we should localize the names!
+		adjective = "Dark Eldar"
+		name_list = "DARKELDAR1"
+		trait = "trait_venerable"
+		trait = "trait_weak"
+		trait = "trait_slow_breeders"
+	}
 	
-	planet_name = "Ix'Athrak"
-	planet_class = "pc_tundra"
-	system_name = Athrak
+	room = "personality_erudite_explorers_room"
 	
-	###initializer=""
+	ethic = "ethic_materialist"
+	ethic = "ethic_xenophobe"
+	ethic = "ethic_militarist"
 	flags={ 
 		eldar_dark_com_empire	
 		eldardark_empire		
 	}
-	spawn_enabled=always
-	
 	government = "military_junta"
-	ethic = "ethic_materialist"
-	ethic = "ethic_xenophobe"
-	ethic = "ethic_militarist"
+
+	origin = "origin_default"
 	
-	weapon = "tech_lasers_1"
-	ftl = wormhole
+	planet_name = "Ix'Athrak"
+	planet_class = "pc_tundra"
+	system_name = Athrak
+	#initializer=""
 	
 	graphical_culture = "avian_01"
 	city_graphical_culture = "avian_01"
@@ -55,14 +55,13 @@ onyx_scar = {
 			"null"
 		}
 	}
-	
+	ruler = {
+		randomized = yes
+	}
 	#leader = {
 	#	name = "Xid'Ixa'Xir'Idon"
 	#	class = ruler
 	#	portrait = "art12"
 	#	experience = 1200.0
 	#}	
-	ruler = {
-		randomized = yes
-	}
 }

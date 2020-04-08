@@ -1,48 +1,47 @@
 # Craftworld ulthwe
 craftworld_ulthwe = {
 	name = "Craftworld Ulthwe"
-	
-	species_name = "Eldar"
-	species_plural = "Eldar"	#we should localize the names!
-	species_adjective = "Eldar"
 	adjective = "Eldar"
+	spawn_enabled=always # yes / no / always
 	
-	name_list = "ELDAR1"
 	ship_prefix = ""
 	
-	species_class = "ELD"
-	trait = "trait_venerable"
-	trait = "trait_solitary"
-	trait = "trait_sedentary"
-	trait = "trait_medium_age"
-	trait = "eldar_power"
-	portrait = "imp_eldar"
+	species = {
+		class = "ELD"
+		portrait= "imp_eldar"
+		name = "Eldar"
+		plural = "Eldar" #we should localize the names!
+		adjective = "Eldar"
+		name_list = "ELDAR1"
+		trait = "trait_venerable"
+		trait = "trait_solitary"
+		trait = "trait_sedentary"
+		trait = "trait_medium_age"
+		trait = "eldar_power"
+	}
 	
-	planet_name = "Ulthwe Craftworld"
-	planet_class = "pc_craftworld"
-	system_name = B'Yond
+	room = "personality_erudite_explorers_room"
 	
-
-	#initializer="ulthwe_homeworld"
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 	flags={ 
 		eldar_ulthwe_empire	
 		eldar_empire		
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_oligarchic"
 	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
 	civics={
 		"civic_meritocracy"
 		"civic_nationalistic_zeal"
-	}	
+	}
+	origin = "origin_default"
 	
-	weapon = "tech_lasers_1"
-	ftl = warp
+	planet_name = "Ulthwe Craftworld"
+	planet_class = "pc_craftworld"
+	system_name = B'Yond
+	#initializer="ulthwe_homeworld"
 	
 	graphical_culture = "eldar_01"
 	city_graphical_culture = "avian_01"
@@ -63,13 +62,6 @@ craftworld_ulthwe = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Yeerak"
-	#	class = ruler
-	#	portrait = "avi10"
-	#	experience = 1200.0
-	#}	
 	ruler = {
 		name = "Eldrad Ulthran"
 		gender = female
@@ -78,55 +70,59 @@ craftworld_ulthwe = {
 		hair = 0
 		clothes = 0
 	}
+	#leader = {
+	#	name = "Yeerak"
+	#	class = ruler
+	#	portrait = "avi10"
+	#	experience = 1200.0
+	#}	
 }
 
 # Craftworld ymeloc
 craftworld_ymeloc = {
 	name = "Craftworld Yme-Loc"
-	spawn_enabled = yes # yes / no / always
-	
-	species_name = "Eldar"
-	species_plural = "Eldar"	#we should localize the names!
-	species_adjective = "Eldar"
 	adjective = "Eldar"
+	spawn_enabled = always # yes / no / always
 	
-	name_list = "ELDAR1"
 	ship_prefix = ""
 	
-	species_class = "ELD"
-	trait = "trait_venerable"
-	trait = "trait_solitary"
-	trait = "trait_sedentary"
-	trait = "trait_medium_age"
-	trait = "eldar_power"
-	portrait = "imp_eldar"
+	species = {
+		class = "ELD"
+		portrait= "imp_eldar"
+		name = "Eldar"
+		plural = "Eldar" #we should localize the names!
+		adjective = "Eldar"
+		name_list = "ELDAR1"
+		trait = "trait_venerable"
+		trait = "trait_solitary"
+		trait = "trait_sedentary"
+		trait = "trait_medium_age"
+		trait = "eldar_power"
+	}
 	
-	planet_name = "Yme-Loc Craftworld"
-	planet_class = "pc_craftworld"
-	system_name = B'Yond
+	room = "personality_erudite_explorers_room"
 	
-
-	#initializer="ymeloc_homeworld"
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 	flags={ 
 		eldar_ymeloc_empire	
 		eldar_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_oligarchic"
 	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
 	civics={
 		"civic_meritocracy"
 		"civic_nationalistic_zeal"
-	}	
+	}
+	origin = "origin_default"
 	
-	weapon = "tech_lasers_1"
-	ftl = warp
-	
+	planet_name = "Yme-Loc Craftworld"
+	planet_class = "pc_craftworld"
+	system_name = B'Yond
+	#initializer="ymeloc_homeworld"
+
 	graphical_culture = "eldar_01"
 	city_graphical_culture = "avian_01"
 	
@@ -146,13 +142,6 @@ craftworld_ymeloc = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Yeerak"
-	#	class = ruler
-	#	portrait = "avi10"
-	#	experience = 1200.0
-	#}	
 	ruler = {
 		name = "Kayleth"
 		gender = female
@@ -161,55 +150,59 @@ craftworld_ymeloc = {
 		hair = 0
 		clothes = 0
 	}
+	#leader = {
+	#	name = "Yeerak"
+	#	class = ruler
+	#	portrait = "avi10"
+	#	experience = 1200.0
+	#}	
 }
 
 # Craftworld bieltane
 craftworld_bieltane = {
 	name = "Craftworld Biel-Tane"
-	spawn_enabled = yes # yes / no / always
-	
-	species_name = "Eldar"
-	species_plural = "Eldar"	#we should localize the names!
-	species_adjective = "Eldar"
 	adjective = "Eldar"
+	spawn_enabled = always # yes / no / always
 	
-	name_list = "ELDAR1"
 	ship_prefix = ""
 	
-	species_class = "ELD"
-	trait = "trait_venerable"
-	trait = "trait_solitary"
-	trait = "trait_sedentary"
-	trait = "trait_medium_age"
-	trait = "eldar_power"
-	portrait = "imp_eldar"
+	species = {
+		class = "ELD"
+		portrait= "imp_eldar"
+		name = "Eldar"
+		plural = "Eldar" #we should localize the names!
+		adjective = "Eldar"
+		name_list = "ELDAR1"
+		trait = "trait_venerable"
+		trait = "trait_solitary"
+		trait = "trait_sedentary"
+		trait = "trait_medium_age"
+		trait = "eldar_power"
+	}
 	
-	planet_name = "Biel-Tan Craftworld"
-	planet_class = "pc_craftworld"
-	system_name = B'Yond
-	
+	room = "personality_erudite_explorers_room"
 
-	#initializer="bieltan_homeworld"
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 	flags={ 
 		eldar_bieltan_empire	
 		eldar_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_oligarchic"
 	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
 	civics={
 		"civic_meritocracy"
 		"civic_nationalistic_zeal"
-	}	
+	}
+	origin = "origin_default"
 	
-	weapon = "tech_lasers_1"
-	ftl = warp
-	
+	planet_name = "Biel-Tan Craftworld"
+	planet_class = "pc_craftworld"
+	system_name = B'Yond
+	#initializer="bieltan_homeworld"
+		
 	graphical_culture = "eldar_01"
 	city_graphical_culture = "avian_01"
 	
@@ -229,13 +222,6 @@ craftworld_bieltane = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Yeerak"
-	#	class = ruler
-	#	portrait = "avi10"
-	#	experience = 1200.0
-	#}	
 	ruler = {
 		name = "Kayleth"
 		gender = female
@@ -244,54 +230,60 @@ craftworld_bieltane = {
 		hair = 0
 		clothes = 0
 	}
+	#leader = {
+	#	name = "Yeerak"
+	#	class = ruler
+	#	portrait = "avi10"
+	#	experience = 1200.0
+	#}	
 }
 
 # Craftworld Alaitoc
 craftworld_alaitoc = {
 	name = "Craftworld Alaitoc"
-	spawn_enabled = yes # yes / no / always
+	adjective = "Eldar"
+	spawn_enabled = always # yes / no / always
+	
+	ship_prefix = ""
 	
 	species_name = "Eldar"
 	species_plural = "Eldar"	#we should localize the names!
 	species_adjective = "Eldar"
-	adjective = "Eldar"
 	
-	name_list = "ELDAR1"
-	ship_prefix = ""
+	species = {
+		class = "ELD"
+		portrait= "imp_eldar"
+		name = "Eldar"
+		plural = "Eldar" #we should localize the names!
+		adjective = "Eldar"
+		name_list = "ELDAR1"
+		trait = "trait_venerable"
+		trait = "trait_solitary"
+		trait = "trait_sedentary"
+		trait = "trait_medium_age"
+		trait = "eldar_power"
+	}
 	
-	species_class = "ELD"
-	trait = "trait_venerable"
-	trait = "trait_solitary"
-	trait = "trait_sedentary"
-	trait = "trait_medium_age"
-	trait = "eldar_power"
-	portrait = "imp_eldar"
-	
-	planet_name = "Alaitoc"
-	planet_class = "pc_craftworld"
-	system_name = B'Yond
-	
-
-	#initializer="alaitoc_homeworld"
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 	flags={ 
 		eldar_alaitoc_empire	
 		eldar_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_oligarchic"
 	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
 	civics={
 		"civic_meritocracy"
 		"civic_nationalistic_zeal"
-	}	
+	}
+	origin = "origin_default"
 	
-	weapon = "tech_lasers_1"
-	ftl = warp
+	planet_name = "Alaitoc"
+	planet_class = "pc_craftworld"
+	system_name = B'Yond
+	#initializer="alaitoc_homeworld"
 	
 	graphical_culture = "eldar_01"
 	city_graphical_culture = "avian_01"
@@ -312,13 +304,6 @@ craftworld_alaitoc = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Yeerak"
-	#	class = ruler
-	#	portrait = "avi10"
-	#	experience = 1200.0
-	#}	
 	ruler = {
 		name = "Kayleth"
 		gender = female
@@ -327,54 +312,58 @@ craftworld_alaitoc = {
 		hair = 0
 		clothes = 0
 	}
+	#leader = {
+	#	name = "Yeerak"
+	#	class = ruler
+	#	portrait = "avi10"
+	#	experience = 1200.0
+	#}	
 }
 
 # Craftworld Iyanden
 craftworld_iyanden = {
 	name = "Craftworld Iyanden"
-	spawn_enabled = yes # yes / no / always
-	
-	species_name = "Eldar"
-	species_plural = "Eldar"	#we should localize the names!
-	species_adjective = "Eldar"
 	adjective = "Eldar"
+	spawn_enabled = always # yes / no / always
 	
-	name_list = "ELDAR1"
 	ship_prefix = ""
 	
-	species_class = "ELD"
-	trait = "trait_venerable"
-	trait = "trait_solitary"
-	trait = "trait_sedentary"
-	trait = "trait_medium_age"
-	trait = "eldar_power"
-	portrait = "imp_eldar"
+	species = {
+		class = "ELD"
+		portrait= "imp_eldar"
+		name = "Eldar"
+		plural = "Eldar" #we should localize the names!
+		adjective = "Eldar"
+		name_list = "ELDAR1"
+		trait = "trait_venerable"
+		trait = "trait_solitary"
+		trait = "trait_sedentary"
+		trait = "trait_medium_age"
+		trait = "eldar_power"
+	}
 	
-	planet_name = "Iyanden Craftworld"
-	planet_class = "pc_craftworld"
-	system_name = B'Yond
+	room = "personality_erudite_explorers_room"
 	
-
-	#initializer="iyanden_homeworld"
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 	flags={ 
 		eldar_iyanden_empire
 		eldar_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_oligarchic"
 	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
 	civics={
 		"civic_meritocracy"
 		"civic_nationalistic_zeal"
 	}	
+	origin = "origin_default"
 	
-	weapon = "tech_lasers_1"
-	ftl = warp
+	planet_name = "Iyanden Craftworld"
+	planet_class = "pc_craftworld"
+	system_name = B'Yond
+	#initializer="iyanden_homeworld"
 	
 	graphical_culture = "eldar_01"
 	city_graphical_culture = "avian_01"
@@ -395,13 +384,6 @@ craftworld_iyanden = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Yeerak"
-	#	class = ruler
-	#	portrait = "avi10"
-	#	experience = 1200.0
-	#}	
 	ruler = {
 		name = "Kayleth"
 		gender = female
@@ -410,4 +392,10 @@ craftworld_iyanden = {
 		hair = 0
 		clothes = 0
 	}
+	#leader = {
+	#	name = "Yeerak"
+	#	class = ruler
+	#	portrait = "avi10"
+	#	experience = 1200.0
+	#}	
 }

@@ -1,45 +1,46 @@
 black_legion = {
 	name = "Black Legion"
+	adjective = "Black Legion"
 	spawn_enabled = always # yes / no / always
 	
-	species_name = "Corrupted Human"
-	species_plural = "Corrupted Humans"	#we should localize the names!
-	species_adjective = "Corrupted"
-	adjective = "Black Legion"
-	
-	name_list = "CHAOS1"
 	ship_prefix = ""
 	
-	species_class = "CHA"
-	portrait = "imp_chaos"
+	species = {
+		class = "CHA"
+		portrait= "imp_chaos"
+		name = "Corrupted Human"
+		plural = "Corrupted Humans" #we should localize the names!
+		adjective = "Corrupted"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "chaos_power"
+		trait = "trait_medium_age"
+	}
 	
-	planet_name = "Black Legion"
-	planet_class = "pc_daemon"
-	system_name = Cthonic
+	room = "personality_erudite_explorers_room"
 	
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_warrior_culture"
-	}
-	trait="trait_solitary"
-	trait="trait_intelligent"
-	trait="trait_quick_learners"
-	trait="chaos_power"
-	trait = "trait_medium_age"
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	#initializer="eyechaos_homeworld"
 	flags={ 
 		eyechaos_empire		
 		chaos_empire
 		custom_start_screen
 	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	civics={
+		"civic_philosopher_king"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Black Legion"
+	planet_class = "pc_daemon"
+	system_name = "Cthonic"
+	#initializer="eyechaos_homeworld"
 	
 	graphical_culture = "chaoss_01"
 	city_graphical_culture = "mammalian_01"
@@ -60,13 +61,6 @@ black_legion = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Dackam"
-	#	class = ruler
-	#	portrait = "mam6"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Abaddon the Despoiler"
 		class = ruler
@@ -74,52 +68,59 @@ black_legion = {
 		portrait = "chaos_ruler1"
 		experience = 1200.0
 	}
+	
+	#leader = {
+	#	name = "Dackam"
+	#	class = ruler
+	#	portrait = "mam6"
+	#	experience = 1200.0
+	#}
 }
 
 # Astral Claws
 astral_claws = {
 	name = "Astral Claws"
+	adjective = "Astral Claws"
 	spawn_enabled = always # yes / no / always
 	
-	species_name = "Corrupted Human"
-	species_plural = "Corrupted Humans"	#we should localize the names!
-	species_adjective = "Corrupted"
-	adjective = "Astral Claws"
-	
-	name_list = "CHAOS1"
 	ship_prefix = ""
 	
-	species_class = "CHA"
-	trait = "trait_solitary"
-	trait = "trait_intelligent"
-	trait = "trait_quick_learners"
-	trait = "trait_medium_age"
-	trait="chaos_power"
-	portrait = "imp_chaos"
+	species = {
+		class = "CHA"
+		portrait= "imp_chaos"
+		name = "Corrupted Human"
+		plural = "Corrupted Humans" #we should localize the names!
+		adjective = "Corrupted"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "chaos_power"
+		trait = "trait_medium_age"
+	}
 	
-	planet_name = "Astral Claws"
-	planet_class = "pc_daemonn"
-	system_name = Cthonic
+	room = "personality_erudite_explorers_room"
 	
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_warrior_culture"
-	}
-	
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	#initializer="maelstormchaos_homeworld"
 	flags={ 
 		maelstormchaos_empire
 		chaos_empire	
 		custom_start_screen		
 	}
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	civics={
+		"civic_philosopher_king"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Astral Claws"
+	planet_class = "pc_daemonn"
+	system_name = Cthonic
+	#initializer="maelstormchaos_homeworld"
 	
 	graphical_culture = "chaoss_01"
 	city_graphical_culture = "mammalian_01"
@@ -140,13 +141,6 @@ astral_claws = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Dackam"
-	#	class = ruler
-	#	portrait = "mam6"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Lufgt Huron"
 		class = ruler
@@ -154,54 +148,58 @@ astral_claws = {
 		portrait = "chaos_tzeentch1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Dackam"
+	#	class = ruler
+	#	portrait = "mam6"
+	#	experience = 1200.0
+	#}
 }
-
 
 # Blood Pact
 blood_pact = {
 	name = "Blood Pact"
+	adjective = "Blood Pact"
 	spawn_enabled = always # yes / no / always
 	
-	species_name = "Corrupted Human"
-	species_plural = "Corrupted Humans"	#we should localize the names!
-	species_adjective = "Corrupted"
-	adjective = "Blood Pact"
-	
-	name_list = "CHAOS1"
 	ship_prefix = ""
 	
-	species_class = "CHA"
-	trait = "trait_solitary"
-	trait = "trait_intelligent"
-	trait = "trait_quick_learners"
-	trait = "trait_medium_age"
-	trait="chaos_power"
-	portrait = "imp_chaos"
+	species = {
+		class = "CHA"
+		portrait= "imp_chaos"
+		name = "Corrupted Human"
+		plural = "Corrupted Humans" #we should localize the names!
+		adjective = "Corrupted"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "chaos_power"
+		trait = "trait_medium_age"
+	}
+
+	room = "personality_erudite_explorers_room"
 	
-	planet_name = "Blood Pact"
-	planet_class = "pc_daemont"
-	system_name = Cthonic
-	
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_warrior_culture"
-	}
-	
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	#initializer="sabbathchaos_homeworld"
 	flags={ 
 		sabbathchaos_empire	
 		chaos_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	civics={
+		"civic_philosopher_king"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Blood Pact"
+	planet_class = "pc_daemont"
+	system_name = Cthonic
+	#initializer="sabbathchaos_homeworld"
 	
 	graphical_culture = "chaoss_01"
 	city_graphical_culture = "mammalian_01"
@@ -222,13 +220,6 @@ blood_pact = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Dackam"
-	#	class = ruler
-	#	portrait = "mam6"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Urlock Gaur"
 		class = ruler
@@ -236,52 +227,55 @@ blood_pact = {
 		portrait = "chaos_khorne2"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Dackam"
+	#	class = ruler
+	#	portrait = "mam6"
+	#	experience = 1200.0
+	#}
 }
 
 calixis_cheresy = {
 	name = "Calixis cheresy"
+	adjective = "Calixis cheresy"
 	spawn_enabled = always # yes / no / always
 	
-	species_name = "Corrupted Human"
-	species_plural = "Corrupted Humans"	#we should localize the names!
-	species_adjective = "Corrupted"
-	adjective = "Calixis cheresy"
-	
-	name_list = "CHAOS1"
 	ship_prefix = ""
 	
-	species_class = "CHA"
-	trait = "trait_solitary"
-	trait = "trait_intelligent"
-	trait = "trait_quick_learners"
-	trait = "trait_medium_age"
-	trait="chaos_power"
-	portrait = "imp_chaos"
+	species = {
+		class = "CHA"
+		portrait= "imp_chaos"
+		name = "Corrupted Human"
+		plural = "Corrupted Humans" #we should localize the names!
+		adjective = "Corrupted"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "chaos_power"
+		trait = "trait_medium_age"
+	}
 	
-	planet_name = "Granithor"
-	planet_class = "pc_daemons"
-	system_name = Cthonic
-	
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_warrior_culture"
-	}
-	
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	#initializer="Granithor"
 	flags={ 
 		calixis_cheresy_star_empire	
 		chaos_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	civics={
+		"civic_philosopher_king"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Granithor"
+	planet_class = "pc_daemons"
+	system_name = Cthonic
+	#initializer="Granithor"
 	
 	graphical_culture = "chaoss_01"
 	city_graphical_culture = "mammalian_01"
@@ -302,13 +296,6 @@ calixis_cheresy = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Dackam"
-	#	class = ruler
-	#	portrait = "mam6"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Urlock Gaur"
 		class = ruler
@@ -316,53 +303,59 @@ calixis_cheresy = {
 		portrait = "chaos_khorne2"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Dackam"
+	#	class = ruler
+	#	portrait = "mam6"
+	#	experience = 1200.0
+	#}
 }
 
 
 
 south_chaos = {
 	name = "Chaos Deamons"
+	adjective = "Black Legion"
 	spawn_enabled = always # yes / no / always
 	
-	species_name = "Corrupted Human"
-	species_plural = "Corrupted Humans"	#we should localize the names!
-	species_adjective = "Corrupted"
-	adjective = "Black Legion"
-	
-	name_list = "CHAOS1"
 	ship_prefix = ""
 	
-	species_class = "CHA"
-	portrait = "imp_chaos"
+	species = {
+		class = "CHA"
+		portrait= "imp_chaos"
+		name = "Corrupted Human"
+		plural = "Corrupted Humans" #we should localize the names!
+		adjective = "Corrupted"
+		name_list = "CHAOS1"
+		trait="trait_solitary"
+		trait="trait_intelligent"
+		trait="trait_quick_learners"
+		trait="chaos_power"
+		trait = "trait_medium_age"
+	}
 	
-	planet_name = "Chaos World"
-	planet_class = "pc_daemon"
-	system_name = Cthonic
+	room = "personality_erudite_explorers_room"
 	
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_warrior_culture"
-	}
-	trait="trait_solitary"
-	trait="trait_intelligent"
-	trait="trait_quick_learners"
-	trait="chaos_power"
-	trait = "trait_medium_age"
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	#initializer="southchaos_homeworld"
 	flags={ 
 		southchaos_empire		
 		chaos_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	civics={
+		"civic_philosopher_king"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Chaos World"
+	planet_class = "pc_daemon"
+	system_name = Cthonic
+	#initializer="southchaos_homeworld"
 	
 	graphical_culture = "chaoss_01"
 	city_graphical_culture = "mammalian_01"
@@ -383,13 +376,6 @@ south_chaos = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Dackam"
-	#	class = ruler
-	#	portrait = "mam6"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Abaddon the Despoiler"
 		class = ruler
@@ -397,51 +383,57 @@ south_chaos = {
 		portrait = "chaos_ruler1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Dackam"
+	#	class = ruler
+	#	portrait = "mam6"
+	#	experience = 1200.0
+	#}
 }
 
 east_chaos = {
 	name = "Chaos Heresy"
+	adjective = "Black Legion"
 	spawn_enabled = always # yes / no / always
 	
-	species_name = "Corrupted Human"
-	species_plural = "Corrupted Humans"	#we should localize the names!
-	species_adjective = "Corrupted"
-	adjective = "Black Legion"
-	
-	name_list = "CHAOS1"
 	ship_prefix = ""
 	
-	species_class = "CHA"
-	portrait = "imp_chaos"
+	species = {
+		class = "CHA"
+		portrait= "imp_chaos"
+		name = "Corrupted Human"
+		plural = "Corrupted Humans" #we should localize the names!
+		adjective = "Corrupted"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "chaos_power"
+		trait = "trait_medium_age"
+	}
 	
-	planet_name = "Deamon World"
-	planet_class = "pc_daemon"
-	system_name = Cthonic
+	room = "personality_erudite_explorers_room"
 	
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_warrior_culture"
-	}
-	trait="trait_solitary"
-	trait="trait_intelligent"
-	trait="trait_quick_learners"
-	trait = "trait_medium_age"
-	trait="chaos_power"
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	#initializer="eastchaos_homeworld"
 	flags={ 
 		eastchaos_empire		
 		chaos_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	civics={
+		"civic_philosopher_king"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Deamon World"
+	planet_class = "pc_daemon"
+	system_name = Cthonic
+	#initializer="eastchaos_homeworld"
 	
 	graphical_culture = "chaoss_01"
 	city_graphical_culture = "mammalian_01"
@@ -462,13 +454,6 @@ east_chaos = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Dackam"
-	#	class = ruler
-	#	portrait = "mam6"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Abaddon the Despoiler"
 		class = ruler
@@ -476,51 +461,57 @@ east_chaos = {
 		portrait = "chaos_ruler1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Dackam"
+	#	class = ruler
+	#	portrait = "mam6"
+	#	experience = 1200.0
+	#}
 }
 
 rebel_chaos = {
 	name = "Rebels"
+	adjective = "Rebels"
 	spawn_enabled = always # yes / no / always
 	
-	species_name = "Corrupted Human"
-	species_plural = "Corrupted Humans"	#we should localize the names!
-	species_adjective = "Corrupted"
-	adjective = "Rebels"
-	
-	name_list = "CHAOS1"
 	ship_prefix = ""
 	
-	species_class = "CHA"
-	portrait = "imp_chaos"
+	species = {
+		class = "CHA"
+		portrait= "imp_chaos"
+		name = "Corrupted Human"
+		plural = "Corrupted Humans" #we should localize the names!
+		adjective = "Corrupted"
+		name_list = "CHAOS1"
+		trait = "trait_solitary"
+		trait = "trait_intelligent"
+		trait = "trait_quick_learners"
+		trait = "chaos_power"
+		trait = "trait_medium_age"
+	}
 	
-	planet_name = "Davin"
-	planet_class = "pc_daemons"
-	system_name = Cthonic
+	room = "personality_erudite_explorers_room"
 	
-	authority="auth_dictatorial"
-	government="gov_martial_dictatorship"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_philosopher_king"
-		"civic_warrior_culture"
-	}
-	trait="trait_solitary"
-	trait="trait_intelligent"
-	trait="trait_quick_learners"
-	trait = "trait_medium_age"
-	trait="chaos_power"
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	#initializer="rebel_homeworld"
 	flags={ 
 		rebelchaos_empire		
 		chaos_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_dictatorial"
+	government="gov_martial_dictatorship"
+	civics={
+		"civic_philosopher_king"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Davin"
+	planet_class = "pc_daemons"
+	system_name = Cthonic
+	#initializer="rebel_homeworld"
 	
 	graphical_culture = "chaoss_01"
 	city_graphical_culture = "mammalian_01"
@@ -541,13 +532,6 @@ rebel_chaos = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Dackam"
-	#	class = ruler
-	#	portrait = "mam6"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Abaddon the Despoiler"
 		class = ruler
@@ -555,6 +539,12 @@ rebel_chaos = {
 		portrait = "chaos_ruler1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Dackam"
+	#	class = ruler
+	#	portrait = "mam6"
+	#	experience = 1200.0
+	#}
 }
 
 

@@ -1,47 +1,47 @@
 ## Necron Oruscar
 oruscar_dynasty = {
 	name = "Oruscar Dynasty"
+	adjective = "Necrontyr"
 	spawn_enabled=always
 	
-	species_name = "Necron"
-	species_plural = "Necrons"	#we should localize the names!
-	species_adjective = "Necrontyr"
-	adjective = "Necrontyr"
-	
-	name_list = "NECRON1"
 	ship_prefix = ""
 	
-	species_class = "NEC"
-	trait = "trait_strong"
-	trait = "trait_adaptive"
-	trait = "trait_sedentary"
-	trait = "trait_immortal_age"
-	trait="trait_necron_power"
-	portrait = "imp_necron"
+	species = {
+		class = "NEC"
+		portrait= "imp_necron"
+		name = "Necron"
+		plural = "Necrons" #we should localize the names!
+		adjective = "Necrontyr"
+		name_list = "NECRON1"
+		trait = "trait_strong"
+		trait = "trait_adaptive"
+		trait = "trait_sedentary"
+		trait = "trait_immortal_age"
+		trait = "trait_necron_power"
+	}
 	
-	planet_name = "Thanatos"
-	planet_class = "pc_tomb"
-	system_name = Thanatos
+	room = "personality_erudite_explorers_room"
 	
-	authority="auth_imperial"
-	government="gov_enlightened_monarchy"
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_materialist"
-	civics={
-		"civic_philosopher_king"
-		"civic_aristocratic_elite"
-	}
-	
-	weapon = "tech_mass_drivers_1"
-	ftl = warp
-	
 	flags={ 
 		necronoruscar_empire	
 		necron_empire
 		custom_start_screen
 	}
-
+	authority="auth_imperial"
+	government="gov_enlightened_monarchy"
+	civics={
+		"civic_philosopher_king"
+		"civic_aristocratic_elite"
+	}
+	origin = "origin_default"
+	
+	planet_name = "Thanatos"
+	planet_class = "pc_tomb"
+	system_name = Thanatos
+	
 	graphical_culture = "necron_01"
 	city_graphical_culture = "mammalian_01"
 	
@@ -61,13 +61,6 @@ oruscar_dynasty = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Delzaam"
-	#	class = ruler
-	#	portrait = "mam11"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Pharoah Atun"
 		class = ruler
@@ -75,50 +68,57 @@ oruscar_dynasty = {
 		portrait = "necron_ruler1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Delzaam"
+	#	class = ruler
+	#	portrait = "mam11"
+	#	experience = 1200.0
+	#}
 }
 
 ## Necron Sautekh
 sautekh_dynasty = {
 	name = "Sautekh Dynasty"
-	species_name = "Necron"
-	species_plural = "Necrons"	#we should localize the names!
-	species_adjective = "Necrontyr"
 	adjective = "Necrontyr"
+	spawn_enabled=always
 	
-	name_list = "NECRON1"
 	ship_prefix = ""
 	
-	species_class = "NEC"
-	trait = "trait_strong"
-	trait = "trait_adaptive"
-	trait = "trait_sedentary"
-	trait = "trait_immortal_age"
-	trait="trait_necron_power"
-	portrait = "imp_necron"
+	species = {
+		class = "NEC"
+		portrait= "imp_necron"
+		name = "Necron"
+		plural = "Necrons" #we should localize the names!
+		adjective = "Necrontyr"
+		name_list = "NECRON1"
+		trait = "trait_strong"
+		trait = "trait_adaptive"
+		trait = "trait_sedentary"
+		trait = "trait_immortal_age"
+		trait = "trait_necron_power"
+	}
 	
-	planet_name = "Mandragora"
-	planet_class = "pc_tomb"
-	system_name = Mandragora
+	room = "personality_erudite_explorers_room"
 	
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		necronsautekh_empire	
 		necron_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_imperial"
 	government="gov_enlightened_monarchy"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
 	civics={
 		"civic_philosopher_king"
 		"civic_aristocratic_elite"
 	}
+	origin = "origin_default"
 	
-	weapon = "tech_mass_drivers_1"
-	ftl = warp
+	planet_name = "Mandragora"
+	planet_class = "pc_tomb"
+	system_name = Mandragora
 	
 	graphical_culture = "necron_01"
 	city_graphical_culture = "mammalian_01"
@@ -139,13 +139,6 @@ sautekh_dynasty = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Delzaam"
-	#	class = ruler
-	#	portrait = "mam11"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Pharoah Atun"
 		class = ruler
@@ -153,50 +146,57 @@ sautekh_dynasty = {
 		portrait = "necron_scientist1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Delzaam"
+	#	class = ruler
+	#	portrait = "mam11"
+	#	experience = 1200.0
+	#}
 }
 
 ## Necron Novokh
 novokh_dynasty = {
 	name = "Novokh Dynasty"
-	species_name = "Necron"
-	species_plural = "Necrons"	#we should localize the names!
-	species_adjective = "Necrontyr"
 	adjective = "Necrontyr"
+	spawn_enabled=always
 	
-	name_list = "NECRON1"
 	ship_prefix = ""
 	
-	species_class = "NEC"
-	trait = "trait_strong"
-	trait = "trait_adaptive"
-	trait = "trait_sedentary"
-	trait = "trait_immortal_age"
-	trait="trait_necron_power"
-	portrait = "imp_necron"
+	species = {
+		class = "NEC"
+		portrait= "imp_necron"
+		name = "Necron"
+		plural = "Necrons" #we should localize the names!
+		adjective = "Necrontyr"
+		name_list = "NECRON1"
+		trait = "trait_strong"
+		trait = "trait_adaptive"
+		trait = "trait_sedentary"
+		trait = "trait_immortal_age"
+		trait = "trait_necron_power"
+	}
 	
-	planet_name = "Dhol"
-	planet_class = "pc_tomb"
-	system_name = Dhol
+	room = "personality_erudite_explorers_room"
 	
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		necronnovokh_empire		
 		necron_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_imperial"
 	government="gov_enlightened_monarchy"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
 	civics={
 		"civic_philosopher_king"
 		"civic_aristocratic_elite"
 	}	
+	origin = "origin_default"
 	
-	weapon = "tech_mass_drivers_1"
-	ftl = warp
+	planet_name = "Dhol"
+	planet_class = "pc_tomb"
+	system_name = Dhol
 	
 	graphical_culture = "necron_01"
 	city_graphical_culture = "mammalian_01"
@@ -217,13 +217,6 @@ novokh_dynasty = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Delzaam"
-	#	class = ruler
-	#	portrait = "mam11"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Pharoah Atun"
 		class = ruler
@@ -231,50 +224,57 @@ novokh_dynasty = {
 		portrait = "necron_general1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Delzaam"
+	#	class = ruler
+	#	portrait = "mam11"
+	#	experience = 1200.0
+	#}
 }
 
 ## Necron Maynarkh
 maynarkh_dynasty = {
 	name = "Maynarkh Dynasty"
-	species_name = "Necron"
-	species_plural = "Necrons"	#we should localize the names!
-	species_adjective = "Necrontyr"
 	adjective = "Necrontyr"
+	spawn_enabled=always
 	
-	name_list = "NECRON1"
 	ship_prefix = ""
 	
-	species_class = "NEC"
-	trait = "trait_strong"
-	trait = "trait_adaptive"
-	trait = "trait_sedentary"
-	trait = "trait_immortal_age"
-	trait="trait_necron_power"
-	portrait = "imp_necron"
+	species = {
+		class = "NEC"
+		portrait= "imp_necron"
+		name = "Necron"
+		plural = "Necrons" #we should localize the names!
+		adjective = "Necrontyr"
+		name_list = "NECRON1"
+		trait = "trait_strong"
+		trait = "trait_adaptive"
+		trait = "trait_sedentary"
+		trait = "trait_immortal_age"
+		trait = "trait_necron_power"
+	}
 	
-	planet_name = "Carrion Deep"
-	planet_class = "pc_tomb"
-	system_name = Carrion'Deep
+	room = "personality_erudite_explorers_room"
 	
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		necronmaynarkh_empire	
 		necron_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_imperial"
 	government="gov_enlightened_monarchy"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
 	civics={
 		"civic_philosopher_king"
 		"civic_aristocratic_elite"
 	}	
+	origin = "origin_default"
 	
-	weapon = "tech_mass_drivers_1"
-	ftl = warp
+	planet_name = "Carrion Deep"
+	planet_class = "pc_tomb"
+	system_name = Carrion'Deep
 	
 	graphical_culture = "necron_01"
 	city_graphical_culture = "mammalian_01"
@@ -295,13 +295,6 @@ maynarkh_dynasty = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Delzaam"
-	#	class = ruler
-	#	portrait = "mam11"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Pharoah Atun"
 		class = ruler
@@ -309,51 +302,58 @@ maynarkh_dynasty = {
 		portrait = "necron3"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Delzaam"
+	#	class = ruler
+	#	portrait = "mam11"
+	#	experience = 1200.0
+	#}
 }
 
 
 ## Bone Kingdom
 bone_kingdom = {
 	name = "Bone Kingdom"
-	species_name = "Necron"
-	species_plural = "Necrons"	#we should localize the names!
-	species_adjective = "Necrontyr"
 	adjective = "Necrontyr"
+	spawn_enabled=always
 	
-	name_list = "NECRON1"
 	ship_prefix = ""
 	
-	species_class = "NEC"
-	trait = "trait_strong"
-	trait = "trait_adaptive"
-	trait = "trait_sedentary"
-	trait = "trait_immortal_age"
-	trait="trait_necron_power"
-	portrait = "imp_necron"
+	species = {
+		class = "NEC"
+		portrait= "imp_necron"
+		name = "Necron"
+		plural = "Necrons" #we should localize the names!
+		adjective = "Necrontyr"
+		name_list = "NECRON1"
+		trait = "trait_strong"
+		trait = "trait_adaptive"
+		trait = "trait_sedentary"
+		trait = "trait_immortal_age"
+		trait = "trait_necron_power"
+	}
 	
-	planet_name = "Drazak"
-	planet_class = "pc_tomb"
-	system_name = Drazak
+	room = "personality_erudite_explorers_room"
 	
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		necronbone_empire	
 		necron_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
 	authority="auth_imperial"
 	government="gov_enlightened_monarchy"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
 	civics={
 		"civic_philosopher_king"
 		"civic_aristocratic_elite"
 	}
+	origin = "origin_default"
 	
-	weapon = "tech_mass_drivers_1"
-	ftl = warp
+	planet_name = "Drazak"
+	planet_class = "pc_tomb"
+	system_name = Drazak
 	
 	graphical_culture = "necron_01"
 	city_graphical_culture = "mammalian_01"
@@ -374,13 +374,6 @@ bone_kingdom = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Delzaam"
-	#	class = ruler
-	#	portrait = "mam11"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Pharoah Atun"
 		class = ruler
@@ -388,50 +381,59 @@ bone_kingdom = {
 		portrait = "necron_scientist1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Delzaam"
+	#	class = ruler
+	#	portrait = "mam11"
+	#	experience = 1200.0
+	#}
 }
 
 ## Kardenath Dynasty
 kardenath_dynasty = {
 	name = "Kardenath Dynasty"
-	species_name = "Necron"
-	species_plural = "Necrons"	#we should localize the names!
-	species_adjective = "Necrontyr"
 	adjective = "Necrontyr"
+	spawn_enabled=always
 	
-	name_list = "NECRON1"
 	ship_prefix = ""
 	
-	species_class = "NEC"
-	trait = "trait_strong"
-	trait = "trait_adaptive"
-	trait = "trait_sedentary"
-	trait = "trait_immortal_age"
-	trait="trait_necron_power"
-	portrait = "imp_necron"
+	species = {
+		class = "NEC"
+		portrait= "imp_necron"
+		name = "Necron"
+		plural = "Necrons" #we should localize the names!
+		adjective = "Necrontyr"
+		name_list = "NECRON1"
+		trait = "trait_strong"
+		trait = "trait_adaptive"
+		trait = "trait_sedentary"
+		trait = "trait_immortal_age"
+		trait = "trait_necron_power"
+	}
 	
-	planet_name = "Nagathar"
-	planet_class = "pc_tomb"
-	system_name = Nagathar
+	room = "personality_erudite_explorers_room"
 	
+	ethic="ethic_xenophobe"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		necronkardenath_empire		
 		necron_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
 	
 	authority="auth_imperial"
 	government="gov_enlightened_monarchy"
-	ethic="ethic_xenophobe"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
+	
 	civics={
 		"civic_philosopher_king"
 		"civic_aristocratic_elite"
 	}	
+	origin = "origin_default"
 	
-	weapon = "tech_mass_drivers_1"
-	ftl = warp
+	planet_name = "Nagathar"
+	planet_class = "pc_tomb"
+	system_name = Nagathar
 	
 	graphical_culture = "necron_01"
 	city_graphical_culture = "mammalian_01"
@@ -452,13 +454,6 @@ kardenath_dynasty = {
 			"null"
 		}
 	}
-	
-	#leader = {
-	#	name = "Delzaam"
-	#	class = ruler
-	#	portrait = "mam11"
-	#	experience = 1200.0
-	#}
 	ruler = {
 		name = "Pharoah Atun"
 		class = ruler
@@ -466,4 +461,10 @@ kardenath_dynasty = {
 		portrait = "necron_general1"
 		experience = 1200.0
 	}
+	#leader = {
+	#	name = "Delzaam"
+	#	class = ruler
+	#	portrait = "mam11"
+	#	experience = 1200.0
+	#}
 }

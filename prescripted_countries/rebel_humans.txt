@@ -1,46 +1,43 @@
 calixis_sector_humans = {
 	name = "Calixis heresy"
-	spawn_enabled = no # yes / no / always
+	adjective = "Imperium of Man"
+	spawn_enabled = always # yes / no / always
 	
-	name_list = "IMPERIUM1"
 	ship_prefix = ""
 	
-	species_name = "Mankind"
-	species_plural = "Mankind"	#we should localize this!
-	species_adjective = "Human"
-	species_class = "IMB"
-	portrait = "imp_human"
-	adjective = "Human"
+	species = {
+		class = "IMB"
+		portrait= "imp_human"
+		name = "Mankind"
+		plural = "Mankind" #we should localize this!
+		adjective = "Human"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+	}
 	
-	authority="auth_imperial"
-	government="gov_theocratic_monarchy"
+	room = "personality_erudite_explorers_room"
+	
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_aristocratic_elite"
-		"civic_mining_guilds"
-	}
-	trait="trait_industrious"
-	trait="trait_rapid_breeders"
-	trait="trait_slow_learners"
-	
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	planet_name = "Munsk"
-	planet_class = "pc_hive_medium"
-	system_name = "Munsk"
-	
-	
 	flags={ 
 		calixis_human_star_empire	
 		human_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
-	
-	
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_mining_guilds"
+	}
+	origin = "origin_default"
+
+	planet_name = "Munsk"
+	planet_class = "pc_hive_medium"
+	system_name = "Munsk"
 	
 	graphical_culture = "imperiall_01"
 	city_graphical_culture = "mammalian_01"
@@ -61,13 +58,7 @@ calixis_sector_humans = {
 			"null"
 		}
 	}
-	#leader = {
-	#	name = "Dolores Muwanga"
-	#	class = ruler
-	#	portrait = "human_female_05"
-	#	experience = 1200.0
-	#}
-	
+
 	ruler = {
 		name = "The False Emperor"
 		gender = male
@@ -76,4 +67,10 @@ calixis_sector_humans = {
 		hair = 0
 		clothes = 0
 	}
+	#leader = {
+	#	name = "Dolores Muwanga"
+	#	class = ruler
+	#	portrait = "human_female_05"
+	#	experience = 1200.0
+	#}
 }

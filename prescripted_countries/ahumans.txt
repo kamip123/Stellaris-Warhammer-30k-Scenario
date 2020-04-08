@@ -1,47 +1,45 @@
 mankind = {
 	name = "Imperium of Man"
+	adjective = "Imperium of Man"
 	spawn_enabled = always # yes / no / always
 	
-	name_list = "IMPERIUM1"
 	ship_prefix = ""
 	
-	species_name = "Mankind"
-	species_plural = "Mankind"	#we should localize this!
-	species_adjective = "Human"
-	species_class = "IMB"
-	portrait = "imp_human"
-	adjective = "Human"
+	species = {
+		class = "IMB"
+		portrait= "imp_human"
+		name = "Mankind"
+		plural = "Mankind" #we should localize this!
+		adjective = "Human"
+		name_list = "IMPERIUM1"
+		trait = "trait_industrious"
+		trait = "trait_rapid_breeders"
+		trait = "trait_slow_learners"
+		trait = "trait_small_age"
+	}
 	
-	authority="auth_imperial"
-	government="gov_theocratic_monarchy"
+	room = "personality_erudite_explorers_room"
+	
 	ethic="ethic_xenophobe"
 	ethic="ethic_militarist"
 	ethic="ethic_spiritualist"
-	civics={
-		"civic_aristocratic_elite"
-		"civic_mining_guilds"
-	}
-	
-	trait="trait_industrious"
-	trait="trait_rapid_breeders"
-	trait="trait_slow_learners"
-	trait="trait_small_age"
-	
-	weapon = "tech_missiles_1"
-	ftl = hyperdrive
-	
-	planet_name = "Holy Terra"
-	planet_class = "pc_hive_medium"
-	system_name = "Sol"
-	
-	
 	flags={ 
 		mankind_star_empire	
 		human_empire
 		custom_start_screen
 	}
+	authority="auth_imperial"
+	government="gov_theocratic_monarchy"
+	civics={
+		"civic_aristocratic_elite"
+		"civic_mining_guilds"
+	}
+	origin = "origin_default"
 	
-	
+	planet_name = "Holy Terra"
+	planet_class = "pc_hive_medium"
+	system_name = "Sol"
+	initializer = ""
 	
 	graphical_culture = "imperiall_01"
 	city_graphical_culture = "humanoid_01"
@@ -62,13 +60,6 @@ mankind = {
 			"null"
 		}
 	}
-	#leader = {
-	#	name = "Dolores Muwanga"
-	#	class = ruler
-	#	portrait = "human_female_05"
-	#	experience = 1200.0
-	#}
-	
 	ruler = {
 		name = "The Emperor of Mankind"
 		gender = male
@@ -77,4 +68,12 @@ mankind = {
 		hair = 0
 		clothes = 0
 	}
+	#leader = {
+	#	name = "Dolores Muwanga"
+	#	class = ruler
+	#	portrait = "human_female_05"
+	#	experience = 1200.0
+	#}
+	
+
 }

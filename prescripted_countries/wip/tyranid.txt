@@ -1,42 +1,35 @@
-
-
-
-
-
-
-
-
-
 # Hivefleet Leviathan
 hivefleet_leviathan = {
 	name = "Hivefleet Leviathan"
-	spawn_enabled = yes # yes / no / always
-	
-	species_name = "Tyranids"
-	species_plural = "Tyranids"	#we should localize the names!
-	species_adjective = "Tyranid"
 	adjective = "Leviathan"
+	spawn_enabled = always # yes / no / always
 	
-	name_list = "TYRANID1"
-	ship_prefix = ""
+	ship_prefix = "ICS"
 	
-	species_class = "ART"
-	trait = "trait_rapid_breeders"
-	trait = "trait_quick_learners"
-	trait = "trait_repugnant"
-	trait = "trait_communal"
-	portrait = "imp_tyranid"
+	species = {
+		class = "ART"
+		portrait= "imp_tyranid"
+		name = "Tyranids"
+		plural = "Tyranids" #we should localize the names!
+		adjective = "Tyranid"
+		name_list = "TYRANID1"
+		trait = "trait_rapid_breeders"
+		trait = "trait_quick_learners"
+		trait = "trait_repugnant"
+		trait = "trait_communal"
+	}
+	
+	room = "personality_erudite_explorers_room"
+
+	ethic = "ethic_militarist"
+	ethic = "ethic_fanatic_collectivist"
+	government = "despotic_empire"
+	
+	origin = "origin_default"
 	
 	planet_name = "Jehet Prime"
 	planet_class = "pc_arid"
 	system_name = Jehet
-	
-	government = "despotic_empire"
-	ethic = "ethic_militarist"
-	ethic = "ethic_fanatic_collectivist"
-	
-	weapon = "tech_mass_drivers_1"
-	ftl = warp
 	
 	graphical_culture = "arthropoid_01"
 	city_graphical_culture = "arthropoid_01"
@@ -57,14 +50,13 @@ hivefleet_leviathan = {
 			"null"
 		}
 	}
-	
+	ruler = {
+		randomized = yes
+	}
 	#leader = {
 	#	name = "Haragma"
 	#	class = ruler
 	#	portrait = "fun13"
 	#	experience = 1200.0
 	#}
-	ruler = {
-		randomized = yes
-	}
 }

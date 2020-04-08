@@ -1,30 +1,49 @@
 Terellian = {
 	key="Terellian"
-	name_list="TARELLIAN1"
-	ship_prefix="ISS"
-	species_name="Terellians"
-	species_plural="Terellians"
-	species_class="TER"
-	species_adjective="Terellians"
-	species_bio=""
-	portrait="imp_tarellian"
-	name="Terellian"
-	adjective="Terellians"
-	ftl=hyperdrive
-	weapon="tech_missiles_1"
-	planet_name="Moral'gar"
-	planet_class="pc_advancexenocity"
-	system_name="Hibaragus"
-	#initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="reptilian_01"
+	name = "Terellian"
+	adjective = "Terellians"
+	spawn_enabled=always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
 	
+	ship_prefix = "ISS"
+	
+	species = {
+		class = "TER"
+		portrait= "imp_tarellian"
+		name = "Terellians"
+		plural = "Terellians" #we should localize the names!
+		adjective = "Terellians"
+		name_list = "TARELLIAN1"
+		trait = "trait_nomadic"
+		trait = "trait_strong"
+	}
+	
+	room = "personality_erudite_explorers_room"
+	
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		terellian_star_empire	
 		terellian_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	civics={
+		"civic_mining_guilds"
+		"civic_cutthroat_politics"
+	}
+	origin = "origin_default"
+	
+	planet_name="Moral'gar"
+	planet_class="pc_advancexenocity"
+	system_name="Hibaragus"
+	#initializer=""
+	
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
 	
 	empire_flag={
 		icon={
@@ -51,44 +70,56 @@ Terellian = {
 		clothes=0
 		ruler_title="Emperor"
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	
-	authority="auth_oligarchic"
-	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics={
-		"civic_mining_guilds"
-		"civic_cutthroat_politics"
-	}
-	trait="trait_nomadic"
-	trait="trait_strong"
 }
 
 hellgrammite = {
 	key="Hellgrammite"
-	name_list="AVI2"
-	ship_prefix="ISS"
-	species_name="hellgrammit"
-	species_plural="hellgrammit"
-	species_class="TER"
-	species_adjective="hellgrammit"
-	species_bio=""
-	portrait="imp_tarellian"
-	name="Hellgrammite"
-	adjective="Hellgrammite"
+	name = "Hellgrammite"
+	adjective = "Hellgrammite"
+	spawn_enabled=always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	
+	ship_prefix = "ISS"
+	
+	species = {
+		class = "TER"
+		portrait= "imp_tarellian"
+		name = "hellgrammit"
+		plural = "hellgrammit" #we should localize the names!
+		adjective = "hellgrammit"
+		name_list = "AVI2"
+		trait="trait_industrious"
+		trait="trait_slow_breeders"
+		trait="trait_strong"
+	}
+	
+	room = "ethic_xenophobe_room"
+	
+	ethic="ethic_egalitarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
+	flags={ 
+		hellgrammite_star_empire		
+		hellgrammite_empire
+		custom_start_screen
+	}
 	authority="auth_oligarchic"
 	government="gov_war_council"
-	ftl=hyperdrive
-	weapon="tech_missiles_1"
+	civics={
+		"civic_meritocracy"
+		"civic_warrior_culture"
+	}
+	origin = "origin_default"
+	
 	planet_name="Wormgyre"
 	planet_class="pc_advancexenocityy"
 	system_name="Wormgyre"
 	#initializer=""
+	
 	graphical_culture="fungoid_01"
 	city_graphical_culture="molluscoid_01"
+	
 	empire_flag={
 		icon={
 			category="pointy"
@@ -113,58 +144,56 @@ hellgrammite = {
 		hair=0
 		clothes=0
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="ethic_xenophobe_room"
-	spawn_enabled=always
-	ethic="ethic_egalitarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics={
-		"civic_meritocracy"
-		"civic_warrior_culture"
-	}
-	trait="trait_industrious"
-	trait="trait_slow_breeders"
-	trait="trait_strong"
-	
-	flags={ 
-		hellgrammite_star_empire		
-		hellgrammite_empire
-		custom_start_screen
-	}
-	
 }
 
 jorgalleg = {
-
+	key="Jorgalleg"
+	name = "Jorgalleg"
+	adjective = "Jorgalleg"
+	spawn_enabled=always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
+	
+	ship_prefix = "ISS"
+	
+	species = {
+		class = "TER"
+		portrait= "imp_tarellian"
+		name = "Jorgalleg"
+		plural = "Jorgalleg" #we should localize the names!
+		adjective = "Jorgalleg"
+		name_list = "ART1"
+		trait="trait_slow_learners"
+		trait="trait_adaptive"
+		trait="trait_natural_sociologists"
+	}
+	
+	room = "ethic_spiritualism_room"
+	
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_spiritualist"
 	flags={ 
 		jorgalleg_star_empire		
 		jorgalleg_empire
 		custom_start_screen
 	}
-	
-	key="Jorgalleg"
-	name_list="ART1"
-	ship_prefix="ISS"
-	species_name="Jorgalleg"
-	species_plural="Jorgalleg"
-	species_class="TER"
-	species_adjective="Jorgalleg"
-	species_bio=""
-	portrait="imp_tarellian"
-	name="Jorgalleg"
-	adjective="Jorgalleg"
 	authority="auth_imperial"
 	government="gov_star_empire"
-	ftl=hyperdrive
-	weapon="tech_missiles_1"
+	civics={
+		"civic_distinguished_admiralty"
+		"civic_mining_guilds"
+	}
+	origin = "origin_default"
+	
 	planet_name="Jorgall"
 	planet_class="pc_advancexenocityyy"
 	system_name="Jorgall"
 	#initializer="Jorgalleg"
+	
 	graphical_culture="molluscoid_01"
 	city_graphical_culture="fungoid_01"
+	
 	empire_flag={
 		icon={
 			category="pointy"
@@ -189,49 +218,55 @@ jorgalleg = {
 		hair=0
 		clothes=1
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	room="ethic_spiritualism_room"
-	spawn_enabled=always
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_spiritualist"
-	civics={
-		"civic_distinguished_admiralty"
-		"civic_mining_guilds"
-	}
-	trait="trait_slow_learners"
-	trait="trait_adaptive"
-	trait="trait_natural_sociologists"
 }
 
 RakGol = {
 	key="Rak'Gol"
-	name_list="RAKGOL1"
-	ship_prefix="ISS"
-	species_name="Rak'Gol"
-	species_plural="Rak'Gol"
-	species_class="TER"
-	species_adjective="Rak'Gol"
-	species_bio=""
-	portrait="imp_tarellian"
-	name="Rak'Gol"
-	adjective="Rak'Gol"
-	ftl=hyperdrive
-	weapon="tech_missiles_1"
-	planet_name="Rak'Gol"
-	planet_class="pc_advancexenocityy"
-	system_name="Rak'Gol"
-	#initializer=""
-	graphical_culture="reptilian_01"
-	city_graphical_culture="reptilian_01"
+	name = "Rak'Gol"
+	adjective = "Rak'Gol"
+	spawn_enabled=always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
 	
+	ship_prefix = "ISS"
+	
+	species = {
+		class = "TER"
+		portrait= "imp_tarellian"
+		name = "Rak'Gol"
+		plural = "Rak'Gol" #we should localize the names!
+		adjective = "Rak'Gol"
+		name_list = "RAKGOL1"
+		trait="trait_strong"
+		trait="trait_solitary"
+		trait="trait_adaptive"
+	}
+	
+	room = "ethic_spiritualism_room"
+	
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		rakgol_star_empire	
 		rakgol_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	civics={
+		"civic_mining_guilds"
+		"civic_cutthroat_politics"
+	}
+	origin = "origin_default"
+	
+	planet_name="Rak'Gol"
+	planet_class="pc_advancexenocityy"
+	system_name="Rak'Gol"
+	#initializer=""
+	
+	graphical_culture="reptilian_01"
+	city_graphical_culture="reptilian_01"
 	
 	empire_flag={
 		icon={
@@ -258,50 +293,55 @@ RakGol = {
 		clothes=0
 		ruler_title="Abonimation"
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	
-	authority="auth_oligarchic"
-	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics={
-		"civic_mining_guilds"
-		"civic_cutthroat_politics"
-	}
-	trait="trait_strong"
-	trait="trait_solitary"
-	trait="trait_adaptive"
 }
 
 Slaugth = {
 	key="Slaugth"
-	name_list="SLAUGTH1"
-	ship_prefix="ISS"
-	species_name="Slaugth"
-	species_plural="Slaugth"
-	species_class="SLA"
-	species_adjective="Slaugth"
-	species_bio=""
-	portrait="imp_slaugh"
-	name="Slaugth"
-	adjective="Slaugth"
-	ftl=hyperdrive
-	weapon="tech_missiles_1"
-	planet_name="Zedgun"
-	planet_class="pc_advancexenocity"
-	system_name="Brelangia"
-	#initializer=""
-	graphical_culture="fungoid_01"
-	city_graphical_culture="fungoid_01"
+	name = "Slaugth"
+	adjective = "Slaugth"
+	spawn_enabled=always
+	spawn_as_fallen=no
+	ignore_portrait_duplication=no
 	
+	ship_prefix = "ISS"
+	
+	species = {
+		class = "SLA"
+		portrait= "imp_slaugh"
+		name = "Slaugth"
+		plural = "Slaugth" #we should localize the names!
+		adjective = "Slaugth"
+		name_list = "SLAUGTH1"
+		trait="trait_repugnant"
+		trait="trait_intelligent"
+		trait="trait_enduring"
+	}
+	
+	room = "ethic_spiritualism_room"
+	
+	ethic="ethic_authoritarian"
+	ethic="ethic_militarist"
+	ethic="ethic_materialist"
 	flags={ 
 		slaugth_star_empire	
 		slaugth_empire
 		custom_start_screen
 	}
-	spawn_enabled=always
+	authority="auth_oligarchic"
+	government="gov_military_junta"
+	civics={
+		"civic_mining_guilds"
+		"civic_cutthroat_politics"
+	}
+	origin = "origin_default"
+	
+	planet_name="Zedgun"
+	planet_class="pc_advancexenocity"
+	system_name="Brelangia"
+	#initializer=""
+	
+	graphical_culture="fungoid_01"
+	city_graphical_culture="fungoid_01"
 	
 	empire_flag={
 		icon={
@@ -328,19 +368,4 @@ Slaugth = {
 		clothes=0
 		ruler_title="Emperor"
 	}
-	spawn_as_fallen=no
-	ignore_portrait_duplication=no
-	
-	authority="auth_oligarchic"
-	government="gov_military_junta"
-	ethic="ethic_authoritarian"
-	ethic="ethic_militarist"
-	ethic="ethic_materialist"
-	civics={
-		"civic_mining_guilds"
-		"civic_cutthroat_politics"
-	}
-	trait="trait_repugnant"
-	trait="trait_intelligent"
-	trait="trait_enduring"
 }
