@@ -24,7 +24,6 @@ rebel_slave_defense_army = {
 	damage = 0.80
 	morale = 1.80
 	icon_frame = 3
-	maintenance = 0
 
 	potential = {
 		always = no
@@ -114,13 +113,18 @@ titanic_assault_army = {
 	collateral_damage = 3.0
 	war_exhaustion = 0.0
 	time = 90
-	maintenance = 1.0
 	icon_frame = 8
 	has_species = no
 	
-	cost = {
-		minerals = 250												#changed from 300 to 250 from old kamip file
-		energy = 50													#changed from 0 to 50 from old kamip file
+	resources = {
+		category = armies
+		cost = {
+			minerals = 250
+			energy = 50
+		}
+		upkeep = {
+			energy = 1
+		}
 	}
 	
 	potential = {
@@ -179,9 +183,14 @@ titanic_guardian_army = {
 	morale = 2.0													#changed from 3.0 to 2.0 from old kamip file
 	morale_damage = 2.0
 	time = 5
-	maintenance = 3.0												#changed from 1.0 to 3.0 from old kamip file
 	icon_frame = 8
 	has_species = no
+	
+	resources = {
+		upkeep = {
+			energy = 3.0
+		}
+	}
 	
 	potential = {
 		always = no
@@ -196,9 +205,15 @@ shroud_army = {
 	morale_damage = 3.0												#changed from 2.0 to 3.0 from old kamip file
 	war_exhaustion = 0.0
 	time = 5
-	maintenance = -1
 	icon_frame = 9
 	has_species = no
+	
+	resources = {
+		category = armies
+		upkeep = {
+			energy = -1.0
+		}
+	}
 	
 	potential = {
 		always = no

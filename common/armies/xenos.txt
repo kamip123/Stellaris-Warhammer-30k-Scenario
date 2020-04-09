@@ -87,13 +87,6 @@ Xenos_Walker = {
 	collateral_damage = 1.00										#added by mvd1984		
 	war_exhaustion = 0.0											#added by mvd1984
 	time = 600
-	maintenance = 7
-	icon_frame = 6
-	
-	cost = {
-		minerals = 1250
-	}
-	
 	icon_frame = 6
 	
 	resources = {
@@ -171,12 +164,6 @@ Xenos_War_Machine = {
 	collateral_damage = 1.00										#added by mvd1984		
 	war_exhaustion = 0.0											#added by mvd1984
 	time = 150
-	maintenance = 3.80
-	icon_frame = 2
-	cost = {
-		minerals = 150
-	}
-	
 	icon_frame = 2
 	
 	resources = {
@@ -229,12 +216,6 @@ Xenos_Tank = {
 	collateral_damage = 1.00										#added by mvd1984		
 	war_exhaustion = 0.0											#added by mvd1984
 	time = 170
-	maintenance = 4
-	icon_frame = 2
-	cost = {
-		minerals = 200
-	}
-	
 	icon_frame = 2
 	
 	resources = {

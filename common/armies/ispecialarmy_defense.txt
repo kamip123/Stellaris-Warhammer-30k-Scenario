@@ -62,11 +62,15 @@ Cadian_Defense_Troops_One_Time = {
 	damage = 2
 	health = 8
 	morale = 2	
-	maintenance = 3.00
 	collateral_damage = 0.00										#added by mvd1984		
 	war_exhaustion = 0.0											#added by mvd1984
 	icon_frame = 1
-		
+	
+	resources = {
+		upkeep = {
+			energy = 3.0
+		}
+	}
 		
 	potential = {
 		owner = {
@@ -81,11 +85,15 @@ Garrison_One_Time = {
 	damage = 2
 	health = 8
 	morale = 2	
-	maintenance = 3.00
 	collateral_damage = 0.00										#added by mvd1984		
 	war_exhaustion = 0.0											#added by mvd1984
 	icon_frame = 1
 		
+	resources = {
+		upkeep = {
+			energy = 3.0
+		}
+	}
 		
 	potential = {
 		owner = {

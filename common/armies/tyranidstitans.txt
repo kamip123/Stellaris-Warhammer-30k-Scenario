@@ -133,13 +133,6 @@ Dominatrix = {
 	collateral_damage = 1.00										#added by mvd1984		
 	war_exhaustion = 0.0											#added by mvd1984
 	time = 2000
-	maintenance = 9.00
-	icon_frame = 6
-	
-	cost = {
-		minerals = 3000
-	}
-	
 	icon_frame = 6
 	
 	resources = {
@@ -259,13 +252,6 @@ Viciator = {
 	collateral_damage = 1.00										#added by mvd1984		
 	war_exhaustion = 0.0											#added by mvd1984
 	time = 2500
-	maintenance = 14.00
-	icon_frame = 6
-	
-	cost = {
-		minerals = 5500
-	}
-	
 	icon_frame = 6
 	
 	resources = {
