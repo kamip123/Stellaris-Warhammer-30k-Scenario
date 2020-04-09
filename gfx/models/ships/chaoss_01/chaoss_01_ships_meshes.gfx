@@ -1,0 +1,896 @@
+objectTypes = {
+	
+	
+	#####
+
+	pdxmesh = {
+		name = "chaos_cruiser_hull_dark"
+		file = "gfx/models/ships/chaoss_01/chaos_cruiser_hull_dark.mesh"
+		scale = 1.1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "dark_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_cruiser_hull_two_dark"
+		file = "gfx/models/ships/chaoss_01/chaos_cruiser_hull_two_dark.mesh"
+		scale = 1.1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "dark_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_cruiser_hull_light"
+		file = "gfx/models/ships/chaoss_01/chaos_cruiser_hull_light.mesh"
+		scale = 1.1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "light_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_cruiser_guns"
+		file = "gfx/models/ships/chaoss_01/chaos_cruiser_guns.mesh"
+		scale = 1.1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "titanhull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_cruiser_yellow"
+		file = "gfx/models/ships/chaoss_01/chaos_cruiser_yellow.mesh"
+		scale = 1.1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "a_yellow_metal.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_cruiser_blue_two"
+		file = "gfx/models/ships/chaoss_01/chaos_cruiser_blue_two.mesh"
+		scale = 1.1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_cruiser_blue"
+		file = "gfx/models/ships/chaoss_01/chaos_cruiser_blue.mesh"
+		scale = 1.1
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+	
+	
+	
+	
+	
+	#####
+
+	pdxmesh = {
+		name = "chaos_battleship_dark_hull_twoc"
+		file = "gfx/models/ships/chaoss_01/chaos_battleship_dark_hull_two.mesh"
+		scale = 1.8
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "dark_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_battleship_hull_darkc"
+		file = "gfx/models/ships/chaoss_01/chaos_battleship_hull_dark.mesh"
+		scale = 1.8
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "dark_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_battleship_hull_lightc"
+		file = "gfx/models/ships/chaoss_01/chaos_battleship_hull_light.mesh"
+		scale = 1.8
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "light_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_battleship_gunsc"
+		file = "gfx/models/ships/chaoss_01/chaos_battleship_guns.mesh"
+		scale = 1.8
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "titanhull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_battleship_yellowc"
+		file = "gfx/models/ships/chaoss_01/chaos_battleship_yellow.mesh"
+		scale = 1.8
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "a_yellow_metal.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_battleship_bluec"
+		file = "gfx/models/ships/chaoss_01/chaos_battleship_blue.mesh"
+		scale = 1.8
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "chaos_battleship_blue_twoc"
+		file = "gfx/models/ships/chaoss_01/chaos_battleship_blue_two.mesh"
+		scale = 1.8
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+	
+	#####
+	pdxmesh = {
+		name = "corvette_hull_darkc"
+		file = "gfx/models/ships/chaoss_01/corvette_hull_dark.mesh"
+		scale = 0.6
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "dark_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "corvette_hull_lightc"
+		file = "gfx/models/ships/chaoss_01/corvette_hull_light.mesh"
+		scale = 0.6
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "light_red_hull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "corvette_gunsc"
+		file = "gfx/models/ships/chaoss_01/corvette_guns.mesh"
+		scale = 0.6
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "titanhull_diffuse.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "corvette_yellowc"
+		file = "gfx/models/ships/chaoss_01/corvette_yellow.mesh"
+		scale = 0.6
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "a_yellow_metal.dds"
+			texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"	
+			index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "corvette_bluec"
+		file = "gfx/models/ships/chaoss_01/corvette_blue.mesh"
+		scale = 0.6
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+
+
+
+
+
+	# Corvette
+	pdxmesh = {
+		name = "chaoss_01_corvette_frame_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_corvette_frame.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_corvette_M1S1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_corvette_S3.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			#name = "chaoss_01_corvette_S3"
+			index = 0
+            texture_diffuse = "chaoss_01_corvette_diffuse.dds"
+            texture_normal = "chaoss_01_corvette_normal.dds"
+            texture_specular = "chaoss_01_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_corvette_S3_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_corvette_S3.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			#name = "chaoss_01_corvette_S3"
+			index = 0
+            texture_diffuse = "chaoss_01_corvette_diffuse.dds"
+            texture_normal = "chaoss_01_corvette_normal.dds"
+            texture_specular = "chaoss_01_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_corvette_S1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_corvette_S3.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			#name = "chaoss_01_corvette_S3"
+			index = 0
+            texture_diffuse = "chaoss_01_corvette_diffuse.dds"
+            texture_normal = "chaoss_01_corvette_normal.dds"
+            texture_specular = "chaoss_01_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	#######  destroyer #######
+	
+	pdxmesh = {
+		name = "chaoss_01_destroyer_frame_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_corvette_frame.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+	        texture_diffuse = "chaoss_01_destroyer_diffuse.dds"
+            texture_normal = "chaoss_01_destroyer_normal.dds"
+            texture_specular = "chaoss_01_destroyer_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "chaoss_01_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_destroyer_diffuse.dds"
+            texture_normal = "chaoss_01_destroyer_normal.dds"
+            texture_specular = "chaoss_01_destroyer_specular.dds"
+
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_destroyer_diffuse.dds"
+            texture_normal = "chaoss_01_destroyer_normal.dds"
+            texture_specular = "chaoss_01_destroyer_specular.dds"
+		}
+	}
+	
+	#######  destroyer stern sections  #######	
+		
+	pdxmesh = {
+		name = "chaoss_01_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	#######  cruiser frame  #######
+	
+	pdxmesh = {
+		name = "chaoss_01_cruiser_frame_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_cruiser_frame.mesh"
+	
+		scale = 1.0
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser bow sections  #######	
+	
+	pdxmesh = {
+		name = "chaoss_01_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_cruiser_bow_L1.mesh"
+		
+		scale = 2
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_cruiser_diffuse.dds"
+            texture_normal = "chaoss_02_cruiser_normal.dds"
+            texture_specular = "chaoss_02_cruiser_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_cruiser_bow_M1S2.mesh"
+		
+		scale = 2
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_cruiser_diffuse.dds"
+            texture_normal = "chaoss_01_cruiser_normal.dds"
+            texture_specular = "chaoss_01_cruiser_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "chaoss_01_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_cruiser_bow_M1S2.mesh"
+		scale = 2
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_cruiser_diffuse.dds"
+            texture_normal = "chaoss_01_cruiser_normal.dds"
+            texture_specular = "chaoss_01_cruiser_specular.dds"
+		}
+	}
+		
+	#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "chaoss_01_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+				
+	pdxmesh = {
+		name = "chaoss_01_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}		
+	
+	pdxmesh = {
+		name = "chaoss_01_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "chaoss_01_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "chaoss_01_battleship_frame_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_frame.mesh"
+		scale = 1.6
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_battleship_diffuse.dds"
+            texture_normal = "chaoss_01_battleship_normal.dds"
+            texture_specular = "chaoss_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_battleship_diffuse.dds"
+            texture_normal = "chaoss_01_battleship_normal.dds"
+            texture_specular = "chaoss_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_bow_L2.mesh"
+		
+		scale = 1.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_battleship_diffuse.dds"
+            texture_normal = "chaoss_01_battleship_normal.dds"
+            texture_specular = "chaoss_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_battleship_diffuse.dds"
+            texture_normal = "chaoss_01_battleship_normal.dds"
+            texture_specular = "chaoss_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 1.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_01_battleship_diffuse.dds"
+            texture_normal = "chaoss_01_battleship_normal.dds"
+            texture_specular = "chaoss_01_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_battleship_bow_XL1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_battleship_bow_L2.mesh"
+		
+		scale = 1.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}	
+	
+	
+	
+	#######  Battleship mid sections  #######			
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_02_battleship_diffuse.dds"
+            texture_normal = "chaoss_02_battleship_normal.dds"
+            texture_specular = "chaoss_02_battleship_specular.dds"
+		}
+	}
+		
+		
+	#######  Battleship stern sections  #######	
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_03_battleship_diffuse.dds"
+            texture_normal = "chaoss_03_battleship_normal.dds"
+            texture_specular = "chaoss_03_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "chaoss_01_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_03_battleship_diffuse.dds"
+            texture_normal = "chaoss_03_battleship_normal.dds"
+            texture_specular = "chaoss_03_battleship_specular.dds"
+		}
+	}		
+		
+	pdxmesh = {
+		name = "chaoss_01_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_03_battleship_diffuse.dds"
+            texture_normal = "chaoss_03_battleship_normal.dds"
+            texture_specular = "chaoss_03_battleship_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "chaoss_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "chaoss_03_battleship_diffuse.dds"
+            texture_normal = "chaoss_03_battleship_normal.dds"
+            texture_specular = "chaoss_03_battleship_specular.dds"
+		}
+	}	
+	
+		################ Space port ############################
+	
+	pdxmesh = {
+		name = "chaoss_01_orbital_station_frame_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_orbital_station_frame.mesh"
+		scale = 1.4
+
+		meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "chaoss_01_orbital_station_diffuse.dds"
+			texture_normal = "chaoss_01_orbital_station_normal.dds"
+			texture_specular = "chaoss_01_orbital_station_specular.dds"			
+			
+		}
+	}
+	
+	
+	
+	
+	
+	pdxmesh = {
+		name = "chaoss_01_orbital_station_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_orbital_station.mesh"
+		scale = 1.4
+
+		meshsettings = {
+			texture_diffuse = "chaoss_01_orbital_station_diffuse.dds"
+			texture_normal = "chaoss_01_orbital_station_normal.dds"
+			texture_specular = "chaoss_01_orbital_station_specular.dds"
+            index = 0			
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	
+	pdxmesh = {
+		name = "chaoss_01_science_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_corvette_S3.mesh"
+		scale = 2.0
+
+		meshsettings = {
+			#name = "chaoss_01_corvette_S3"
+			index = 0
+            texture_diffuse = "chaoss_01_corvette_diffuse.dds"
+            texture_normal = "chaoss_01_corvette_normal.dds"
+            texture_specular = "chaoss_01_corvette_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+		pdxmesh = {
+		name = "chaoss_01_transport_mesh"
+		file = "gfx/models/ships/chaoss_01/chaoss_01_transport.mesh"
+		scale = 1.8
+		meshsettings = {
+			#name = "chaoss_01_corvette_S3"
+			index = 0
+            texture_diffuse = "chaoss_01_transport_diffuse.dds"
+            texture_normal = "chaoss_01_transport_normal.dds"
+            texture_specular = "chaoss_01_transport_specular.dds"
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	
+}

@@ -1,0 +1,605 @@
+objectTypes = {
+	# Corvette
+	pdxmesh = {
+		name = "tau_01_corvette_frame_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_corvette_frame.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_corvette_M1S1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_corvette_M1S1.mesh"
+		scale = 0.5
+        meshsettings = {
+            #name = "tau_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "tau_01_corvette_diffuse.dds"
+            texture_normal = "tau_01_corvette_normal.dds"
+            texture_specular = "tau_01_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "tau_01_corvette_S3_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_corvette_S3.mesh"
+		scale = 0.5
+
+		meshsettings = {
+            #name = "tau_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "tau_02_corvette_diffuse.dds"
+            texture_normal = "tau_02_corvette_normal.dds"
+            texture_specular = "tau_02_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "tau_01_corvette_S1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_corvette_M1S1.mesh"
+		scale = 0.5
+
+		meshsettings = {
+            #name = "tau_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "tau_01_corvette_diffuse.dds"
+            texture_normal = "tau_01_corvette_normal.dds"
+            texture_specular = "tau_01_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	#######  destroyer #######
+	
+	pdxmesh = {
+		name = "tau_01_destroyer_frame_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_corvette_frame.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.4
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+	        texture_diffuse = "tau_01_destroyer_diffuse.dds"
+            texture_normal = "tau_01_destroyer_normal.dds"
+            texture_specular = "tau_01_destroyer_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "tau_01_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.4
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_destroyer_diffuse.dds"
+            texture_normal = "tau_01_destroyer_normal.dds"
+            texture_specular = "tau_01_destroyer_specular.dds"
+
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.4
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_destroyer_diffuse.dds"
+            texture_normal = "tau_01_destroyer_normal.dds"
+            texture_specular = "tau_01_destroyer_specular.dds"
+		}
+	}
+	
+	#######  destroyer stern sections  #######	
+		
+	pdxmesh = {
+		name = "tau_01_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	#######  cruiser frame  #######
+	
+	pdxmesh = {
+		name = "tau_01_cruiser_frame_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_cruiser_frame.mesh"
+	
+		scale = 1.5
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser bow sections  #######	
+	
+	pdxmesh = {
+		name = "tau_01_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_cruiser_bow_L1.mesh"
+		
+		scale = 1.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_cruiser_diffuse.dds"
+            texture_normal = "tau_01_cruiser_normal.dds"
+            texture_specular = "tau_01_cruiser_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_cruiser_bow_M1S2.mesh"
+		
+		scale = 1.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_cruiser_diffuse.dds"
+            texture_normal = "tau_02_cruiser_normal.dds"
+            texture_specular = "tau_02_cruiser_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "tau_01_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_cruiser_bow_M1S2.mesh"
+		scale = 1.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_cruiser_diffuse.dds"
+            texture_normal = "tau_02_cruiser_normal.dds"
+            texture_specular = "tau_02_cruiser_specular.dds"
+		}
+	}
+		
+	#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "tau_01_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+				
+	pdxmesh = {
+		name = "tau_01_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}		
+	
+	pdxmesh = {
+		name = "tau_01_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "tau_01_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "tau_01_battleship_frame_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_frame.mesh"
+		scale = 3
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_battleship_diffuse.dds"
+            texture_normal = "tau_01_battleship_normal.dds"
+            texture_specular = "tau_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_bow_L1S4.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_bow_L1S4.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_bow_L1S4.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_battleship_diffuse.dds"
+            texture_normal = "tau_01_battleship_normal.dds"
+            texture_specular = "tau_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_battleship_diffuse.dds"
+            texture_normal = "tau_01_battleship_normal.dds"
+            texture_specular = "tau_01_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_battleship_bow_XL1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_battleship_diffuse.dds"
+            texture_normal = "tau_01_battleship_normal.dds"
+            texture_specular = "tau_01_battleship_specular.dds"
+		}
+	}	
+	
+	
+	
+	#######  Battleship mid sections  #######			
+		
+	pdxmesh = {
+		name = "tau_01_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "tau_01_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_02_battleship_diffuse.dds"
+            texture_normal = "tau_02_battleship_normal.dds"
+            texture_specular = "tau_02_battleship_specular.dds"
+		}
+	}
+		
+		
+	#######  Battleship stern sections  #######	
+		
+	pdxmesh = {
+		name = "tau_01_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_03_battleship_diffuse.dds"
+            texture_normal = "tau_03_battleship_normal.dds"
+            texture_specular = "tau_03_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_03_battleship_diffuse.dds"
+            texture_normal = "tau_03_battleship_normal.dds"
+            texture_specular = "tau_03_battleship_specular.dds"
+		}
+	}		
+		
+	pdxmesh = {
+		name = "tau_01_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_03_battleship_diffuse.dds"
+            texture_normal = "tau_03_battleship_normal.dds"
+            texture_specular = "tau_03_battleship_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "tau_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_03_battleship_diffuse.dds"
+            texture_normal = "tau_03_battleship_normal.dds"
+            texture_specular = "tau_03_battleship_specular.dds"
+		}
+	}	
+	
+		################ Space port ############################
+	
+
+	
+	
+	
+	pdxmesh = {
+		name = "tau_01_science_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.4
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_destroyer_diffuse.dds"
+            texture_normal = "tau_01_destroyer_normal.dds"
+            texture_specular = "tau_01_destroyer_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "tau_01_transport_mesh"
+		file = "gfx/models/ships/tau_01/tau_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.4
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "tau_01_destroyer_diffuse.dds"
+            texture_normal = "tau_01_destroyer_normal.dds"
+            texture_specular = "tau_01_destroyer_specular.dds"
+		}
+	}
+	
+	
+}

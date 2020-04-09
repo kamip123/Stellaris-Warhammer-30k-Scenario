@@ -1,0 +1,685 @@
+objectTypes = {
+
+	pdxmesh = {
+		name = "titan_orc_hull"
+		file = "gfx/models/ships/orc_01/orc_titan_hull.mesh"
+		scale = 3.0
+        meshsettings = {
+			shader = "PdxMeshShip"
+            texture_diffuse = "a_light_green_metal.dds"
+            texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+            index = 0
+        }
+	}
+	
+	pdxmesh = {
+		name = "titan_orc_engines"
+		file = "gfx/models/ships/orc_01/orc_titan_engines.mesh"
+		scale = 3.0
+        meshsettings = {
+			shader = "PdxMeshShip"
+            texture_diffuse = "a_szary_metal.dds"
+            texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+            index = 0
+        }
+	}
+
+	pdxmesh = {
+		name = "titan_orc_guns"
+		file = "gfx/models/ships/orc_01/orc_titan_guns.mesh"
+		scale = 3.0
+        meshsettings = {
+			shader = "PdxMeshShip"
+            texture_diffuse = "a_dark_brown_metal.dds"
+            texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+            index = 0
+        }
+	}
+
+	pdxmesh = {
+		name = "titan_orc_small_hull"
+		file = "gfx/models/ships/orc_01/orc_titan_small_hull.mesh"
+		scale = 3.0
+        meshsettings = {
+			shader = "PdxMeshShip"
+            texture_diffuse = "a_dark_green_metal.dds"
+            texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+            index = 0
+        }
+	}
+
+	pdxmesh = {
+		name = "titan_orc_yellow"
+		file = "gfx/models/ships/orc_01/orc_titan_yellow.mesh"
+		scale = 3.0
+        meshsettings = {
+			shader = "PdxMeshShip"
+            texture_diffuse = "a_yellow_metal.dds"
+            texture_normal = "nonormal.dds"
+			texture_specular = "nospec.dds"
+            index = 0
+        }
+	}
+
+	pdxmesh = {
+		name = "titan_orc_red"
+		file = "gfx/models/ships/orc_01/orc_titan_red.mesh"
+		scale = 3.0
+        meshsettings = {
+			shader = "PdxMeshShip"
+			texture_diffuse = "lights_red.dds"
+			texture_normal = "lights_red_normal.dds"
+			texture_specular = "lights_red_specular.dds"	
+			index = 0
+        }
+	}
+	
+
+	# Corvette
+	pdxmesh = {
+		name = "orc_01_corvette_frame_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_corvette_frame.mesh"
+		scale = 0.5
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_corvette_M1S1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_corvette_M1S1.mesh"
+		scale = 0.5
+        meshsettings = {
+            #name = "orc_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "orc_01_corvette_diffuse.dds"
+            texture_normal = "orc_01_corvette_normal.dds"
+            texture_specular = "orc_01_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "orc_01_corvette_S3_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_corvette_M1S1.mesh"
+		scale = 0.5
+
+		meshsettings = {
+            #name = "orc_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "orc_01_corvette_diffuse.dds"
+            texture_normal = "orc_01_corvette_normal.dds"
+            texture_specular = "orc_01_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	
+	pdxmesh = {
+		name = "orc_01_corvette_S1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_corvette_M1S1.mesh"
+		scale = 0.5
+
+		meshsettings = {
+            #name = "orc_01_corvette_M1S1"
+            index = 0
+            texture_diffuse = "orc_01_corvette_diffuse.dds"
+            texture_normal = "orc_01_corvette_normal.dds"
+            texture_specular = "orc_01_corvette_specular.dds"
+            shader = "PdxMeshShip"
+        }
+	}
+	#######  destroyer #######
+	
+	pdxmesh = {
+		name = "orc_01_destroyer_frame_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_corvette_frame.mesh"
+		scale = 0.4
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_destroyer_bow_L1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.9
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+	        texture_diffuse = "orc_01_destroyer_diffuse.dds"
+            texture_normal = "orc_01_destroyer_normal.dds"
+            texture_specular = "orc_01_destroyer_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "orc_01_destroyer_bow_M1S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.9
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_destroyer_diffuse.dds"
+            texture_normal = "orc_01_destroyer_normal.dds"
+            texture_specular = "orc_01_destroyer_specular.dds"
+
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_destroyer_bow_S3_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.9
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_destroyer_diffuse.dds"
+            texture_normal = "orc_01_destroyer_normal.dds"
+            texture_specular = "orc_01_destroyer_specular.dds"
+		}
+	}
+	
+	#######  destroyer stern sections  #######	
+		
+	pdxmesh = {
+		name = "orc_01_destroyer_stern_S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_destroyer_stern_M1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	#######  cruiser frame  #######
+	
+	pdxmesh = {
+		name = "orc_01_cruiser_frame_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_cruiser_frame.mesh"
+	
+		scale = 1.5
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	#######  cruiser bow sections  #######	
+	
+	pdxmesh = {
+		name = "orc_01_cruiser_bow_L1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_cruiser_bow_L1.mesh"
+		
+		scale = 1.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_cruiser_diffuse.dds"
+            texture_normal = "orc_01_cruiser_normal.dds"
+            texture_specular = "orc_01_cruiser_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_cruiser_bow_M1S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_cruiser_bow_L1.mesh"
+		
+		scale = 1.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_cruiser_diffuse.dds"
+            texture_normal = "orc_01_cruiser_normal.dds"
+            texture_specular = "orc_01_cruiser_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "orc_01_cruiser_bow_M2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_cruiser_bow_L1.mesh"
+		scale = 1.5
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_cruiser_diffuse.dds"
+            texture_normal = "orc_01_cruiser_normal.dds"
+            texture_specular = "orc_01_cruiser_specular.dds"
+		}
+	}
+		
+	#######  cruiser mid sections  #######			
+		
+	
+	pdxmesh = {
+		name = "orc_01_cruiser_mid_S2HB_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_cruiser_mid_L1M1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+				
+	pdxmesh = {
+		name = "orc_01_cruiser_mid_M3_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}		
+	
+	pdxmesh = {
+		name = "orc_01_cruiser_mid_M2S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	#######  cruiser stern sections  #######	
+		
+	pdxmesh = {
+		name = "orc_01_cruiser_stern_M1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_cruiser_stern_S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 1.0
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	#######  Battleship frame  #######
+	
+	pdxmesh = {
+		name = "orc_01_battleship_frame_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_frame.mesh"
+		scale = 3
+
+		meshsettings = {
+			index = 0
+			shader = "PdxMeshShip"
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_battleship_bow_L1M1S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_battleship_diffuse.dds"
+            texture_normal = "orc_01_battleship_normal.dds"
+            texture_specular = "orc_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_bow_L1S4_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_battleship_diffuse.dds"
+            texture_normal = "orc_01_battleship_normal.dds"
+            texture_specular = "orc_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_bow_L2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_battleship_diffuse.dds"
+            texture_normal = "orc_01_battleship_normal.dds"
+            texture_specular = "orc_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_bow_M1S2SHB_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_battleship_diffuse.dds"
+            texture_normal = "orc_01_battleship_normal.dds"
+            texture_specular = "orc_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_bow_M2S4_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_battleship_diffuse.dds"
+            texture_normal = "orc_01_battleship_normal.dds"
+            texture_specular = "orc_01_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_bow_M3S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_battleship_diffuse.dds"
+            texture_normal = "orc_01_battleship_normal.dds"
+            texture_specular = "orc_01_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_battleship_bow_XL1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_battleship_bow_L1M1S2.mesh"
+		
+		scale = 3
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_battleship_diffuse.dds"
+            texture_normal = "orc_01_battleship_normal.dds"
+            texture_specular = "orc_01_battleship_specular.dds"
+		}
+	}	
+	
+	
+	
+	#######  Battleship mid sections  #######			
+		
+	pdxmesh = {
+		name = "orc_01_battleship_mid_L2S4_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_02_battleship_diffuse.dds"
+            texture_normal = "orc_02_battleship_normal.dds"
+            texture_specular = "orc_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_mid_L1M4_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_02_battleship_diffuse.dds"
+            texture_normal = "orc_02_battleship_normal.dds"
+            texture_specular = "orc_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_mid_L2M2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_02_battleship_diffuse.dds"
+            texture_normal = "orc_02_battleship_normal.dds"
+            texture_specular = "orc_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_mid_L3_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_02_battleship_diffuse.dds"
+            texture_normal = "orc_02_battleship_normal.dds"
+            texture_specular = "orc_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_mid_M4SHB_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_02_battleship_diffuse.dds"
+            texture_normal = "orc_02_battleship_normal.dds"
+            texture_specular = "orc_02_battleship_specular.dds"
+		}
+	}
+		
+	pdxmesh = {
+		name = "orc_01_battleship_mid_S4LHB_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_02_battleship_diffuse.dds"
+            texture_normal = "orc_02_battleship_normal.dds"
+            texture_specular = "orc_02_battleship_specular.dds"
+		}
+	}
+		
+		
+	#######  Battleship stern sections  #######	
+		
+	pdxmesh = {
+		name = "orc_01_battleship_stern_L1_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_03_battleship_diffuse.dds"
+            texture_normal = "orc_03_battleship_normal.dds"
+            texture_specular = "orc_03_battleship_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_battleship_stern_M1S2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_03_battleship_diffuse.dds"
+            texture_normal = "orc_03_battleship_normal.dds"
+            texture_specular = "orc_03_battleship_specular.dds"
+		}
+	}		
+		
+	pdxmesh = {
+		name = "orc_01_battleship_stern_M2_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_03_battleship_diffuse.dds"
+            texture_normal = "orc_03_battleship_normal.dds"
+            texture_specular = "orc_03_battleship_specular.dds"
+		}
+	}	
+	
+	pdxmesh = {
+		name = "orc_01_battleship_stern_S4_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_stern_S2.mesh"
+		
+		scale = 0.6
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_03_battleship_diffuse.dds"
+            texture_normal = "orc_03_battleship_normal.dds"
+            texture_specular = "orc_03_battleship_specular.dds"
+		}
+	}	
+	
+		################ Space port ############################
+	
+
+	
+	
+	
+	pdxmesh = {
+		name = "orc_01_science_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.4
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_destroyer_diffuse.dds"
+            texture_normal = "orc_01_destroyer_normal.dds"
+            texture_specular = "orc_01_destroyer_specular.dds"
+		}
+	}
+	
+	pdxmesh = {
+		name = "orc_01_transport_mesh"
+		file = "gfx/models/ships/orc_01/orc_01_destroyer_bow_L1.mesh"
+		
+		scale = 0.4
+		
+		meshsettings = {
+			shader = "PdxMeshShip"
+			index = 0
+			texture_diffuse = "orc_01_destroyer_diffuse.dds"
+            texture_normal = "orc_01_destroyer_normal.dds"
+            texture_specular = "orc_01_destroyer_specular.dds"
+		}
+	}
+	
+	
+}

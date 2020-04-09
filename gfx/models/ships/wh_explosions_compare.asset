@@ -37,22 +37,3 @@ entity = {
 	
 	locator = { name = "root"	position = { 0 0 0 } }
 }
-
-entity = {
-	name = "blackstonefortress_laser_entity_dwa"
-	#pdxmesh = ""	
-	scale = 1.0
-	
-	default_state = "idle" 
-	state = { name = "idle" state_time = 10 looping = no
-		event = { time = 0.0 particle = "planet_blackstone_laser_dwa" keep_particle = yes trigger_once = yes sound = { soundeffect = "effect_longinus_fire" } }
-	}	
-	
-	game_data = {
-		size = 30
-	}
-	
-	cull_radius = 9999.0
-	
-	locator = { name = "root"	position = { 0 0 0 } }
-}
