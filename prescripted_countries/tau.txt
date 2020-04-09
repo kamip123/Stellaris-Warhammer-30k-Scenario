@@ -7,7 +7,7 @@ tau_empire = {
 	ship_prefix = "TIS"
 	
 	species = {
-		class = "Tau"
+		class = "TAU"
 		portrait= "imp_tau"
 		name = "Tau"
 		plural = "Tau" #we should localize the names!
