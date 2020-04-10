@@ -1,6 +1,6 @@
 Raider_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
+	base_cap_amount = 1
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -12,8 +12,6 @@ Raider_recruitment = {
 			has_country_flag = eldardark_empire
 		}
 	}
-	
-	base_cap_amount = 1
 	
 	resources = {
 		category = planet_buildings
@@ -35,7 +33,7 @@ Raider_recruitment = {
 
 Venom_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
+	base_cap_amount = 1
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -47,9 +45,7 @@ Venom_recruitment = {
 			has_country_flag = eldardark_empire
 		}
 	}
-	
-	base_cap_amount = 1
-	
+
 	resources = {
 		category = planet_buildings
 		cost = {

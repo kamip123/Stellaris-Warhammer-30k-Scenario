@@ -61,8 +61,8 @@
 
 astronomican = {
 	base_buildtime = 1000
-	planet_unique = yes
-	empire_unique = yes
+	base_cap_amount = 1
+	#empire_unique = yes
 	
 	
 	potential = {
@@ -79,11 +79,10 @@ astronomican = {
 			job_head_researcher_add = 1
 			job_executive_add = 1
 			job_noble_add = 1
+			job_bureaucrat_add = 10
 		}
 	}
-	
-	base_cap_amount = 1
-	
+
 	resources = {
 		category = planet_buildings
 		cost = {
@@ -98,8 +97,6 @@ astronomican = {
 	}
 	country_modifier = {
 		country_resource_max_add = 3000
-		country_core_sector_system_cap = 10
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.1
 	}
 	
@@ -122,8 +119,8 @@ astronomican = {
 
 golden_throne = {
 	base_buildtime = 1000
-	planet_unique = yes
-	empire_unique = yes
+	base_cap_amount = 1
+	#empire_unique = yes
 	
 	
 	potential = {
@@ -134,8 +131,6 @@ golden_throne = {
 		}
 	}
 	
-	base_cap_amount = 1
-	
 	triggered_planet_modifier = {
 		modifier = {
 			job_administrator_add = 1
@@ -143,6 +138,7 @@ golden_throne = {
 			job_noble_add = 2
 			job_high_priest_add = 3
 			job_soldier_add = 10
+			job_bureaucrat_add = 10
 		}
 	}
 	
@@ -160,8 +156,6 @@ golden_throne = {
 	}
 	country_modifier = {
 		country_resource_max_add = 3000
-		country_core_sector_system_cap = 10
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.1
 	}
 	
@@ -175,10 +169,9 @@ golden_throne = {
 	}
 	
 	army_modifier = {
-		garrison_health = 1.0
+		army_defense_health_mult = 1.0
 		army_starting_experience_add = 100
 	}
-	
 	
 	planet_modifier = {
 		pop_happiness = 50
@@ -195,11 +188,7 @@ golden_throne = {
 
 nuke_silo = {
 	base_buildtime = 300
-	planet_unique = yes
-	
-	produced_resources = {
-		energy = 30
-	}
+	base_cap_amount = 1
 	
 	potential = {
 		owner = {
@@ -213,15 +202,13 @@ nuke_silo = {
 		}
 	}
 	
-	base_cap_amount = 1
-	
 	resources = {
 		category = planet_buildings
 		cost = {
 			minerals = 500
 		}			
 		produces = {
-			energy = 10
+			energy = 30
 		}
 	}
 	
@@ -232,7 +219,7 @@ nuke_silo = {
 
 emperor_shrine = {
 	base_buildtime = 180
-	planet_unique = yes
+	base_cap_amount = 1
 		
 	resources = {
 		category = planet_buildings
@@ -241,6 +228,9 @@ emperor_shrine = {
 		}			
 		upkeep = {
 			energy = 2
+		}
+		produces = {
+			unity = 3
 		}
 	}
 	
@@ -259,23 +249,11 @@ emperor_shrine = {
 			has_country_flag = human_empire
 		}
 	}
-	
-	produced_resources = {
-		unity = 3
-	}
-	
-	prerequisites = {
-		
-	}	
-	
-	upgrades = {
-		
-	}
 }
 
 emperor_shrine_smh = {
 	base_buildtime = 180
-	planet_unique = yes
+	base_cap_amount = 1
 	
 	resources = {
 		category = planet_buildings
@@ -284,6 +262,9 @@ emperor_shrine_smh = {
 		}			
 		upkeep = {
 			energy = 2
+		}
+		produces = {
+			unity = 6
 		}
 	}
 	
@@ -302,24 +283,11 @@ emperor_shrine_smh = {
 			has_country_flag = human_empire
 		}
 	}
-	
-	produced_resources = {
-		unity = 6
-	}
-	
-	
-	prerequisites = {
-		
-	}	
-	
-	upgrades = {
-		
-	}
 }
 
 armoury_imperium = {
 	base_buildtime = 300
-	planet_unique = yes
+	base_cap_amount = 1
 	
 	resources = {
 		category = planet_buildings
@@ -343,9 +311,10 @@ armoury_imperium = {
 	}
 	
 	planet_modifier = {
-		planet_army_build_time_mult = -0.1
-		planet_army_build_cost_mult = -0.01
-		planet_fortification_strength = 0.10
+		armies_energy_cost_mult = -0.1
+		armies_minerals_cost_mult = -0.1
+		planet_army_build_time_mult = -0.01
+		#planet_fortification_strength = 0.10
 	}
 	
 	potential = {
@@ -364,7 +333,7 @@ armoury_imperium = {
 
 energy_factory = {
 	base_buildtime = 300
-	planet_unique = yes
+	base_cap_amount = 1
 	can_build = no
 	resources = {
 		category = planet_buildings
@@ -393,7 +362,7 @@ energy_factory = {
 
 mineral_factory = {
 	base_buildtime = 300
-	planet_unique = yes
+	base_cap_amount = 1
 	can_build = no
 	resources = {
 		category = planet_buildings
@@ -422,7 +391,7 @@ mineral_factory = {
 
 food_factory = {
 	base_buildtime = 300
-	planet_unique = yes
+	base_cap_amount = 1
 	can_build = no
 	resources = {
 		category = planet_buildings

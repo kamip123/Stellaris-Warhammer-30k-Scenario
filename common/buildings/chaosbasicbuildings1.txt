@@ -1,7 +1,6 @@
 Defilers_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
-	
+	base_cap_amount = 1
 	
 	potential = {
 		owner = {
@@ -35,8 +34,7 @@ Defilers_recruitment = {
 
 Chaos_Predators_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
-	
+	base_cap_amount = 1
 	
 	potential = {
 		owner = {
@@ -70,8 +68,7 @@ Chaos_Predators_recruitment = {
 
 Greater_Daemons_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
-	
+	base_cap_amount = 1
 	
 	potential = {
 		owner = {

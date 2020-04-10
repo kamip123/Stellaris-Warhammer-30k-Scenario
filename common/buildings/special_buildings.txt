@@ -62,15 +62,15 @@
 ####
 full_developed_tomb = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -89,8 +89,6 @@ full_developed_tomb = {
 	
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -104,8 +102,9 @@ full_developed_tomb = {
 	
 	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.30
-		planet_army_build_cost_mult = -0.30
+		armies_energy_cost_mult = -0.30
+		armies_minerals_cost_mult = -0.30
+		planet_army_build_time_mult = -0.30
 		planet_fortification_strength = 8.00
 		#planet_border_mult = 1.0
 		pop_happiness = 10
@@ -118,15 +117,15 @@ full_developed_tomb = {
 ####
 craftworld_eternity_circuit = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -144,8 +143,6 @@ craftworld_eternity_circuit = {
 	}
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -157,8 +154,9 @@ craftworld_eternity_circuit = {
 	}
 	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.30
-		planet_army_build_cost_mult = -0.30
+		armies_energy_cost_mult = -0.30
+		armies_minerals_cost_mult = -0.30
+		planet_army_build_time_mult = -0.30
 		planet_fortification_strength = 8.00
 		planet_border_mult = 3.0
 		pop_happiness = 10
@@ -171,15 +169,15 @@ craftworld_eternity_circuit = {
 ####
 chaos_undivided = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -197,8 +195,6 @@ chaos_undivided = {
 	}
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -209,13 +205,10 @@ chaos_undivided = {
 		}
 	}
 	
-	
-	
-	
-	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.50
-		planet_army_build_cost_mult = -0.50
+		armies_energy_cost_mult = -0.50
+		armies_minerals_cost_mult = -0.50
+		planet_army_build_time_mult = -0.50
 		planet_fortification_strength = 15.00
 		#planet_border_mult = 5.0
 		pop_happiness = 10
@@ -228,15 +221,15 @@ chaos_undivided = {
 ####
 commoragh = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -254,8 +247,6 @@ commoragh = {
 	}
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -267,8 +258,9 @@ commoragh = {
 	}
 	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.30
-		planet_army_build_cost_mult = -0.30
+		armies_energy_cost_mult = -0.30
+		armies_minerals_cost_mult = -0.30
+		planet_army_build_time_mult = -0.30
 		planet_fortification_strength = 5.00
 		planet_border_mult = 2.0
 		pop_happiness = 10
@@ -281,15 +273,15 @@ commoragh = {
 ####
 etheral_caste = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -307,8 +299,6 @@ etheral_caste = {
 	}
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -322,12 +312,10 @@ etheral_caste = {
 		}
 	}
 	
-
-	
-	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.30
-		planet_army_build_cost_mult = -0.30
+		armies_energy_cost_mult = -0.30
+		armies_minerals_cost_mult = -0.30
+		planet_army_build_time_mult = -0.30
 		planet_fortification_strength = 5.00
 		#planet_border_mult = 2.0
 	}
@@ -339,15 +327,15 @@ etheral_caste = {
 ####
 the_beast_da_camp = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -365,8 +353,6 @@ the_beast_da_camp = {
 	}
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -380,8 +366,9 @@ the_beast_da_camp = {
 	}
 	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.70
-		planet_army_build_cost_mult = -0.70
+		armies_energy_cost_mult = -0.70
+		armies_minerals_cost_mult = -0.70
+		planet_army_build_time_mult = -0.70
 		planet_fortification_strength = 8.00
 		#planet_border_mult = 2.0
 		pop_happiness = 10
@@ -394,15 +381,15 @@ the_beast_da_camp = {
 ####
 rebels_center = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -420,8 +407,6 @@ rebels_center = {
 	}
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -433,8 +418,9 @@ rebels_center = {
 	}
 	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.70
-		planet_army_build_cost_mult = -0.70
+		armies_energy_cost_mult = -0.70
+		armies_minerals_cost_mult = -0.70
+		planet_army_build_time_mult = -0.70
 		planet_fortification_strength = 8.00
 		#planet_border_mult = 2.0
 		pop_happiness = 1
@@ -447,15 +433,15 @@ rebels_center = {
 ####
 xenos_center = {
 	base_buildtime = 1000
-	planet_unique = yes
-	#empire_unique = yes
 	base_cap_amount = 1
+	##empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_technician_add = 10
 			job_miner_add = 5
 			job_foundry_add = 3
+			job_bureaucrat_add = 30
 		}
 	}
 	
@@ -473,8 +459,6 @@ xenos_center = {
 	}
 	country_modifier = {
 		country_resource_max_add = 10000
-		country_core_sector_system_cap = 30
-		country_leader_cap = 10
 		planet_colony_development_speed_mult = 0.5
 	}
 	
@@ -492,8 +476,9 @@ xenos_center = {
 	}
 	
 	planet_modifier = {
-		planet_army_build_speed_mult = -0.70
-		planet_army_build_cost_mult = -0.70
+		armies_energy_cost_mult = -0.70
+		armies_minerals_cost_mult = -0.70
+		planet_army_build_time_mult = -0.70
 		planet_fortification_strength = 8.00
 		#planet_border_mult = 2.0
 		pop_happiness = 1

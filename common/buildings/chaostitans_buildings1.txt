@@ -1,23 +1,22 @@
 chaos_building_imperial_knight_base_1 = {
 	base_buildtime = 30
-	planet_unique = yes
-	#empire_unique = yes
+	base_cap_amount = 1
+	##empire_unique = yes
 	
-	cost = {
-		minerals = 2000
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 2000
+		}			
+		upkeep = {
+			energy = 1
+		}
 	}
 	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
 		}
-	}
-	
-	produced_resources = {
-	}
-	
-	required_resources = {
-		energy = 1
 	}
 	
 	potential = {
@@ -36,22 +35,23 @@ chaos_building_imperial_knight_base_1 = {
 
 chaos_building_warhound_titan_base_1 = {
 	base_buildtime = 30
-	planet_unique = yes
-	#empire_unique = yes
+	base_cap_amount = 1
+	##empire_unique = yes
 	
-	cost = {
-		minerals = 3000
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 3000
+		}			
+		upkeep = {
+			energy = 1
+		}
 	}
+
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
 		}
-	}
-	produced_resources = {
-	}
-	
-	required_resources = {
-		energy = 1
 	}
 	
 	potential = {
@@ -90,22 +90,22 @@ chaos_building_warhound_titan_base_1 = {
 
 chaos_building_reaver_titan_base_1 = {
 	base_buildtime = 30
-	planet_unique = yes
-	#empire_unique = yes
+	base_cap_amount = 1
+	##empire_unique = yes
 	
-	cost = {
-		minerals = 5000
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 5000
+		}			
+		upkeep = {
+			energy = 1
+		}
 	}
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
 		}
-	}
-	produced_resources = {
-	}
-	
-	required_resources = {
-		energy = 1
 	}
 	
 	potential = {
@@ -144,22 +144,22 @@ chaos_building_reaver_titan_base_1 = {
 
 chaos_building_warlord_titan_base_1 = {
 	base_buildtime = 30
-	planet_unique = yes
-	#empire_unique = yes
+	base_cap_amount = 1
+	##empire_unique = yes
 	
-	cost = {
-		minerals = 7000
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 7000
+		}			
+		upkeep = {
+			energy = 1
+		}
 	}
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
 		}
-	}
-	produced_resources = {
-	}
-	
-	required_resources = {
-		energy = 1
 	}
 	
 	potential = {
@@ -198,22 +198,22 @@ chaos_building_warlord_titan_base_1 = {
 
 chaos_building_emperor_titan_base_1 = {
 	base_buildtime = 30
-	planet_unique = yes
-	empire_unique = yes
+	base_cap_amount = 1
+	#empire_unique = yes
 	
-	cost = {
-		minerals = 8000
+	resources = {
+		category = planet_buildings
+		cost = {
+			minerals = 8000
+		}			
+		upkeep = {
+			energy = 1
+		}
 	}
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
 		}
-	}
-	produced_resources = {
-	}
-	
-	required_resources = {
-		energy = 1
 	}
 	
 	potential = {

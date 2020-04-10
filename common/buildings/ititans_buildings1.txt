@@ -1,13 +1,13 @@
 building_imperial_knight_base_1 = {
 	base_buildtime = 30
-	defense_armies = 2
-	planet_unique = yes
-	#empire_unique = yes
-	
+	#defense_armies = 2
 	base_cap_amount = 15
+	##empire_unique = yes
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
+			job_soldier_add = 1
 		}
 	}
 	resources = {
@@ -35,14 +35,14 @@ building_imperial_knight_base_1 = {
 
 building_warhound_titan_base_1 = {
 	base_buildtime = 30
-	defense_armies = 2
-	planet_unique = yes
-	#empire_unique = yes
-	
+	#defense_armies = 2
 	base_cap_amount = 12
+	##empire_unique = yes
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
+			job_soldier_add = 1
 		}
 	}
 	resources = {
@@ -91,13 +91,14 @@ building_warhound_titan_base_1 = {
 
 building_reaver_titan_base_1 = {
 	base_buildtime = 30
-	defense_armies = 2
-	planet_unique = yes
-	#empire_unique = yes
+	#defense_armies = 2
 	base_cap_amount = 9
+	##empire_unique = yes
+
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
+			job_soldier_add = 1
 		}
 	}
 	resources = {
@@ -146,14 +147,14 @@ building_reaver_titan_base_1 = {
 
 building_warlord_titan_base_1 = {
 	base_buildtime = 30
-	defense_armies = 2
-	planet_unique = yes
-	#empire_unique = yes
-	
+	#defense_armies = 2
 	base_cap_amount = 6
+	##empire_unique = yes
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
+			job_soldier_add = 1
 		}
 	}
 	resources = {
@@ -202,14 +203,14 @@ building_warlord_titan_base_1 = {
 
 building_emperor_titan_base_1 = {
 	base_buildtime = 30
-	defense_armies = 2
-	planet_unique = yes
-	empire_unique = yes
-	
+	#defense_armies = 2
 	base_cap_amount = 3
+	#empire_unique = yes
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
+			job_soldier_add = 1
 		}
 	}
 	resources = {

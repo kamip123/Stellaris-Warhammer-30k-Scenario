@@ -1,7 +1,7 @@
 XV25_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -34,8 +34,8 @@ XV25_recruitment = {
 
 XV88_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -68,8 +68,8 @@ XV88_recruitment = {
 
 XV104_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -102,8 +102,8 @@ XV104_recruitment = {
 
 Hammerhead_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2

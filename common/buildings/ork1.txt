@@ -1,7 +1,6 @@
 Ork_Nobz_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -33,8 +32,7 @@ Ork_Nobz_recruitment = {
 
 Kommandoz_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -66,8 +64,7 @@ Kommandoz_recruitment = {
 
 Gargant_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -99,8 +96,7 @@ Gargant_recruitment = {
 
 Stompa_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
-	#base_cap_amount = 1
+	base_cap_amount = 1
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2

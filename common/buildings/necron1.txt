@@ -1,7 +1,7 @@
 Immortal_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
 	base_cap_amount = 1
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -34,7 +34,6 @@ Immortal_recruitment = {
 
 Canoptek_Wraith_recruitment = {
 	base_buildtime = 1
-	planet_unique = yes
 	base_cap_amount = 1
 	triggered_planet_modifier = {
 		modifier = {
@@ -68,7 +67,6 @@ Canoptek_Wraith_recruitment = {
 
 Monolith_recruitment = {
 	base_buildtime = 30
-	planet_unique = yes
 	base_cap_amount = 1
 	triggered_planet_modifier = {
 		modifier = {

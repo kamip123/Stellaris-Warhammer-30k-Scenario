@@ -1,8 +1,7 @@
 building_Dark_Angels_fortress_monastery = {
 	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 
 	triggered_planet_modifier = {
 		modifier = {
@@ -40,10 +39,8 @@ building_Dark_Angels_fortress_monastery = {
 
 building_White_Scars_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 		
 	triggered_planet_modifier = {
 		modifier = {
@@ -80,9 +77,9 @@ building_White_Scars_fortress_monastery = {
 
 building_Space_Wolves_fortress_monastery = {
 
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
+	
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -117,10 +114,8 @@ building_Space_Wolves_fortress_monastery = {
 
 building_Imperial_Fists_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -159,10 +154,9 @@ building_Imperial_Fists_fortress_monastery = {
 
 building_Blood_Angels_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
+
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -200,9 +194,8 @@ building_Blood_Angels_fortress_monastery = {
 
 building_Iron_Hands_fortress_monastery = {
 
-		planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -240,10 +233,8 @@ building_Iron_Hands_fortress_monastery = {
 
 building_ultramarines_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -282,10 +273,8 @@ building_ultramarines_fortress_monastery = {
 
 building_Salamanders_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -324,11 +313,8 @@ building_Salamanders_fortress_monastery = {
 
 building_Raven_Guard_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
-	
+	#empire_unique = yes	
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -367,10 +353,8 @@ building_Raven_Guard_fortress_monastery = {
 ############
 building_Grey_Knights_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -408,10 +392,8 @@ building_Grey_Knights_fortress_monastery = {
 
 building_Black_Templars_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
-	base_cap_amount = 1	
+	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -447,10 +429,9 @@ building_Black_Templars_fortress_monastery = {
 
 building_Blood_Ravens_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
-	base_cap_amount = 1	
+	base_cap_amount = 1
+	#empire_unique = yes
+
 	triggered_planet_modifier = {
 		modifier = {
 			job_foundry_add = 2
@@ -484,9 +465,8 @@ building_Blood_Ravens_fortress_monastery = {
 
 building_Legio_Custodes_fortress_monastery = {
 
-	planet_unique = yes
-	empire_unique = yes
-	base_cap_amount = 1	
+	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -525,10 +505,8 @@ building_Legio_Custodes_fortress_monastery = {
 
 building_Deathwatch_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -567,10 +545,8 @@ building_Deathwatch_fortress_monastery = {
 
 building_Winged_Hussars_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
@@ -609,10 +585,8 @@ building_Winged_Hussars_fortress_monastery = {
 
 building_Sisters_of_Battle_fortress_monastery = {
 
-	
-	planet_unique = yes
-	empire_unique = yes
 	base_cap_amount = 1
+	#empire_unique = yes
 	
 	triggered_planet_modifier = {
 		modifier = {
