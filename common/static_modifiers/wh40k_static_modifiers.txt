@@ -14,171 +14,171 @@ hive_planet = {
 
 penal_planet = {
 	edict_length_mult = 1
-	pop_ethic_shift = -1
-	tile_resource_minerals_mult = 0.6
+	pop_ethics_shift_speed_mult = -1
+	planet_jobs_worker_minerals_produces_mult = 0.6
 	building_time_mult = -0.4
 }	
 
 fortress_planet = {
-	tile_resource_energy_mult = 0.3
-	tile_resource_minerals_mult = 0.4
+	planet_jobs_worker_energy_produces_mult = 0.3
+	planet_jobs_worker_minerals_produces_mult = 0.4
 	building_time_mult = -0.8
-	garrison_health = 8.0
+	army_defence_health_mult = 8.0
 	pop_fortification_defense = 8
 	planet_fortification_strength = 10
 	pop_happiness = 2.0
-	planet_army_build_cost_mult = -0.5
+	armies_cost_mult = -0.5
 }
 
 tomb_planet = {
-	tile_resource_energy_mult = 1.5
-	tile_resource_minerals_mult = 1.5
-	pop_growth_req_mult = -0.70
+	planet_jobs_worker_energy_produces_mult = 1.5
+	planet_jobs_worker_minerals_produces_mult = 1.5
+	pop_growth_speed = -0.70
 	planet_army_build_speed_mult = 0.5
-	planet_army_build_cost_mult = -0.5
+	armies_cost_mult = -0.5
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 hive_small_planet = {
-    tile_resource_energy_mult = 0.5
-	tile_resource_minerals_mult = 0.5
-	tile_resource_food_mult = -0.2
-	pop_ethic_shift = 0.40
-	pop_growth_req_mult = -0.25
+    planet_jobs_worker_energy_produces_mult = 0.5
+	planet_jobs_worker_minerals_produces_mult = 0.5
+	planet_jobs_worker_food_produces_mult = -0.2
+	pop_ethics_shift_speed_mult = 0.40
+	pop_growth_speed = -0.25
 	planet_army_build_speed_mult = 0.23
-	planet_army_build_cost_mult = -0.15
+	armies_cost_mult = -0.15
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 forge_ring_planet = {
-    tile_resource_energy_mult = 3.5
-	tile_resource_minerals_mult = 4
+    planet_jobs_worker_energy_produces_mult = 3.5
+	planet_jobs_worker_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
-	planet_ship_build_speed_mult = 0.40
+	starbase_shipyard_build_speed_mult = 0.40
 	
 	
 	spaceport_ship_build_cost_mult = -0.20
-	spaceport_ship_build_time_mult = -0.40
+	starbase_shipyard_build_time_mult = -0.40
 	spaceport_module_cost_mult  = -0.4
 	
 	
 	planet_migration_all_pull = 1
-	planet_sensor_range_mult = 0.5
+	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 forge_ring2_planet = {
-    tile_resource_energy_mult = 3.5
-	tile_resource_minerals_mult = 4
+    planet_jobs_worker_energy_produces_mult = 3.5
+	planet_jobs_worker_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
-	planet_ship_build_speed_mult = 0.40
+	starbase_shipyard_build_speed_mult = 0.40
 	
 	
 	spaceport_ship_build_cost_mult = -0.20
-	spaceport_ship_build_time_mult = -0.40
+	starbase_shipyard_build_time_mult = -0.40
 	spaceport_module_cost_mult  = -0.4
 	
 	
 	planet_migration_all_pull = 1
-	planet_sensor_range_mult = 0.5
+	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 forge_ring3_planet = {
-    tile_resource_energy_mult = 3.5
-	tile_resource_minerals_mult = 4
+    planet_jobs_worker_energy_produces_mult = 3.5
+	planet_jobs_worker_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
-	planet_ship_build_speed_mult = 0.40
+	starbase_shipyard_build_speed_mult = 0.40
 	
 	
 	spaceport_ship_build_cost_mult = -0.20
-	spaceport_ship_build_time_mult = -0.40
+	starbase_shipyard_build_time_mult = -0.40
 	spaceport_module_cost_mult  = -0.4
 	
 	
 	planet_migration_all_pull = 1
-	planet_sensor_range_mult = 0.5
+	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 super_hive_planet = {
-    tile_resource_energy_mult = 3.0
-	tile_resource_minerals_mult = 2.3
-	tile_resource_influence_mult = 0.10
-	tile_resource_food_mult = -1.0
-	pop_ethic_shift = 0.80
-	pop_growth_req_mult = -1.5
+    planet_jobs_worker_energy_produces_mult = 3.0
+	planet_jobs_worker_minerals_produces_mult = 2.3
+	planet_jobs_worker_influence_produces_mult = 0.10
+	planet_jobs_worker_food_produces_mult = -1.0
+	pop_ethics_shift_speed_mult = 0.80
+	pop_growth_speed = -1.5
 	pop_food_req_mult = 1.0
 	
 	planet_army_build_speed_mult = 0.23
-	planet_army_build_cost_mult = -0.15
+	armies_cost_mult = -0.15
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 mega_hive_planet = {
-    tile_resource_energy_mult = 3.4
-	tile_resource_minerals_mult = 2.6
-	tile_resource_food_mult = -1.0
+    planet_jobs_worker_energy_produces_mult = 3.4
+	planet_jobs_worker_minerals_produces_mult = 2.6
+	planet_jobs_worker_food_produces_mult = -1.0
 	pop_food_req_mult = 2.0
 	planet_army_build_speed_mult = 0.20
-	planet_ship_build_speed_mult = 0.40
-	planet_army_build_cost_mult = -0.4
-	pop_ethic_shift = 0.80
-	pop_growth_req_mult = -1.5
+	starbase_shipyard_build_speed_mult = 0.40
+	armies_cost_mult = -0.4
+	pop_ethics_shift_speed_mult = 0.80
+	pop_growth_speed = -1.5
 	spaceport_ship_build_cost_mult = -0.20
-	spaceport_ship_build_time_mult = -0.40
+	starbase_shipyard_build_time_mult = -0.40
 	spaceport_module_cost_mult  = -0.4
 	
 	
 	planet_migration_all_pull = 1
-	planet_sensor_range_mult = 0.5
+	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 hive_industrial_planet = {
-    tile_resource_energy_mult = 2
-	tile_resource_minerals_mult = 2.5
-	tile_resource_food_mult = -0.2
-	pop_growth_req_mult = -0.25
+    planet_jobs_worker_energy_produces_mult = 2
+	planet_jobs_worker_minerals_produces_mult = 2.5
+	planet_jobs_worker_food_produces_mult = -0.2
+	pop_growth_speed = -0.25
 	pop_food_req_mult = 0.10
 	planet_army_build_speed_mult = 0.23
-	planet_army_build_cost_mult = -0.15
+	armies_cost_mult = -0.15
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 craftworld_planet = {
-    tile_resource_energy_mult = 2
-	tile_resource_minerals_mult = 2
-	tile_resource_influence_mult = 1
+    planet_jobs_worker_energy_produces_mult = 2
+	planet_jobs_worker_minerals_produces_mult = 2
+	planet_jobs_worker_influence_produces_mult = 1
 	pop_fortification_defense = 8
 	planet_fortification_strength = 10
 	planet_army_build_speed_mult = 0.5
-	planet_army_build_cost_mult = -0.5
-	planet_ship_build_speed_mult = 0.5
+	armies_cost_mult = -0.5
+	starbase_shipyard_build_speed_mult = 0.5
 
 	spaceport_ship_build_cost_mult = -0.5
-	spaceport_ship_build_time_mult = -0.5
+	starbase_shipyard_build_time_mult = -0.5
 	spaceport_module_cost_mult  = -0.5
-	planet_sensor_range_mult = 2
+	planet_sensor_range_add = 2
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 advancecity_planet = {
-    tile_resource_energy_mult = 1.0
-	tile_resource_minerals_mult = 1.0
-	tile_resource_food_mult = 1.0
-	tile_resource_physics_research_mult = 0.5
-	tile_resource_society_research_mult = 0.5
-	tile_resource_engineering_research_mult = 0.5
+    planet_jobs_worker_energy_produces_mult = 1.0
+	planet_jobs_worker_minerals_produces_mult = 1.0
+	planet_jobs_worker_food_produces_mult = 1.0
+	planet_jobs_specialist_physics_research_produces_mult = 0.5
+	planet_jobs_specialist_society_research_produces_mult = 0.5
+	planet_jobs_specialist_engineering_research_produces_mult = 0.5
 	pop_fortification_defense = 5
 	planet_fortification_strength = 5
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -186,9 +186,9 @@ advancecity_planet = {
 }
 
 daemon_planet = {
-	tile_resource_energy_mult = 2
-	tile_resource_minerals_mult = 2
-	#pop_growth_req_mult = -0.70
+	planet_jobs_worker_energy_produces_mult = 2
+	planet_jobs_worker_minerals_produces_mult = 2
+	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
 	pop_fortification_defense = 8
@@ -199,9 +199,9 @@ daemon_planet = {
 }
 
 daemonn_planet = {
-	tile_resource_energy_mult = 2
-	tile_resource_minerals_mult = 2
-	#pop_growth_req_mult = -0.70
+	planet_jobs_worker_energy_produces_mult = 2
+	planet_jobs_worker_minerals_produces_mult = 2
+	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
 	pop_fortification_defense = 8
@@ -211,9 +211,9 @@ daemonn_planet = {
 }
 
 daemont_planet = {
-	tile_resource_energy_mult = 2
-	tile_resource_minerals_mult = 2
-	#pop_growth_req_mult = -0.70
+	planet_jobs_worker_energy_produces_mult = 2
+	planet_jobs_worker_minerals_produces_mult = 2
+	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
 	pop_fortification_defense = 8
@@ -223,9 +223,9 @@ daemont_planet = {
 }
 
 daemons_planet = {
-	tile_resource_energy_mult = 2
-	tile_resource_minerals_mult = 2
-	#pop_growth_req_mult = -0.70
+	planet_jobs_worker_energy_produces_mult = 2
+	planet_jobs_worker_minerals_produces_mult = 2
+	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
 	pop_fortification_defense = 8
@@ -235,9 +235,9 @@ daemons_planet = {
 }
 
 advancexenocity_planet = {
-    tile_resource_energy_mult = 1.0
-	tile_resource_minerals_mult = 1.0
-	tile_resource_food_mult = 1.0
+    planet_jobs_worker_energy_produces_mult = 1.0
+	planet_jobs_worker_minerals_produces_mult = 1.0
+	planet_jobs_worker_food_produces_mult = 1.0
 	pop_fortification_defense = 3
 	planet_fortification_strength = 3
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -245,9 +245,9 @@ advancexenocity_planet = {
 }
 
 advancexenocityy_planet = {
-    tile_resource_energy_mult = 1.0
-	tile_resource_minerals_mult = 1.0
-	tile_resource_food_mult = 1.0
+    planet_jobs_worker_energy_produces_mult = 1.0
+	planet_jobs_worker_minerals_produces_mult = 1.0
+	planet_jobs_worker_food_produces_mult = 1.0
 	pop_fortification_defense = 3
 	planet_fortification_strength = 3
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -255,9 +255,9 @@ advancexenocityy_planet = {
 }
 
 advancexenocityyy_planet = {
-    tile_resource_energy_mult = 1.0
-	tile_resource_minerals_mult = 1.0
-	tile_resource_food_mult = 1.0
+    planet_jobs_worker_energy_produces_mult = 1.0
+	planet_jobs_worker_minerals_produces_mult = 1.0
+	planet_jobs_worker_food_produces_mult = 1.0
 	pop_fortification_defense = 3
 	planet_fortification_strength = 3
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -265,9 +265,9 @@ advancexenocityyy_planet = {
 }
 
 orkworld_planet = {
-    tile_resource_energy_mult = 1.0
-	tile_resource_minerals_mult = 1.0
-	tile_resource_food_mult = 1.0
+    planet_jobs_worker_energy_produces_mult = 1.0
+	planet_jobs_worker_minerals_produces_mult = 1.0
+	planet_jobs_worker_food_produces_mult = 1.0
 	pop_fortification_defense = 8
 	planet_fortification_strength = 10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -447,13 +447,13 @@ tyrant_star = {
 }
 
 drought_planet = {
-	tile_resource_food_mult = -3.0
+	planet_jobs_worker_food_produces_mult = -3.0
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 no_drought_planet = {
-	tile_resource_food_mult = 2.0
+	planet_jobs_worker_food_produces_mult = 2.0
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -477,18 +477,18 @@ fall_of_cadia = {
 #########
 spacemarinehomeworldmodifier = {
 	building_time_mult = -0.8
-	garrison_health = 8.0
+	army_defence_health_mult = 8.0
 	pop_fortification_defense = 10
 	planet_fortification_strength = 10
 	pop_happiness = 10
-	tile_resource_unity_mult = 0.5
-	tile_resource_energy_mult = 0.5
+	planet_jobs_unity_produces_mult = 0.5
+	planet_jobs_worker_energy_produces_mult = 0.5
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 orkterror = {
-	tile_resource_energy_mult = -0.33
+	planet_jobs_worker_energy_produces_mult = -0.33
 	planet_army_build_speed_mult = -0.33
 	building_time_mult = 0.50
 	pop_happiness = -0.2
@@ -497,7 +497,7 @@ orkterror = {
 }
 
 rebelionsmall = {
-	tile_resource_energy_mult = -0.33
+	planet_jobs_worker_energy_produces_mult = -0.33
 	planet_army_build_speed_mult = -0.33
 	building_time_mult = 0.50
 	pop_happiness = -0.2
@@ -506,7 +506,7 @@ rebelionsmall = {
 }
 
 rebelionbig = {
-	tile_resource_energy_mult = -0.63
+	planet_jobs_worker_energy_produces_mult = -0.63
 	planet_army_build_speed_mult = -0.63
 	building_time_mult = 0.50
 	pop_happiness = -0.3
