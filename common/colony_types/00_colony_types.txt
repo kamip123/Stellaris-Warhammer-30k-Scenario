@@ -3010,8 +3010,7 @@ col_penal = {
 	icon = 15
 
 	potential = {
-		
-		or{																#added by mvd1984
+		or = {																#added by mvd1984
 		has_modifier = penal_colony
 		is_planet_class = pc_penal
 		}
@@ -3024,7 +3023,6 @@ col_penal = {
 			is_planet_class = pc_penal
 			has_modifier = penal_colony
 			}
-			
 		}
 	}
 }
@@ -3261,7 +3259,7 @@ col_destroyedplanet = {
 	icon = 17
 
 	potential = {
-		or{
+		or = {
 		exists = owner
 		is_planet_class = pc_destroyedplanet
 		}
@@ -3282,7 +3280,7 @@ col_nuked = {
 	icon = 17
 
 	potential = {
-		or{
+		or = {
 		exists = owner
 		is_planet_class = pc_nuked
 		}

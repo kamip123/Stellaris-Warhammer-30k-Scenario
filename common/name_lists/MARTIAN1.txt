@@ -39,18 +39,13 @@ MARTIAN1 = {
        "Ex Cathedra" "Pax Imperium" "Cresco Imperi" "Carpae Fortunae" "Munus Aeternum" "Forge Tender"
 		}
 		
-		orbital_station = { }
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
 		observation_station = { }
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				"Guardian of Aquinas" "The Sword Infernus" "Warrior Knight" "Light of Ascension" Kingmaker "Ramilles Class Star Fort"
 				"The Covenanter" "Vigilanti Eternas" "Hammer of Light" "Ex Cathedra" Indomitable
-
-
 			}
 			sequential_name = "%O% Frontier Outpost"
 		}

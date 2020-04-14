@@ -1,14 +1,19 @@
 planet_edict = {
 	name = "Nuke_Planet!"
-	influence_cost = 1
 	
+	resources = {
+		category = edicts
+		cost = {
+			influence = 1
+		}
+	}
 	
 	##### don't work as I want it to work... ######
 	modifier = {
 		army_defense_morale_mult = 5.0
 		army_defense_damage_mult = 5.0
-		garrison_health = 5
-		pop_fortification_defense = 5
+		army_health = 5
+		pop_defense_armies_add = 5
 	}
 	
 	potential = {

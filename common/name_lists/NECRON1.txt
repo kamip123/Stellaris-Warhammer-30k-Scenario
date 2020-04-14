@@ -31,13 +31,10 @@ NECRON1 = {
 		constructor = { "Unbroken Servant"
 		}
 		
-		orbital_station = { }
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
 		observation_station = { }
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				"World Engine" "Forsaken Bastion" "Well of Souls" "Unyielding Steel"
 			}

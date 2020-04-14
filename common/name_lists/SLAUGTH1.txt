@@ -29,13 +29,10 @@ SLAUGTH1 = {
 		constructor = { "Good Soil"
 		}
 		
-		orbital_station = { }
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
 		observation_station = { }
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				"Fetid Rot" "Carrion Pike" "Plagued Land"
 			}

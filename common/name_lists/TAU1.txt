@@ -32,13 +32,10 @@ TAU1 = {
 		constructor = {
 		}
 		
-		orbital_station = { }
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
 		observation_station = { }
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				La'rua Kau'ui Tio've Isla'su Mal'kor
 			}

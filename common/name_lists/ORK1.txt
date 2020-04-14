@@ -30,13 +30,10 @@ ORK1 = {
 		constructor = { "Da Mekz Tools" "Da Mekaniks Krooza" "Gazmek's Krooza" "Gorsmak's Krooza" "Buzzgob's Krooza" "Grimgutz's Krooza" Nailbrain Flymek "Mogrok's Flyer" "Nazdakka's Truck" "Orghamek's 'Ammer"
 		}
 		
-		orbital_station = { }
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
 		observation_station = { }
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				"Listena" "Boss Hut" "Eadcrumpa" "Oil-Guzzler" "Dakkapoint" "Bonecleava" "Mean Stoppa" "Da Orky Voidtower" "Gunhut Rokclaw" "Mektown" "Fort Mork" "Grabskabdur" "Gargates"
 			}

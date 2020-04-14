@@ -64,8 +64,6 @@ PRT1 = {
 			"Statione"
 		}
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
 		
 		transport = {

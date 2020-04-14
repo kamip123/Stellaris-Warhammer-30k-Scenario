@@ -38,7 +38,7 @@ ELDAR1 = {
 		"Hand of Vaul" Dreamweaver
 		}
 		
-		orbital_station = { 
+		starbase_starhold = {
 		"Forge of Vaul" "Beauty of the Eldar" "Void Citadel"
 		}
 		mining_station = { 
@@ -47,16 +47,10 @@ ELDAR1 = {
 		research_station = { 
 		"Soul Gate" "Citadel of Spirits" "Wraithspire"
 		}
-		wormhole_station = { 
-		"Spiders Gate" "Gift of Paths"
-		}
-		terraform_station = { 
-		"Hearth Maker" "Garden of Isha" "Dream Crafter"
-		}
 		observation_station = { 
 		"Warp Home" "Ranger Home"
 		}
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				"Heaven Spire" Phoenix "Void Dragon" "Light Star" "Phantom Sun" Waypost
 			}

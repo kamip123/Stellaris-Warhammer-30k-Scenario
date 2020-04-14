@@ -46,8 +46,7 @@ DARKELDAR1 = {
 		Backbreaker "Slave Pit" Slavemaster Taskmaster "Bloody Whip" "Broken Hope" "Endless Toil" "Eternal Punishment" 
 		"Blood Tears" "Thrall Master"
 		}
-		
-		orbital_station = { 
+		starbase_starhold = { 
 		"Painwrought Yards" "Blade Dock" "Slave Station"
 		}
 		mining_station = { 
@@ -56,16 +55,11 @@ DARKELDAR1 = {
 		research_station = { 
 		Soulcatcher
 		}
-		wormhole_station = { 
-		"Raid Point"
-		}
-		terraform_station = { 
-		"Shadow Enveloper"
-		}
+
 		observation_station = { 
 		"Slavetaker Cafe" 
 		}
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				"Hell Spire" "Bloody Hand" "Torturer's Deep" "Leech Den" "Pit of Torment"
 			}

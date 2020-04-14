@@ -44,8 +44,6 @@ PRT2 = {
 			"Ruthless Extractor" "Blood From Stone"
 		}
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
 		
 		transport = {

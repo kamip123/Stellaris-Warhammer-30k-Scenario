@@ -29,13 +29,10 @@ TYRANID1 = {
 		constructor = { "Bio Drone" 
 		}
 		
-		orbital_station = { }
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		terraform_station = { }
 		observation_station = { }
-		outpost_station = {
+		starbase_outpost = {
 			random_names = {
 				"Tendriled Lurker" "Pyro-acid Battery" "Lurking Deep" "Awakened Kraken" "Rending Claw"
 			}
