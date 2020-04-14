@@ -37,7 +37,7 @@ space_hulk_ship = {
 		ship_evasion_add = 5
 		ship_armor_add = 5000
 		ship_shield_add = 4000
-		ship_upkeep_mult = -1
+		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
 	fleet_slot_size = 4
@@ -52,8 +52,13 @@ space_hulk_ship = {
 	#prerequisites = { "tech_battleships" }
 	
 	combat_disengage_chance = 1.00
-	
-	has_mineral_upkeep = yes
+
+	resources = {
+		category = ships
+		upkeep = {
+			minerals = @battleship_upkeep_energy #There was a substitution of energy for minerals
+		}
+	}
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -76,7 +81,7 @@ eternal_cruseder_ship = {
 		ship_evasion_add = 5
 		ship_armor_add = 5000
 		ship_shield_add = 4000
-		ship_upkeep_mult = -1
+		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
 	fleet_slot_size = 4
@@ -92,7 +97,12 @@ eternal_cruseder_ship = {
 	
 	combat_disengage_chance = 1.00
 	
-	has_mineral_upkeep = yes
+	resources = {
+		category = ships
+		upkeep = {
+			minerals = @battleship_upkeep_energy #There was a substitution of energy for minerals
+		}
+	}
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -115,7 +125,7 @@ phalanx_ship = {
 		ship_evasion_add = 5
 		ship_armor_add = 5000
 		ship_shield_add = 4000
-		ship_upkeep_mult = -1
+		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
 	fleet_slot_size = 4
@@ -131,7 +141,12 @@ phalanx_ship = {
 	
 	combat_disengage_chance = 1.00
 	
-	has_mineral_upkeep = yes
+	resources = {
+		category = ships
+		upkeep = {
+			minerals = @battleship_upkeep_energy #There was a substitution of energy for minerals
+		}
+	}
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -155,7 +170,7 @@ craftworld_ship = {
 		ship_evasion_add = 5
 		ship_armor_add = 5000
 		ship_shield_add = 4000
-		ship_upkeep_mult = -1
+		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
 	fleet_slot_size = 4
@@ -171,7 +186,12 @@ craftworld_ship = {
 	
 	combat_disengage_chance = 1.00
 	
-	has_mineral_upkeep = yes
+	resources = {
+		category = ships
+		upkeep = {
+			minerals = @battleship_upkeep_energy #There was a substitution of energy for minerals
+		}
+	}
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -193,7 +213,7 @@ blackstonefotress = {
 		ship_evasion_add = 5
 		ship_armor_add = 5000
 		ship_shield_add = 4000
-		ship_upkeep_mult = -1
+		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
 	fleet_slot_size = 4
@@ -209,7 +229,12 @@ blackstonefotress = {
 	
 	combat_disengage_chance = 1.00
 	
-	has_mineral_upkeep = yes
+	resources = {
+		category = ships
+		upkeep = {
+			minerals = @battleship_upkeep_energy #There was a substitution of energy for minerals
+		}
+	}
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
@@ -231,7 +256,7 @@ planetkiller = {
 		ship_evasion_add = 5
 		ship_armor_add = 5000
 		ship_shield_add = 4000
-		ship_upkeep_mult = -1
+		ships_upkeep_mult = -1
 	}
 	size_multiplier = 8
 	fleet_slot_size = 4
@@ -247,7 +272,12 @@ planetkiller = {
 	
 	combat_disengage_chance = 1.00
 	
-	has_mineral_upkeep = yes
+	resources = {
+		category = ships
+		upkeep = {
+			minerals = @battleship_upkeep_energy #There was a substitution of energy for minerals
+		}
+	}
 	class = shipclass_military
 	construction_type = starbase_shipyard
 	required_component_set = "power_core"
