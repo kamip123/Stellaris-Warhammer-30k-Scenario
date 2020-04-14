@@ -23,9 +23,9 @@ fortress_planet = {
 	planet_jobs_energy_produces_mult = 0.3
 	planet_jobs_minerals_produces_mult = 0.4
 	building_time_mult = -0.8
-	army_defence_health_mult = 8.0
-	pop_fortification_defense = 8
-	planet_fortification_strength = 10
+	army_defense_health_mult = 8.0
+	pop_defense_armies_add = 8
+	planet_orbital_bombardment_damage = -0.10
 	pop_happiness = 2.0
 	armies_cost_mult = -0.5
 }
@@ -57,14 +57,10 @@ forge_ring_planet = {
 	planet_jobs_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
-	
-	
-	spaceport_ship_build_cost_mult = -0.20
+	starbase_shipyard_build_cost_mult = -0.20
 	starbase_shipyard_build_time_mult = -0.40
-	spaceport_module_cost_mult  = -0.4
-	
-	
-	planet_migration_all_pull = 1
+	starbase_modules_cost_mult  = -0.4
+	planet_migration_all_mult = 1
 	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
@@ -75,14 +71,10 @@ forge_ring2_planet = {
 	planet_jobs_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
-	
-	
-	spaceport_ship_build_cost_mult = -0.20
+	starbase_shipyard_build_cost_mult = -0.20
 	starbase_shipyard_build_time_mult = -0.40
-	spaceport_module_cost_mult  = -0.4
-	
-	
-	planet_migration_all_pull = 1
+	starbase_modules_cost_mult  = -0.4
+	planet_migration_all_mult = 1
 	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
@@ -93,14 +85,10 @@ forge_ring3_planet = {
 	planet_jobs_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
-	
-	
-	spaceport_ship_build_cost_mult = -0.20
+	starbase_shipyard_build_cost_mult = -0.20
 	starbase_shipyard_build_time_mult = -0.40
-	spaceport_module_cost_mult  = -0.4
-	
-	
-	planet_migration_all_pull = 1
+	starbase_modules_cost_mult  = -0.4
+	planet_migration_all_mult = 1
 	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
@@ -113,8 +101,7 @@ super_hive_planet = {
 	planet_jobs_food_produces_mult = -1.0
 	pop_ethics_shift_speed_mult = 0.80
 	pop_growth_speed = -1.5
-	pop_food_req_mult = 1.0
-	
+	planet_pops_food_upkeep_mult = 1.0
 	planet_army_build_speed_mult = 0.23
 	armies_cost_mult = -0.15
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -125,18 +112,16 @@ mega_hive_planet = {
     planet_jobs_energy_produces_mult = 3.4
 	planet_jobs_minerals_produces_mult = 2.6
 	planet_jobs_food_produces_mult = -1.0
-	pop_food_req_mult = 2.0
+	planet_pops_food_upkeep_mult = 2.0
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
 	armies_cost_mult = -0.4
 	pop_ethics_shift_speed_mult = 0.80
 	pop_growth_speed = -1.5
-	spaceport_ship_build_cost_mult = -0.20
+	starbase_shipyard_build_cost_mult = -0.20
 	starbase_shipyard_build_time_mult = -0.40
-	spaceport_module_cost_mult  = -0.4
-	
-	
-	planet_migration_all_pull = 1
+	starbase_modules_cost_mult  = -0.4
+	planet_migration_all_mult = 1
 	planet_sensor_range_add = 1
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
@@ -147,7 +132,7 @@ hive_industrial_planet = {
 	planet_jobs_minerals_produces_mult = 2.5
 	planet_jobs_food_produces_mult = -0.2
 	pop_growth_speed = -0.25
-	pop_food_req_mult = 0.10
+	planet_pops_food_upkeep_mult = 0.10
 	planet_army_build_speed_mult = 0.23
 	armies_cost_mult = -0.15
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -158,15 +143,14 @@ craftworld_planet = {
     planet_jobs_energy_produces_mult = 2
 	planet_jobs_minerals_produces_mult = 2
 	planet_jobs_influence_produces_mult = 1
-	pop_fortification_defense = 8
-	planet_fortification_strength = 10
+	pop_defense_armies_add = 8
+	planet_orbital_bombardment_damage = -0.10
 	planet_army_build_speed_mult = 0.5
 	armies_cost_mult = -0.5
 	starbase_shipyard_build_speed_mult = 0.5
-
-	spaceport_ship_build_cost_mult = -0.5
+	starbase_shipyard_build_cost_mult = -0.5
 	starbase_shipyard_build_time_mult = -0.5
-	spaceport_module_cost_mult  = -0.5
+	starbase_modules_cost_mult = -0.5
 	planet_sensor_range_add = 2
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
@@ -179,8 +163,8 @@ advancecity_planet = {
 	planet_jobs_physics_research_produces_mult = 0.5
 	planet_jobs_society_research_produces_mult = 0.5
 	planet_jobs_engineering_research_produces_mult = 0.5
-	pop_fortification_defense = 5
-	planet_fortification_strength = 5
+	pop_defense_armies_add = 5
+	planet_orbital_bombardment_damage = -0.05
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -191,8 +175,8 @@ daemon_planet = {
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
-	pop_fortification_defense = 8
-	planet_fortification_strength = 10
+	pop_defense_armies_add = 8
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 	
@@ -204,8 +188,8 @@ daemonn_planet = {
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
-	pop_fortification_defense = 8
-	planet_fortification_strength = 10
+	pop_defense_armies_add = 8
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -216,8 +200,8 @@ daemont_planet = {
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
-	pop_fortification_defense = 8
-	planet_fortification_strength = 10
+	pop_defense_armies_add = 8
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -228,8 +212,8 @@ daemons_planet = {
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
-	pop_fortification_defense = 8
-	planet_fortification_strength = 10
+	pop_defense_armies_add = 8
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -238,8 +222,8 @@ advancexenocity_planet = {
     planet_jobs_energy_produces_mult = 1.0
 	planet_jobs_minerals_produces_mult = 1.0
 	planet_jobs_food_produces_mult = 1.0
-	pop_fortification_defense = 3
-	planet_fortification_strength = 3
+	pop_defense_armies_add = 3
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -248,8 +232,8 @@ advancexenocityy_planet = {
     planet_jobs_energy_produces_mult = 1.0
 	planet_jobs_minerals_produces_mult = 1.0
 	planet_jobs_food_produces_mult = 1.0
-	pop_fortification_defense = 3
-	planet_fortification_strength = 3
+	pop_defense_armies_add = 3
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -258,8 +242,8 @@ advancexenocityyy_planet = {
     planet_jobs_energy_produces_mult = 1.0
 	planet_jobs_minerals_produces_mult = 1.0
 	planet_jobs_food_produces_mult = 1.0
-	pop_fortification_defense = 3
-	planet_fortification_strength = 3
+	pop_defense_armies_add = 3
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -268,8 +252,8 @@ orkworld_planet = {
     planet_jobs_energy_produces_mult = 1.0
 	planet_jobs_minerals_produces_mult = 1.0
 	planet_jobs_food_produces_mult = 1.0
-	pop_fortification_defense = 8
-	planet_fortification_strength = 10
+	pop_defense_armies_add = 8
+	planet_orbital_bombardment_damage = -0.10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
@@ -281,8 +265,8 @@ orkworld_planet = {
 #	#?ship_speed_mult = 1.0
 #	ship_combat_speed_mult = 1.0
 #	ship_evasion_mult = 1.0
-#	#?ship_shield_regen_mult = 1.0
-#	ship_upkeep_mult = 1.0
+#	#?ships_upkeep_mult = 1.0
+#	ships_upkeep_mult = 1.0
 #	ship_fire_rate_mult = 1.0
 #	ship_armor_mult = 1.0
 #	ship_weapon_damage = 1.0
@@ -292,142 +276,134 @@ orkworld_planet = {
 
 #15-8
 eldar_ships = {
-	ship_upkeep_mult = 2.0
-
+	ships_upkeep_mult = 2.0
 	ship_weapon_damage = 0.0
 	ship_fire_rate_mult = 0.0
-	ship_shield_regen_mult = 1.0
+	ship_shield_regen_add_static = 1.0
 	ship_evasion_mult = 1.0
-	ship_combat_speed_mult = 1.0
+	#ship_combat_speed_mult = 1.0
 	ship_speed_mult = 3.0
 	ship_weapon_range_mult = 1.0
 	ship_home_territory_fire_rate_mult = 1.0
-	ship_hitpoints_mult = 0.0
+	ship_hull_mult = 0.0
 	ship_shield_mult = 5.0
 }
 #39-20
 necron_ships = {
-	ship_upkeep_mult = 7.0
-
+	ships_upkeep_mult = 7.0
 	ship_home_territory_fire_rate_mult = 0.5
 	ship_weapon_range_mult = 0.5
 	#ship_emergency_ftl_mult = 1.0
 	ship_speed_mult = 1.0
-	ship_combat_speed_mult = 0.0
+	#ship_combat_speed_mult = 0.0
 	ship_evasion_mult = 0.0
-	ship_shield_regen_mult = 1.0
+	ship_shield_regen_add_static = 1.0
 	ship_fire_rate_mult = 0.5
 	ship_armor_mult = 1.0
 	ship_weapon_damage = 0.5
-	ship_hitpoints_mult = 0.5
+	ship_hull_mult = 0.5
 	ship_shield_mult = 10.0
 }
 #14-8
 ork_ships = {
-	ship_upkeep_mult = 2.0
-
+	ships_upkeep_mult = 2.0
 	ship_home_territory_fire_rate_mult = 1.0
 	ship_weapon_range_mult = -0.5
 	ship_emergency_ftl_mult = 0.0
 	ship_speed_mult = 0.5
-	ship_combat_speed_mult = -0.5
+	#ship_combat_speed_mult = -0.5
 	ship_evasion_mult = -0.5
-	ship_shield_regen_mult = 0.0
+	ship_shield_regen_add_static = 0.0
 	ship_fire_rate_mult = 0.0
 	ship_armor_mult = 8.0
 	ship_weapon_damage = 0.0
-	ship_hitpoints_mult = 0.5
+	ship_hull_mult = 0.5
 	ship_shield_mult = 4.0
 }
 #21-8
 tau_ships = {
-	ship_upkeep_mult = 2.0
-
+	ships_upkeep_mult = 2.0
 	ship_home_territory_fire_rate_mult = 1.0
 	ship_weapon_range_mult = 1.0
 	ship_emergency_ftl_mult = 0.0
 	ship_speed_mult = 3.0
-	ship_combat_speed_mult = 1.0
+	#ship_combat_speed_mult = 1.0
 	ship_evasion_mult = 1.0
-	ship_shield_regen_mult = 1.0
+	ship_shield_regen_add_static = 1.0
 	ship_fire_rate_mult = 0.0
 	ship_armor_mult = 0.0
 	ship_weapon_damage = 0.0
-	ship_hitpoints_mult = 0.0
+	ship_hull_mult = 0.0
 	ship_shield_mult = 8.0
 }
 #18-8
 human_ships = {
-	ship_upkeep_mult = 3.0
-
+	ships_upkeep_mult = 3.0
 	ship_home_territory_fire_rate_mult = 0.2
 	#ship_weapon_range_mult = 1.0
 	ship_emergency_ftl_mult = 1.0
 	ship_speed_mult = 1.0
 	#ship_combat_speed_mult = 1.0
 	#ship_evasion_mult = 1.0
-	#ship_shield_regen_mult = 1.0
+	#ship_shield_regen_add_static = 1.0
 	ship_fire_rate_mult = 0.0
 	ship_armor_mult = 2.0
 	ship_weapon_damage = 0.0
-	ship_hitpoints_mult = 0.0
+	ship_hull_mult = 0.0
 	ship_shield_mult = 5.0
 }
 #21-8
 chaos_ships = {
-	ship_upkeep_mult = 2.0
-
+	ships_upkeep_mult = 2.0
 	ship_home_territory_fire_rate_mult = 0.5
 	ship_weapon_range_mult = 1.0
 	#ship_emergency_ftl_mult = 0.5
 	ship_speed_mult = 1.0
 	#ship_combat_speed_mult = 1.0
 	#ship_evasion_mult = 1.0
-	#ship_shield_regen_mult = 1.0
+	#ship_shield_regen_add_static = 1.0
 	ship_fire_rate_mult = 0.0
 	ship_armor_mult = 1.0
 	ship_weapon_damage = 0.0
-	ship_hitpoints_mult = 0.0
+	ship_hull_mult = 0.0
 	ship_shield_mult = 6.0
 }
 
 generic_ships = {
-	ship_upkeep_mult = 2.0
-
+	ships_upkeep_mult = 2.0
 	ship_home_territory_fire_rate_mult = 1.0
 	ship_weapon_range_mult = 0.0
 	ship_emergency_ftl_mult = 0.0
 	ship_speed_mult = 1.0
-	ship_combat_speed_mult = 0.0
+	#ship_combat_speed_mult = 0.0
 	ship_evasion_mult = 0.5
-	ship_shield_regen_mult = 1.0
+	ship_shield_regen_add_static = 1.0
 	ship_fire_rate_mult = 0.0
 	ship_armor_mult = 5.0
 	ship_weapon_damage = 0.0
-	ship_hitpoints_mult = 0.0
+	ship_hull_mult = 0.0
 	ship_shield_mult = 5.0
 }
 
 tyranid_ships = {
-	ship_upkeep_mult = 2.0
-
+	ships_upkeep_mult = 2.0
 	ship_home_territory_fire_rate_mult = 0.0
 	ship_weapon_range_mult = 0.0
 	ship_emergency_ftl_mult = 0.0
 	ship_speed_mult = 1.0
-	ship_combat_speed_mult = 0.0
+	#ship_combat_speed_mult = 0.0
 	ship_evasion_mult = 0.0
-	ship_shield_regen_mult = 0.0
+	ship_shield_regen_add_static = 0.0
 	ship_fire_rate_mult = 0.0
 	ship_armor_mult = 1.0
 	ship_weapon_damage = 0.0
-	ship_hitpoints_mult = 0.0
+	ship_hull_mult = 0.0
 	ship_shield_mult = 0.0
 }
 
 
 reduce_ships = {
-	ship_upkeep_mult = -2.8
+	ships_upkeep_mult = -2.8
 }
 
 
@@ -435,15 +411,15 @@ reduce_ships = {
 
 howling_zero_speed_ships = {
 	ship_speed_mult = -0.80
-	ship_combat_speed_mult = -0.50
+	#ship_combat_speed_mult = -0.50
 }
 howling_zero_another = {
-	ship_reparation_speed_mult = -0.50
+	ship_reparation_speed_mult = -0.50 
 	pop_migration_speed = -0.99
 	planet_colony_development_speed_mult = -0.99
 }
 tyrant_star = {
-	planet_unrest_add = 200
+	planet_crime_add = 200	
 }
 
 drought_planet = {
@@ -461,14 +437,14 @@ no_drought_planet = {
 ######### fall of terra
 
 fall_of_terra = {
-	ship_upkeep_mult = 2.0
+	ships_upkeep_mult = 2.0
 	ship_home_territory_fire_rate_mult = -0.3
 	ship_emergency_ftl_mult = 2.0
 	ship_speed_mult = -0.50
 }
 ######### fall of cadia
 fall_of_cadia = {
-	ship_upkeep_mult = 1.0
+	ships_upkeep_mult = 1.0
 	ship_emergency_ftl_mult = 1.0
 	ship_speed_mult = -0.20
 }
@@ -477,9 +453,9 @@ fall_of_cadia = {
 #########
 spacemarinehomeworldmodifier = {
 	building_time_mult = -0.8
-	army_defence_health_mult = 8.0
-	pop_fortification_defense = 10
-	planet_fortification_strength = 10
+	army_defense_health_mult = 8.0
+	pop_defense_armies_add = 10
+	planet_orbital_bombardment_damage = -0.10
 	pop_happiness = 10
 	planet_jobs_unity_produces_mult = 0.5
 	planet_jobs_energy_produces_mult = 0.5
