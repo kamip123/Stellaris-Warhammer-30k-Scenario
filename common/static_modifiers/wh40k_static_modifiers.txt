@@ -15,13 +15,13 @@ hive_planet = {
 penal_planet = {
 	edict_length_mult = 1
 	pop_ethics_shift_speed_mult = -1
-	planet_jobs_worker_minerals_produces_mult = 0.6
+	planet_jobs_minerals_produces_mult = 0.6
 	building_time_mult = -0.4
 }	
 
 fortress_planet = {
-	planet_jobs_worker_energy_produces_mult = 0.3
-	planet_jobs_worker_minerals_produces_mult = 0.4
+	planet_jobs_energy_produces_mult = 0.3
+	planet_jobs_minerals_produces_mult = 0.4
 	building_time_mult = -0.8
 	army_defence_health_mult = 8.0
 	pop_fortification_defense = 8
@@ -31,8 +31,8 @@ fortress_planet = {
 }
 
 tomb_planet = {
-	planet_jobs_worker_energy_produces_mult = 1.5
-	planet_jobs_worker_minerals_produces_mult = 1.5
+	planet_jobs_energy_produces_mult = 1.5
+	planet_jobs_minerals_produces_mult = 1.5
 	pop_growth_speed = -0.70
 	planet_army_build_speed_mult = 0.5
 	armies_cost_mult = -0.5
@@ -41,9 +41,9 @@ tomb_planet = {
 }
 
 hive_small_planet = {
-    planet_jobs_worker_energy_produces_mult = 0.5
-	planet_jobs_worker_minerals_produces_mult = 0.5
-	planet_jobs_worker_food_produces_mult = -0.2
+    planet_jobs_energy_produces_mult = 0.5
+	planet_jobs_minerals_produces_mult = 0.5
+	planet_jobs_food_produces_mult = -0.2
 	pop_ethics_shift_speed_mult = 0.40
 	pop_growth_speed = -0.25
 	planet_army_build_speed_mult = 0.23
@@ -53,8 +53,8 @@ hive_small_planet = {
 }
 
 forge_ring_planet = {
-    planet_jobs_worker_energy_produces_mult = 3.5
-	planet_jobs_worker_minerals_produces_mult = 4
+    planet_jobs_energy_produces_mult = 3.5
+	planet_jobs_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
 	
@@ -71,8 +71,8 @@ forge_ring_planet = {
 }
 
 forge_ring2_planet = {
-    planet_jobs_worker_energy_produces_mult = 3.5
-	planet_jobs_worker_minerals_produces_mult = 4
+    planet_jobs_energy_produces_mult = 3.5
+	planet_jobs_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
 	
@@ -89,8 +89,8 @@ forge_ring2_planet = {
 }
 
 forge_ring3_planet = {
-    planet_jobs_worker_energy_produces_mult = 3.5
-	planet_jobs_worker_minerals_produces_mult = 4
+    planet_jobs_energy_produces_mult = 3.5
+	planet_jobs_minerals_produces_mult = 4
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
 	
@@ -107,10 +107,10 @@ forge_ring3_planet = {
 }
 
 super_hive_planet = {
-    planet_jobs_worker_energy_produces_mult = 3.0
-	planet_jobs_worker_minerals_produces_mult = 2.3
-	planet_jobs_worker_influence_produces_mult = 0.10
-	planet_jobs_worker_food_produces_mult = -1.0
+    planet_jobs_energy_produces_mult = 3.0
+	planet_jobs_minerals_produces_mult = 2.3
+	planet_jobs_influence_produces_mult = 0.10
+	planet_jobs_food_produces_mult = -1.0
 	pop_ethics_shift_speed_mult = 0.80
 	pop_growth_speed = -1.5
 	pop_food_req_mult = 1.0
@@ -122,9 +122,9 @@ super_hive_planet = {
 }
 
 mega_hive_planet = {
-    planet_jobs_worker_energy_produces_mult = 3.4
-	planet_jobs_worker_minerals_produces_mult = 2.6
-	planet_jobs_worker_food_produces_mult = -1.0
+    planet_jobs_energy_produces_mult = 3.4
+	planet_jobs_minerals_produces_mult = 2.6
+	planet_jobs_food_produces_mult = -1.0
 	pop_food_req_mult = 2.0
 	planet_army_build_speed_mult = 0.20
 	starbase_shipyard_build_speed_mult = 0.40
@@ -143,9 +143,9 @@ mega_hive_planet = {
 }
 
 hive_industrial_planet = {
-    planet_jobs_worker_energy_produces_mult = 2
-	planet_jobs_worker_minerals_produces_mult = 2.5
-	planet_jobs_worker_food_produces_mult = -0.2
+    planet_jobs_energy_produces_mult = 2
+	planet_jobs_minerals_produces_mult = 2.5
+	planet_jobs_food_produces_mult = -0.2
 	pop_growth_speed = -0.25
 	pop_food_req_mult = 0.10
 	planet_army_build_speed_mult = 0.23
@@ -155,9 +155,9 @@ hive_industrial_planet = {
 }
 
 craftworld_planet = {
-    planet_jobs_worker_energy_produces_mult = 2
-	planet_jobs_worker_minerals_produces_mult = 2
-	planet_jobs_worker_influence_produces_mult = 1
+    planet_jobs_energy_produces_mult = 2
+	planet_jobs_minerals_produces_mult = 2
+	planet_jobs_influence_produces_mult = 1
 	pop_fortification_defense = 8
 	planet_fortification_strength = 10
 	planet_army_build_speed_mult = 0.5
@@ -173,12 +173,12 @@ craftworld_planet = {
 }
 
 advancecity_planet = {
-    planet_jobs_worker_energy_produces_mult = 1.0
-	planet_jobs_worker_minerals_produces_mult = 1.0
-	planet_jobs_worker_food_produces_mult = 1.0
-	planet_jobs_specialist_physics_research_produces_mult = 0.5
-	planet_jobs_specialist_society_research_produces_mult = 0.5
-	planet_jobs_specialist_engineering_research_produces_mult = 0.5
+    planet_jobs_energy_produces_mult = 1.0
+	planet_jobs_minerals_produces_mult = 1.0
+	planet_jobs_food_produces_mult = 1.0
+	planet_jobs_physics_research_produces_mult = 0.5
+	planet_jobs_society_research_produces_mult = 0.5
+	planet_jobs_engineering_research_produces_mult = 0.5
 	pop_fortification_defense = 5
 	planet_fortification_strength = 5
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -186,8 +186,8 @@ advancecity_planet = {
 }
 
 daemon_planet = {
-	planet_jobs_worker_energy_produces_mult = 2
-	planet_jobs_worker_minerals_produces_mult = 2
+	planet_jobs_energy_produces_mult = 2
+	planet_jobs_minerals_produces_mult = 2
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
@@ -199,8 +199,8 @@ daemon_planet = {
 }
 
 daemonn_planet = {
-	planet_jobs_worker_energy_produces_mult = 2
-	planet_jobs_worker_minerals_produces_mult = 2
+	planet_jobs_energy_produces_mult = 2
+	planet_jobs_minerals_produces_mult = 2
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
@@ -211,8 +211,8 @@ daemonn_planet = {
 }
 
 daemont_planet = {
-	planet_jobs_worker_energy_produces_mult = 2
-	planet_jobs_worker_minerals_produces_mult = 2
+	planet_jobs_energy_produces_mult = 2
+	planet_jobs_minerals_produces_mult = 2
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
@@ -223,8 +223,8 @@ daemont_planet = {
 }
 
 daemons_planet = {
-	planet_jobs_worker_energy_produces_mult = 2
-	planet_jobs_worker_minerals_produces_mult = 2
+	planet_jobs_energy_produces_mult = 2
+	planet_jobs_minerals_produces_mult = 2
 	#pop_growth_speed = -0.70
 	#building_time_mult = -0.5
 	pop_happiness = 8
@@ -235,9 +235,9 @@ daemons_planet = {
 }
 
 advancexenocity_planet = {
-    planet_jobs_worker_energy_produces_mult = 1.0
-	planet_jobs_worker_minerals_produces_mult = 1.0
-	planet_jobs_worker_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 1.0
+	planet_jobs_minerals_produces_mult = 1.0
+	planet_jobs_food_produces_mult = 1.0
 	pop_fortification_defense = 3
 	planet_fortification_strength = 3
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -245,9 +245,9 @@ advancexenocity_planet = {
 }
 
 advancexenocityy_planet = {
-    planet_jobs_worker_energy_produces_mult = 1.0
-	planet_jobs_worker_minerals_produces_mult = 1.0
-	planet_jobs_worker_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 1.0
+	planet_jobs_minerals_produces_mult = 1.0
+	planet_jobs_food_produces_mult = 1.0
 	pop_fortification_defense = 3
 	planet_fortification_strength = 3
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -255,9 +255,9 @@ advancexenocityy_planet = {
 }
 
 advancexenocityyy_planet = {
-    planet_jobs_worker_energy_produces_mult = 1.0
-	planet_jobs_worker_minerals_produces_mult = 1.0
-	planet_jobs_worker_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 1.0
+	planet_jobs_minerals_produces_mult = 1.0
+	planet_jobs_food_produces_mult = 1.0
 	pop_fortification_defense = 3
 	planet_fortification_strength = 3
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -265,9 +265,9 @@ advancexenocityyy_planet = {
 }
 
 orkworld_planet = {
-    planet_jobs_worker_energy_produces_mult = 1.0
-	planet_jobs_worker_minerals_produces_mult = 1.0
-	planet_jobs_worker_food_produces_mult = 1.0
+    planet_jobs_energy_produces_mult = 1.0
+	planet_jobs_minerals_produces_mult = 1.0
+	planet_jobs_food_produces_mult = 1.0
 	pop_fortification_defense = 8
 	planet_fortification_strength = 10
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
@@ -482,13 +482,13 @@ spacemarinehomeworldmodifier = {
 	planet_fortification_strength = 10
 	pop_happiness = 10
 	planet_jobs_unity_produces_mult = 0.5
-	planet_jobs_worker_energy_produces_mult = 0.5
+	planet_jobs_energy_produces_mult = 0.5
 	icon = "gfx/interface/icons/planet_modifiers/capital.dds"
 	icon_frame = 2
 }
 
 orkterror = {
-	planet_jobs_worker_energy_produces_mult = -0.33
+	planet_jobs_energy_produces_mult = -0.33
 	planet_army_build_speed_mult = -0.33
 	building_time_mult = 0.50
 	pop_happiness = -0.2
@@ -497,7 +497,7 @@ orkterror = {
 }
 
 rebelionsmall = {
-	planet_jobs_worker_energy_produces_mult = -0.33
+	planet_jobs_energy_produces_mult = -0.33
 	planet_army_build_speed_mult = -0.33
 	building_time_mult = 0.50
 	pop_happiness = -0.2
@@ -506,7 +506,7 @@ rebelionsmall = {
 }
 
 rebelionbig = {
-	planet_jobs_worker_energy_produces_mult = -0.63
+	planet_jobs_energy_produces_mult = -0.63
 	planet_army_build_speed_mult = -0.63
 	building_time_mult = 0.50
 	pop_happiness = -0.3
