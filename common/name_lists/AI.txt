@@ -49,10 +49,9 @@ AI = {
 		
 		mining_station = { }
 		research_station = { }
-		wormhole_station = { }
-		#terraform_station = { }
 		observation_station = { }
-		outpost_station = {
+		
+		starbase_outpost = {
 			sequential_name = "%O% Frontier Outpost"
 		}
 		
