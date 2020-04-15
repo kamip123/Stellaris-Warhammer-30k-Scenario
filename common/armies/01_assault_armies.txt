@@ -2,31 +2,29 @@
 #maintenance is directly scripted here. 0.25 translates to 0.25 monthly cost (excluding other upkeep modifiers)
 #morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
 
-#owner = {is_ai = yes} added by mvd84 from old kamip file
-# collateral_damage was not part of old file so set to vanilla values
-# war_exhaustion was not part of old file so set to 0.0, this is WARHAMMER 40K and losing a few milion souls don't matter ;)
-
 # Assault Armies
 assault_army = {
-	damage = 1.15													#changed from 1.0 to 1.15 from old kamip file												
-	health = 3.15													#changed from 1.0 to 3.15 from old kamip file
-	morale = 1.15													#changed from 1.0 to 1.15 from old kamip file
-	morale_damage = 1.00											#changed from 1.0 to 1.0 from old kamip file
-	collateral_damage = 1.00										
-	war_exhaustion = 0.0
+	damage = 1.15
+	health = 3.15
+	morale = 1.15
+	morale_damage = 1.00
+	collateral_damage = 1.00
+	war_exhaustion = 0
 	time = 90
 	icon_frame = 2
 	prerequisites = { "tech_assault_armies" }
 	resources = {
 		category = armies
 		cost = {
-			minerals = 60
+			minerals = 100
 		}
+
 		upkeep = {
-			energy = 2.33
+			energy = 1
 		}
 	}
-	show_tech_unlock_if = { 										#was not part of old file so added from vanilla
+
+	show_tech_unlock_if = { 
 		OR = {
 			NOT = { has_authority = auth_machine_intelligence }
 			has_valid_civic = civic_machine_assimilator
@@ -35,15 +33,10 @@ assault_army = {
 	potential = {
 		from = {
 			NOR = {
-				has_trait = "trait_robotic_1"
-				has_trait = "trait_robotic_2"
-				has_trait = "trait_robotic_3"
-				has_trait = "trait_machine_unit"					#was not part of old file so added from vanilla
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
 				is_sapient = no
 			}
-		}
-		owner = {
-			is_ai = yes
 		}
 		owner = {
 			OR = {
@@ -56,201 +49,159 @@ assault_army = {
 
 # Slave Armies
 slave_army = {
-	damage = 1.15													#changed from 1.0 to 1.15 from old kamip file
-	health = 3.15													#changed from 1.0 to 3.15 from old kamip file
-	morale = 1.0													#changed from 1.0 to 1.0 from old kamip file
-	morale_damage = 1												#changed from 0.75 to 1.0 from old kamip file
+	damage = 1.15
+	health = 3.15
+	morale = 1.0
+	morale_damage = 1
 	collateral_damage = 1.50
-	war_exhaustion = 0.0
+	war_exhaustion = 0
 	time = 60
 	icon_frame = 10
-	
+
 	resources = {
 		category = armies
 		cost = {
-			minerals = 75
+			minerals = 50
 		}
+
 		upkeep = {
-			energy = 2.25
+			energy = 0.5
 		}
 	}
-	
+
 	prerequisites = { "tech_neural_implants" }
 	
 	allow = {
-		has_building = "building_slave_processing"
+		any_owned_pop = { is_pop_category = slave }
 	}
 	potential = {
+		owner = {
+			any_owned_pop = {
+				is_pop_category = slave
+				is_same_species = from
+			} 	
+		}
 		from = {
 			NOR = {
-				has_trait = "trait_robotic_1"
-				has_trait = "trait_robotic_2"
-				has_trait = "trait_robotic_3"
-				has_trait = "trait_machine_unit"					#was not part of old file so added from vanilla
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
 				is_sapient = no
 			}
 		}
 		owner = {
-			is_ai = yes
-		}
-		owner = {
+			has_policy_flag = slavery_allowed
 			NOT = { has_authority = auth_machine_intelligence }
 		}
-		
 	}
 }
 
 # Clone Armies
 clone_army = {
-	damage = 1.25													#changed from 1.0 to 1.25 from old kamip file
-	health = 3.25													#changed from 1.0 to 3.25 from old kamip file
-	morale = 1.25													#changed from 1.0 to 1.25 from old kamip file
+	damage = 1.25
+	health = 3.25
+	morale = 1.25
 	collateral_damage = 1.25
-	war_exhaustion = 0.0
+	war_exhaustion = 0
 	time = 30
 	icon_frame = 7
 	pop_limited = no
-	
+
 	resources = {
 		category = armies
 		cost = {
-			minerals = 60
+			minerals = 75
 		}
+
 		upkeep = {
-			energy = 2.33
+			energy = 0.75
 		}
 	}
-	
+
 	prerequisites = { "tech_gene_banks" }
 	
-	show_tech_unlock_if = { NOT = { has_authority = auth_machine_intelligence } }
-	
-	allow = {
-		has_building = "building_clone_vats"
+	show_tech_unlock_if = {
+		OR = {
+			NOT = { has_authority = auth_machine_intelligence }
+			has_civic = civic_machine_assimilator
+		}
 	}
+	
 	potential = {
 		from = {
 			NOR = {
-				has_trait = "trait_robotic_1"
-				has_trait = "trait_robotic_2"
-				has_trait = "trait_robotic_3"
-				has_trait = "trait_machine_unit"					#was not part of old file so added from vanilla
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
 				is_sapient = no
 			}
 		}
 		owner = {
-			is_ai = yes
-		}
-		owner = {
-			NOT = { has_authority = auth_machine_intelligence }
+			OR = {
+				NOT = { has_authority = auth_machine_intelligence }
+				has_civic = civic_machine_assimilator
+			}
 		}
 	}
 }
 
 # Robotic Armies
 robotic_army = {
-	damage = 1.10													#changed from 1.0 to 1.10 from old kamip file	
-	health = 4.00													#changed from 2.0 to 4.0 from old kamip file
-	morale_damage = 1.00											
+	damage = 1.10
+	health = 4.00
+	morale_damage = 1.00
 	collateral_damage = 1.5
-	war_exhaustion = 0.0
-	has_morale = no													#changed from 10, from old kamip file, to no moral from vanilla
+	war_exhaustion = 0
+	has_morale = no
 	time = 90
 	icon_frame = 4
 	has_species = yes
-	
-	resources = {
-		category = armies
-		cost = {
-			minerals = 100
-			energy = 15
-		}
-		upkeep = {
-			energy = 2.5
-		}
-	}
 
-	potential = {
-		from = { has_trait = "trait_robotic_2" }					#was not part of old file so added from vanilla
-		owner = {
-			NOT = { has_authority = auth_machine_intelligence }
-		}
-		owner = {
-			is_ai = yes
-		}
-	}
-	
-	prerequisites = { "tech_droid_workers" }						
-
-	allow = {
-		
-		owner = { NOT = { has_policy_flag = robots_outlawed } }		#was not part of old file so added from vanilla
-	}
-}
-
-# Synthetic Armies
-android_army = {
-	damage = 2.00													
-	health = 4.50													#changed from 2.5 to 4.5 from old kamip file
-	has_morale = no													#changed from 5, from old kamip file, to no moral from vanilla
-	morale_damage = 1.25											
-	collateral_damage = 1.5
-	war_exhaustion = 0.0
-	time = 120
-	icon_frame = 4
-	has_species = yes
-	
 	resources = {
 		category = armies
 		cost = {
 			minerals = 150
-			energy = 20
 		}
+
 		upkeep = {
-			energy = 3.0
+			energy = 1.5
 		}
 	}
 
 	potential = {
-		from = { has_trait = "trait_robotic_3" }					#was not part of old file so added from vanilla
+		from = { has_trait = "trait_mechanical" }
 		owner = {
 			NOT = { has_authority = auth_machine_intelligence }
 		}
-		owner = {
-			is_ai = yes
-		}
 	}
 	
-	prerequisites = { "tech_synthetic_workers" }
+	prerequisites = { "tech_droid_workers" }
 
 	allow = {
-		
-		owner = { NOT = { has_policy_flag = ai_outlawed } }			#was not part of old file so added from vanilla
+		owner = { NOT = { has_policy_flag = robots_outlawed } }
 	}
 }
 
 # Psionic Armies
 psionic_army = {
-	damage = 2.0													
-	morale_damage = 1.5												
-	health = 3.75													#changed from 2.75 to 3.75 from old kamip file
-	morale = 3.0													#changed from 2.5 to 3.0 from old kamip file
+	damage = 2.0
+	morale_damage = 1.5
+	health = 3.75
+	morale = 3.0
 	collateral_damage = 0.5
 	war_exhaustion = 0.0
-	time = 120														#changed from 120 to 360 from old kamip file
+	time = 120
 	icon_frame = 9
-	
+
 	resources = {
 		category = armies
 		cost = {
 			minerals = 250
-			energy = 50
 		}
+
 		upkeep = {
-			energy = 3.0
+			energy = 2.5
 		}
 	}
-	
+
 	prerequisites = { "tech_telepathy" }
 	potential = {
 		from = {
@@ -262,51 +213,43 @@ psionic_army = {
 				}
 			}
 			NOR = {
-				has_trait = "trait_robotic_1"
-				has_trait = "trait_robotic_2"
-				has_trait = "trait_robotic_3"
-				has_trait = "trait_machine_unit"					#was not part of old file so added from vanilla
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
 				is_sapient = no
 			}
 		}
 		owner = {
 			NOT = { has_authority = auth_machine_intelligence }
 		}
-		owner = {
-			is_ai = yes
-		}
 	}
 }
 
 # Xenomorph Armies
 xenomorph_army = {
-	damage = 2.5													#changed from 3.00 to 2.5 from old kamip file
-	morale_damage = 1.15											#changed from 2.00 to 1.15 from old kamip file
+	damage = 2.5
+	morale_damage = 1.15
 	collateral_damage = 5.0
-	war_exhaustion = 0.0
-	health = 4.0													#changed from 2.00 to 4 from old kamip file
+	war_exhaustion = 0.25
+	health = 4.0
 	has_morale = no
-	time = 90														#changed from 90 to 360 from old kamip file
+	time = 100
 	icon_frame = 8
 	has_species = no
-	
+
 	resources = {
 		category = armies
 		cost = {
-			minerals = 125
-			energy = 25
+			minerals = 200
 		}
+
 		upkeep = {
-			energy = 2.75
+			energy = 2
 		}
 	}
 
 	potential = {
 		owner = {
 			NOT = { has_authority = auth_machine_intelligence }
-		}
-		owner = {
-			is_ai = yes
 		}
 	}
 	
@@ -316,41 +259,36 @@ xenomorph_army = {
 # Gene Warrior Armies
 gene_warrior_army = {
 	damage = 2.0
-	health = 4.0													#changed from 2.5 to 4.0 from old kamip file
-	morale = 2.0													#changed from 2.5 to 2.0 from old kamip file
+	health = 4.0
+	morale = 2.0
 	morale_damage = 1.0
 	collateral_damage = 0.75
-	war_exhaustion = 0.0
-	time = 360														#changed from 150 to 360 from old kamip file
+	war_exhaustion = 0
+	time = 150
 	icon_frame = 6
-	
+
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
-			energy = 50
+			minerals = 300
 		}
+
 		upkeep = {
-			energy = 3.0
+			energy = 3
 		}
 	}
-	
+
 	prerequisites = { "tech_gene_seed_purification" }
 	potential = {
 		from = {
 			NOR = {
-				has_trait = "trait_robotic_1"
-				has_trait = "trait_robotic_2"
-				has_trait = "trait_robotic_3"
-				has_trait = "trait_machine_unit"					#was not part of old file so added from vanilla
+				has_trait = "trait_mechanical"
+				has_trait = "trait_machine_unit"
 				is_sapient = no
 			}
 		}
 		owner = {
 			NOT = { has_authority = auth_machine_intelligence }
-		}
-		owner = {
-			is_ai = yes
 		}
 	}
 }
@@ -359,37 +297,36 @@ gene_warrior_army = {
 
 # Hunter-Killer Armies
 machine_assault_1 = {
-	damage = 1.15													#changed from 1.00 to 1.15 from old kamip file
-	health = 3.15													#changed from 1.00 to 3.15 from old kamip file
-	has_morale = no													#changed from 10, from old kamip file, to no moral from vanilla
-	morale_damage = 1.15											#changed from 1.00 to 1.15 from old kamip file
+	damage = 1.15
+	health = 3.15
+	has_morale = no
+	morale_damage = 1.15
 	collateral_damage = 2.0
-	war_exhaustion = 0.0
+	war_exhaustion = 0
 	time = 90
 	has_species = yes
 
 	icon_frame = 11
-resources = {
+
+	resources = {
 		category = armies
 		cost = {
-			minerals = 60
+			minerals = 100
 		}
+
 		upkeep = {
-			energy = 2.33
+			energy = 1
 		}
 	}
 
 	potential = {
 		owner = { has_authority = auth_machine_intelligence }
-		owner = {
-			is_ai = yes
-		}
 		from = {
-			has_trait = "trait_machine_unit"						#was not part of old file so added from vanilla
+			has_trait = "trait_machine_unit"
 		}
 	}
 	
-	show_tech_unlock_if = { has_authority = auth_machine_intelligence }		#was not part of old file so added from vanilla
+	show_tech_unlock_if = { has_authority = auth_machine_intelligence }
 	
 	prerequisites = { "tech_assault_armies" }
 }
@@ -397,33 +334,31 @@ resources = {
 # Battle Frames
 machine_assault_2 = {
 	damage = 1.5
-	health = 4.5													#changed from 2.5 to 4.5 from old kamip file
-	has_morale = no													#changed from 10, from old kamip file, to no moral from vanilla
+	health = 4.5
+	has_morale = no
 	morale_damage = 1.5
 	collateral_damage = 2.0
 	war_exhaustion = 0.0
-	time = 100														#changed from 120 to 100 from old kamip file
-	has_species = yes												#in old kamip file it was no
+	time = 120
+	has_species = yes
 
 	icon_frame = 11
+
 	resources = {
 		category = armies
 		cost = {
-			minerals = 150
-			energy = 20
+			minerals = 200
 		}
+
 		upkeep = {
-			energy = 2.6
+			energy = 2
 		}
 	}
 
 	potential = {
 		owner = { has_authority = auth_machine_intelligence }
-		owner = {
-			is_ai = yes
-		}
 		from = {
-			has_trait = "trait_machine_unit"						#was not part of old file so added from vanilla
+			has_trait = "trait_machine_unit"
 		}
 	}
 	
@@ -432,32 +367,30 @@ machine_assault_2 = {
 
 # Mega-Warform
 machine_assault_3 = {
-	damage = 2.0													#changed from 4.0 to 2.0 from old kamip file
-	health = 5.0													#changed from 6.0 to 5.0 from old kamip file
-	has_morale = no													#changed from 10, from old kamip file, to no moral from vanilla
-	morale_damage = 2.0												
+	damage = 2.0
+	health = 5.0
+	has_morale = no
+	morale_damage = 2.0
 	collateral_damage = 4.0
-	war_exhaustion = 0.0
-	time = 360														#changed from 500 to 360 from old kamip file
+	war_exhaustion = 0
+	time = 500
 	has_species = no
 
 	icon_frame = 11
+
 	resources = {
 		category = armies
 		cost = {
-			minerals = 250
-			energy = 50
+			minerals = 800
 		}
+
 		upkeep = {
-			energy = 3.0
+			energy = 8
 		}
 	}
 
 	potential = {
 		owner = { has_authority = auth_machine_intelligence }
-		owner = {
-			is_ai = yes
-		}
 	}
 	
 	prerequisites = { "tech_biomechanics" }
