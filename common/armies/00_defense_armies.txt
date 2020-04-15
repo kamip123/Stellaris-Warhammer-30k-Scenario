@@ -3,28 +3,33 @@
 #morale_damage = 1		# average morale damage of the army, default: auto (calculated from morale * MORALE_DAMAGE_MULT)
 #building spawned armies can't be built normally, but only created from pops working buildings
 
+#owner = {is_ai = yes} added by mvd84 from old kamip file
+#maintenance and cost is removed as it is added to buildings
+#time is removed
+
 # Defense Armies
 defense_army = {
 	defensive = yes
-	is_pop_spawned = yes
-	health = 3.0
-	damage = 1.0
-	morale = 1.25
-	morale_damage = 1.00
-	collateral_damage = 0.0
-	war_exhaustion = 0.0 # No WE from defense armies
+	is_pop_spawned = yes							#was not part of old file so set to 0.0 from vanilla
+	health = 3.0										#changed from 1.25 to 3.0 from old kamip file
+	damage = 1.0										#changed from 1.5 to 1.0 from old kamip file
+	morale = 1.25										#was not part of old file so set to 1,25 from vanilla
+	morale_damage = 1.00								#was not part of old file so set to 1.0 from vanilla
+	collateral_damage = 0.0								#was not part of old file so set to 0.0 from vanilla
+	war_exhaustion = 0.0 # No WE from defense armies	#was not part of old file so set to 0.0 from vanilla
 	icon_frame = 1
 		
 	potential = {
 		from = {
 			NOR = {
-				has_trait = "trait_mechanical"
-				has_trait = "trait_machine_unit"
+				has_trait = "trait_robotic_1"
+				has_trait = "trait_robotic_2"
+				has_trait = "trait_robotic_3"
+				has_trait = "trait_machine_unit"		#was not part of old file so added from vanilla
 				is_sapient = no
 			}
 		}
 		owner = {
-			is_primitive = no
 			OR = {
 				NOT = { has_authority = auth_machine_intelligence }
 				has_valid_civic = civic_machine_assimilator
@@ -36,22 +41,28 @@ defense_army = {
 # Robotic Armies
 robotic_defense_army = {
 	defensive = yes
-	is_pop_spawned = yes
-	damage = 0.96
-	health = 3.7
-	morale_damage = 1.00
-	collateral_damage = 0.0
-	war_exhaustion = 0.0 # No WE from defense armies
-	has_morale = no
+	is_pop_spawned = yes							#was not part of old file so added from vanilla
+	damage = 0.96										#changed from 1.00 to 0.96 from old kamip file
+	health = 3.7										#changed from 1.25 to 3.7 from old kamip file
+	morale_damage = 1.00								
+	collateral_damage = 0.0								#was not part of old file so set to 0.0 from vanilla
+	war_exhaustion = 0.0 # No WE from defense armies	#was not part of old file so set to 0.0 from vanilla
+	has_morale = no										#changed from 10, from old kamip file, to no moral from vanilla
 	icon_frame = 4
 	has_species = yes
 
 	potential = {
-		from = { 
-			has_trait = "trait_mechanical"
+		from = { 										#was not part of old file so added from vanilla
+			OR = {
+				has_trait = "trait_robotic_1"
+				has_trait = "trait_robotic_2" 
+			}											
 		}
 		owner = {
 			NOT = { has_authority = auth_machine_intelligence }
+		}
+		owner = {
+			is_ai = yes
 		}
 	}
 
@@ -60,21 +71,52 @@ robotic_defense_army = {
 	}
 }
 
-### Machine Empire Armies
+# Synthetic Armies
+android_defense_army = {
+	defensive = yes
+	is_pop_spawned = yes							#was not part of old file so added from vanilla
+	damage = 1.7										#changed from 1.25 to 1.7 from old kamip file
+	health = 4.17										#changed from 1.25 to 4.17 from old kamip file
+	has_morale = no										#changed from 5, from old kamip file, to no moral from vanilla
+	morale_damage = 3.25								#changed from 1.00 to 3.25 from old kamip file
+	collateral_damage = 0.0								#was not part of old file so set to 0.0 from vanilla
+	war_exhaustion = 0.0 # No WE from defense armies	#was not part of old file so set to 0.0 from vanilla
+	icon_frame = 4
+	has_species = yes									#in old kamip file it was no
+
+	potential = {										#was not part of old file so added from vanilla
+		from = { has_trait = "trait_robotic_3" }
+		owner = {
+			NOT = { has_authority = auth_machine_intelligence }
+		}
+		owner = {
+			is_ai = yes
+		}
+	}
+
+	allow = {
+		owner = { NOT = { has_policy_flag = ai_outlawed } }
+	}
+}
+
+### Machine Empire Armies								#in old kamip file there were to machine_defense units so used some from both 
 machine_defense = {
 	defensive = yes
-	is_pop_spawned = yes
-	health = 3.0
-	damage = 1.0
-	has_morale = no
-	morale_damage = 3.25
-	collateral_damage = 0.0
-	war_exhaustion = 0.0 # No WE from defense armies
+	is_pop_spawned = yes							#was not part of old file so added from vanilla
+	health = 3.0										#changed from 1.10 to 3.0 from old kamip file
+	damage = 1.0										#changed from 1.10 to 1.0 from old kamip file
+	has_morale = no										#changed from 5, from old kamip file, to no moral from vanilla
+	morale_damage = 3.25								#changed from 1.00 to 3.25 from old kamip file
+	collateral_damage = 0.0								#was not part of old file so set to 0.0 from vanilla
+	war_exhaustion = 0.0 # No WE from defense armies	#was not part of old file so set to 0.0 from vanilla
 	icon_frame = 12
-	has_species = yes
+	has_species = yes									#in old kamip file it was no
 
 	potential = {
 		owner = { has_authority = auth_machine_intelligence }
+		owner = {
+			is_ai = yes
+		}
 		from = {
 			has_trait = "trait_machine_unit"
 		}
