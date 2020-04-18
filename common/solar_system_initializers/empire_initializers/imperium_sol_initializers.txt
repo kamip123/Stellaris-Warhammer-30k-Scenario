@@ -138,20 +138,53 @@ mankind_homeworld = {
 			set_controller = event_target:mankind_star_empire
 					
 			add_building = building_system_capital
-		
-				
+
 					add_building = building_emperor_titan_base_1
-					
-				
 					add_building = building_warlord_titan_base_1
-					
-				
 					add_building = building_reaver_titan_base_1
-					
-				
 					add_building = building_warhound_titan_base_1
 					
-			create_pop = { species = owner_main_species }				
+			create_pop = { species = owner_main_species }	
+			create_species = {
+				name = "Mechanicus"
+				class = IMB
+				portrait = "imp_mechanicus"
+				name_list = "IMPERIUM1"
+				traits = {
+					trait = "trait_small_age"
+					trait = "trait_cybernetic"
+					trait = "trait_natural_engineers"
+					trait = "trait_wasteful"
+					trait = "trait_deviants"
+					trait = "trait_sedentary"
+				}
+				pop_ethics = ethic_fanatic_materialist
+				allow_negative_traits = no
+			}
+			while = {
+				count = 25
+				create_pop = { species = last_created_species }
+			}
+			create_species = {
+				name = "Servitors"
+				class = IMB
+				portrait = "imp_human"
+				name_list = "IMPERIUM1"
+				traits = {
+					trait = "trait_cybernetic"
+					trait = "trait_nerve_stapled"
+					trait = "trait_strong"
+					trait = "trait_resilient"
+					trait = "trait_industrious"
+					trait = "trait_conformists"
+					trait = "trait_adaptive"
+				}
+				allow_negative_traits = no
+			}
+			while = {
+				count = 25
+				create_pop = { species = last_created_species }
+			}		
 		}
 		
 	}
